@@ -1,0 +1,135 @@
+﻿Log file open, 01/05/19 19:12:49
+LogInit:Display: Running engine for game: TopDownMiniGame
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-592296103) SRandInit(-592296101).
+LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+LogStats: Stats thread started at 0.633881
+LogInit: Version: 4.11.2-2946394+++UE4+Release-4.11
+LogInit: API Version: 2927265
+LogInit: Compiled (64-bit): Apr 18 2016 02:18:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.11
+LogInit: Command line:  
+LogInit: Base directory: D:/UE_4.11/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.01.05-11.12.50:602][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.05-11.12.50:602][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.01.05-11.12.50:713][  0]LogInit: Computer: 1-ПК
+[2019.01.05-11.12.50:713][  0]LogInit: User: 1
+[2019.01.05-11.12.50:713][  0]LogInit: CPU Page size=65536, Cores=2
+[2019.01.05-11.12.50:713][  0]LogInit: High frequency timer resolution =2.338466 MHz
+[2019.01.05-11.12.50:713][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx)
+[2019.01.05-11.12.50:713][  0]LogMemory: Platform Memory Stats for Windows
+[2019.01.05-11.12.50:713][  0]LogMemory: Process Physical Memory: 314.97 MB used, 314.97 MB peak
+[2019.01.05-11.12.50:713][  0]LogMemory: Process Virtual Memory: 315.22 MB used, 315.22 MB peak
+[2019.01.05-11.12.50:713][  0]LogMemory: Physical Memory: 2320.80 MB used, 4010.14 MB total
+[2019.01.05-11.12.50:713][  0]LogMemory: Virtual Memory: 622.36 MB used, 8388608.00 MB total
+[2019.01.05-11.13.21:554][  0]LogTextLocalizationManager: No translations for ('ru-RU') exist, falling back to 'en' for localization and internationalization data.
+[2019.01.05-11.13.35:769][  0]LogD3D11RHI: D3D11 adapters:
+[2019.01.05-11.13.38:115][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 410M' (Feature Level 11_0)
+[2019.01.05-11.13.38:115][  0]LogD3D11RHI:       969MB of dedicated video memory, 0MB of dedicated system memory, and 1749MB of shared system memory, 1 output[s]
+[2019.01.05-11.13.38:180][  0]LogD3D11RHI:    1. 'NVIDIA GeForce 410M' (Feature Level 11_0)
+[2019.01.05-11.13.38:180][  0]LogD3D11RHI:       969MB of dedicated video memory, 0MB of dedicated system memory, and 1749MB of shared system memory, 0 output[s]
+[2019.01.05-11.13.38:180][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.01.05-11.13.38:348][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.01.05-11.13.38:389][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 3000
+[2019.01.05-11.13.38:389][  0]LogD3D11RHI:   Driver Version: Unknown (internal Unknown)
+[2019.01.05-11.13.38:389][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.01.05-11.13.38:422][  0]LogRHI: Texture pool is 1290 MB (70% of 1843 MB)
+[2019.01.05-11.13.38:457][  0]LogD3D11RHI: Async texture creation enabled
+[2019.01.05-11.13.40:317][  0]LogShaderCompilers: Guid format shader working directory is -33 characters bigger than the processId version (../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Intermediate/Shaders/WorkingDirectory/6824/).
+[2019.01.05-11.13.40:317][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/1/AppData/Local/Temp/UnrealShaderWorkingDir/017D94084BB4699951F3BC833414CEF4/'.
+[2019.01.05-11.13.40:340][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2019.01.05-11.13.53:693][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2019.01.05-11.13.53:730][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2019.01.05-11.13.53:797][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.01.05-11.13.53:879][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2019.01.05-11.13.54:030][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2019.01.05-11.13.54:087][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2019.01.05-11.13.54:095][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2019.01.05-11.13.54:103][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2019.01.05-11.13.54:110][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2019.01.05-11.13.54:124][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2019.01.05-11.13.54:170][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2019.01.05-11.13.54:284][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2019.01.05-11.13.54:284][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2019.01.05-11.13.54:333][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2019.01.05-11.13.54:506][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2019.01.05-11.13.54:512][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2019.01.05-11.13.54:543][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.01.05-11.13.54:587][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2019.01.05-11.13.54:691][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2019.01.05-11.13.54:691][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2019.01.05-11.13.56:416][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2019.01.05-11.13.57:639][  0]LogDerivedDataCache: Loaded boot cache 1.20s 46MB C:/Users/1/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2019.01.05-11.13.57:639][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/1/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
+[2019.01.05-11.13.57:639][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.01.05-11.13.57:639][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.01.05-11.13.57:639][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.01.05-11.13.57:639][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.01.05-11.13.57:772][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.01.05-11.13.57:822][  0]LogDerivedDataCache: Using Local data cache path C:/Users/1/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.01.05-11.14.15:912][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.05-11.14.16:207][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2019.01.05-11.14.18:449][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2019.01.05-11.14.23:493][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2019.01.05-11.14.23:493][  0]LogMeshUtilities: No automatic mesh merging module available
+[2019.01.05-11.14.23:493][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2019.01.05-11.14.38:273][  0]LogUObjectArray: 27679 objects as part of root set at end of initial load.
+[2019.01.05-11.14.38:273][  0]LogUObjectAllocator: 5591600 out of 0 bytes used by permanent object pool.
+[2019.01.05-11.14.38:273][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.01.05-11.14.38:336][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2019.01.05-11.14.44:919][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.01.05-11.14.44:919][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.01.05-11.14.49:134][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2019.01.05-11.14.49:134][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2019.01.05-11.14.49:152][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2019.01.05-11.14.49:152][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2019.01.05-11.14.49:152][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2019.01.05-11.14.49:152][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2019.01.05-11.15.09:168][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.01.05-11.15.10:138][  0]LogAssetRegistry: FAssetRegistry took 0.0249 seconds to start up
+[2019.01.05-11.15.18:876][  0]SourceControl: Info Source control is disabled
+[2019.01.05-11.15.18:917][  0]SourceControl: Info Source control is disabled
+[2019.01.05-11.15.19:479][  0]SourceControl: Info Source control is disabled
+[2019.01.05-11.15.19:741][  0]SourceControl: Info Source control is disabled
+[2019.01.05-11.15.22:616][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.05-11.15.24:226][  0]LogEngine: Initializing Engine...
+[2019.01.05-11.15.30:276][  0]LogAIModule: Creating AISystem for world NewWorld
+[2019.01.05-11.15.31:096][  0]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.05-11.15.31:594][  0]LogInit: FAudioDevice initialized.
+[2019.01.05-11.15.31:713][  0]LogDerivedDataCache: Saved boot cache 0.12s 46MB C:/Users/1/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2019.01.05-11.15.31:746][  0]LogInit: Texture streaming: Enabled
+[2019.01.05-11.15.39:380][  0]LogInit: Transaction tracking system initialized
+[2019.01.05-11.15.47:232][  0]BlueprintLog: New page: Editor Load
+[2019.01.05-11.15.58:087][  0]LocalizationService: Info Localization service is disabled
+[2019.01.05-11.16.08:167][  0]LogConsoleResponse:Display: 
+[2019.01.05-11.16.19:163][  0]LogFileCache: Scanning file cache for directory 'D:/sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/' took 0.08s
+[2019.01.05-11.16.19:163][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2019.01.05-11.16.19:163][  0]LogCook:Display: Mobile HDR setting 1
+[2019.01.05-11.16.19:338][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2019.01.05-11.16.25:614][  0]SourceControl: Info Source control is disabled
+[2019.01.05-11.16.25:769][  0]Cmd: MAP LOAD FILE="../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.05-11.16.25:965][  0]LightingResults: New page: Lighting Build
+[2019.01.05-11.16.26:817][  0]MapCheck: New page: Map Check
+[2019.01.05-11.16.26:817][  0]LightingResults: New page: Lighting Build
+[2019.01.05-11.16.54:624][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2019.01.05-11.16.56:218][  0]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Graphics/ModularBuildings/modularBuildings_004.modularBuildings_004] ConvexElem[0] invalid
+[2019.01.05-11.17.01:012][  0]LogEditorServer: Finished looking for orph

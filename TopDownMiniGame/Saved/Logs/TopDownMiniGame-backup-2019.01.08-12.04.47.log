@@ -1,0 +1,1222 @@
+﻿Log file open, 01/07/19 16:34:35
+LogInit:Display: Running engine for game: TopDownMiniGame
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1464272111) SRandInit(1464272115).
+LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+LogStats: Stats thread started at 0.066223
+LogInit: Version: 4.11.2-2946394+++UE4+Release-4.11
+LogInit: API Version: 2927265
+LogInit: Compiled (64-bit): Apr 18 2016 02:18:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.11
+LogInit: Command line: -EpicPortal  -epicusername="SCILPTOR" -epicuserid=240b801d89914742971df8e004029d7c -epiclocale=ru-RU
+LogInit: Base directory: D:/Games/Epic Games/UE_4.11/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.01.07-08.34.35:972][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.07-08.34.35:972][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.01.07-08.34.35:998][  0]LogInit: Computer: DESKTOP-B0J7IQV
+[2019.01.07-08.34.35:998][  0]LogInit: User: malko
+[2019.01.07-08.34.35:998][  0]LogInit: CPU Page size=65536, Cores=2
+[2019.01.07-08.34.35:998][  0]LogInit: High frequency timer resolution =3.801678 MHz
+[2019.01.07-08.34.35:999][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2019.01.07-08.34.35:999][  0]LogMemory: Platform Memory Stats for Windows
+[2019.01.07-08.34.35:999][  0]LogMemory: Process Physical Memory: 314.07 MB used, 314.07 MB peak
+[2019.01.07-08.34.35:999][  0]LogMemory: Process Virtual Memory: 314.32 MB used, 314.32 MB peak
+[2019.01.07-08.34.35:999][  0]LogMemory: Physical Memory: 4550.17 MB used, 16345.29 MB total
+[2019.01.07-08.34.35:999][  0]LogMemory: Virtual Memory: 4772.93 MB used, 134217728.00 MB total
+[2019.01.07-08.34.36:050][  0]LogTextLocalizationManager: No translations for ('ru-RU') exist, falling back to 'en' for localization and internationalization data.
+[2019.01.07-08.34.36:622][  0]LogD3D11RHI: D3D11 adapters:
+[2019.01.07-08.34.36:745][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 770' (Feature Level 11_0)
+[2019.01.07-08.34.36:745][  0]LogD3D11RHI:       2007MB of dedicated video memory, 0MB of dedicated system memory, and 8172MB of shared system memory, 1 output[s]
+[2019.01.07-08.34.36:749][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.01.07-08.34.36:749][  0]LogD3D11RHI:       0MB of dedicated video memory, 0MB of dedicated system memory, and 8172MB of shared system memory, 0 output[s]
+[2019.01.07-08.34.36:749][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.01.07-08.34.36:761][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.01.07-08.34.36:761][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 770
+[2019.01.07-08.34.36:761][  0]LogD3D11RHI:   Driver Version: Unknown (internal Unknown)
+[2019.01.07-08.34.36:761][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.01.07-08.34.36:761][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2019.01.07-08.34.36:836][  0]LogD3D11RHI: Async texture creation enabled
+[2019.01.07-08.34.36:865][  0]LogShaderCompilers: Guid format shader working directory is 0 characters bigger than the processId version (../../../../../TowerOfDefence/TopDownMiniGame/Intermediate/Shaders/WorkingDirectory/10948/).
+[2019.01.07-08.34.36:865][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/malko/AppData/Local/Temp/UnrealShaderWorkingDir/B1A914A645A8BEA9B3D771A44193EC03/'.
+[2019.01.07-08.34.36:865][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2019.01.07-08.34.38:322][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2019.01.07-08.34.38:330][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2019.01.07-08.34.38:338][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.01.07-08.34.38:345][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2019.01.07-08.34.38:351][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2019.01.07-08.34.38:355][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2019.01.07-08.34.38:361][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2019.01.07-08.34.38:367][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2019.01.07-08.34.38:372][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2019.01.07-08.34.38:377][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2019.01.07-08.34.38:383][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2019.01.07-08.34.38:393][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2019.01.07-08.34.38:393][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2019.01.07-08.34.38:395][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2019.01.07-08.34.38:415][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2019.01.07-08.34.38:420][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2019.01.07-08.34.38:424][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.01.07-08.34.38:429][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2019.01.07-08.34.38:434][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2019.01.07-08.34.38:434][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2019.01.07-08.34.38:555][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2019.01.07-08.34.38:639][  0]LogDerivedDataCache: Loaded boot cache 0.08s 46MB C:/Users/malko/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2019.01.07-08.34.38:639][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/malko/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
+[2019.01.07-08.34.38:639][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../TowerOfDefence/TopDownMiniGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.01.07-08.34.38:639][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.01.07-08.34.38:640][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../TowerOfDefence/TopDownMiniGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.01.07-08.34.38:640][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.01.07-08.34.38:658][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.01.07-08.34.38:671][  0]LogDerivedDataCache: Using Local data cache path C:/Users/malko/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.01.07-08.34.38:955][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.07-08.34.38:956][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2019.01.07-08.34.39:025][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2019.01.07-08.34.39:207][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2019.01.07-08.34.39:207][  0]LogMeshUtilities: No automatic mesh merging module available
+[2019.01.07-08.34.39:207][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2019.01.07-08.34.39:579][  0]LogUObjectArray: 27679 objects as part of root set at end of initial load.
+[2019.01.07-08.34.39:579][  0]LogUObjectAllocator: 5591600 out of 0 bytes used by permanent object pool.
+[2019.01.07-08.34.39:579][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.01.07-08.34.39:588][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2019.01.07-08.34.39:720][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.01.07-08.34.39:720][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.01.07-08.34.39:888][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2019.01.07-08.34.39:888][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2019.01.07-08.34.39:888][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2019.01.07-08.34.39:888][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2019.01.07-08.34.39:888][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2019.01.07-08.34.39:888][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2019.01.07-08.34.40:850][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.01.07-08.34.40:974][  0]LogAssetRegistry: FAssetRegistry took 0.0227 seconds to start up
+[2019.01.07-08.34.41:215][  0]SourceControl: Info Source control is disabled
+[2019.01.07-08.34.41:217][  0]SourceControl: Info Source control is disabled
+[2019.01.07-08.34.41:236][  0]SourceControl: Info Source control is disabled
+[2019.01.07-08.34.41:252][  0]SourceControl: Info Source control is disabled
+[2019.01.07-08.34.41:489][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.07-08.34.41:592][  0]LogEngine: Initializing Engine...
+[2019.01.07-08.34.41:791][  0]LogAIModule: Creating AISystem for world NewWorld
+[2019.01.07-08.34.41:823][  0]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.07-08.34.41:850][  0]LogInit: FAudioDevice initialized.
+[2019.01.07-08.34.41:899][  0]LogDerivedDataCache: Saved boot cache 0.05s 46MB C:/Users/malko/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2019.01.07-08.34.41:911][  0]LogInit: Texture streaming: Enabled
+[2019.01.07-08.34.42:002][  0]LogInit: Transaction tracking system initialized
+[2019.01.07-08.34.42:035][  0]BlueprintLog: New page: Editor Load
+[2019.01.07-08.34.42:133][  0]LocalizationService: Info Localization service is disabled
+[2019.01.07-08.34.42:421][  0]LogConsoleResponse:Display: 
+[2019.01.07-08.34.42:648][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2019.01.07-08.34.42:648][  0]LogCook:Display: Mobile HDR setting 1
+[2019.01.07-08.34.42:648][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2019.01.07-08.34.42:753][  0]LogFileCache: Scanning file cache for directory 'D:/Games/TowerOfDefence/TopDownMiniGame/Content/' took 0.02s
+[2019.01.07-08.34.42:753][  0]SourceControl: Info Source control is disabled
+[2019.01.07-08.34.42:753][  0]Cmd: MAP LOAD FILE="../../../../../TowerOfDefence/TopDownMiniGame/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.07-08.34.42:938][  0]LightingResults: New page: Lighting Build
+[2019.01.07-08.34.42:942][  0]MapCheck: New page: Map Check
+[2019.01.07-08.34.42:942][  0]LightingResults: New page: Lighting Build
+[2019.01.07-08.34.45:636][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2019.01.07-08.34.45:660][  0]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Graphics/ModularBuildings/modularBuildings_004.modularBuildings_004] ConvexElem[0] invalid
+[2019.01.07-08.34.45:752][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.07-08.34.45:770][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.07-08.34.45:847][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 76.64ms to complete.
+[2019.01.07-08.34.45:847][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 3.094
+[2019.01.07-08.34.46:276][  0]LogCollectionManager: Loaded 0 collections in 0.006766 seconds
+[2019.01.07-08.34.46:395][  0]LogFileCache: Scanning file cache for directory 'D:/Games/TowerOfDefence/TopDownMiniGame/Saved/Collections/' took 0.01s
+[2019.01.07-08.34.46:395][  0]LogFileCache: Scanning file cache for directory 'D:/Games/TowerOfDefence/TopDownMiniGame/Content/Developers/malko/Collections/' took 0.01s
+[2019.01.07-08.34.46:395][  0]LogFileCache: Scanning file cache for directory 'D:/Games/TowerOfDefence/TopDownMiniGame/Content/Collections/' took 0.01s
+[2019.01.07-08.34.46:395][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000005 seconds
+[2019.01.07-08.34.46:407][  0]LogContentBrowser: Native class hierarchy populated in 0.0116 seconds. Added 1979 classes and 343 folders.
+[2019.01.07-08.34.46:459][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.07-08.34.46:459][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.07-08.34.46:460][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0006 seconds. Added 12 classes and 0 folders.
+[2019.01.07-08.34.46:479][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.01.07-08.34.46:581][  0]LogContentBrowser: Native class hierarchy updated for 'SuperSearch' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2019.01.07-08.34.46:978][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2019.01.07-08.34.47:023][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2019.01.07-08.34.47:245][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2019.01.07-08.34.47:350][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2019.01.07-08.34.47:392][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2019.01.07-08.34.47:392][  0]LogLoad: Full Startup: 12.81 seconds (BP compile: 0.53 seconds)
+[2019.01.07-08.34.47:392][  0]LogExternalProfiler:Warning: No registered external profiler was matched with a command-line switch (or the DLL could not be loaded).  External profiling features will not be available.
+[2019.01.07-08.34.47:402][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2019.01.07-08.34.47:403][  0]LogOcInput: OculusInput pre-init called
+[2019.01.07-08.34.47:625][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.01.07-08.34.47:996][  0]LogRenderer: Reallocating scene render targets to support 960x444 (Frame:2).
+[2019.01.07-08.34.48:468][  2]LogAssetRegistry: Asset discovery search completed in 7.5170 seconds
+[2019.01.07-08.34.48:468][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.01.07-08.34.48:468][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000037 seconds (updated 0 objects)
+[2019.01.07-08.35.05:498][489]LogRenderer: Reallocating scene render targets to support 968x456 (Frame:395).
+[2019.01.07-08.36.22:981][  7]LogAIModule: Creating AISystem for world Untitled
+[2019.01.07-08.36.23:077][  7]Cmd: MAP LOAD FILE="../../../../../TowerOfDefence/TopDownMiniGame/Content/TopDownBP/Maps/Untitled.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.07-08.36.23:077][  7]LightingResults: New page: Lighting Build
+[2019.01.07-08.36.23:109][  7]LoadErrors: New page: Loading map: Untitled.umap
+[2019.01.07-08.36.23:119][  7]MapCheck: New page: Map Check
+[2019.01.07-08.36.23:119][  7]LightingResults: New page: Lighting Build
+[2019.01.07-08.36.23:183][  7]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.07-08.36.23:262][  7]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.07-08.36.23:344][  7]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 81.444ms to complete.
+[2019.01.07-08.36.23:344][  7]LogFileHelpers: Loading map 'Untitled' took 0.269
+[2019.01.07-08.36.26:610][353]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (modularBuildings_052)
+[2019.01.07-08.37.48:385][897]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (modularBuildings_026)
+[2019.01.07-08.37.49:247][986]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (modularBuildings_052)
+[2019.01.07-08.39.32:977][ 85]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (modularBuildings_052)
+[2019.01.07-08.39.55:399][234]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (modularBuildings_026)
+[2019.01.07-08.40.25:044][153]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (modularBuildings_052)
+[2019.01.07-08.40.29:140][559]LogEditorViewport: Clicking Background
+[2019.01.07-08.40.30:450][713]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (modularBuildings_052)
+[2019.01.07-08.41.07:481][309]LogEditorViewport: Clicking Background
+[2019.01.07-08.41.08:282][403]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (modularBuildings_026)
+[2019.01.07-08.41.16:664][282]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (modularBuildings_052)
+[2019.01.07-08.42.05:637][723]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.07-08.42.06:122][765]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (modularBuildings_052)
+[2019.01.07-08.42.07:345][878]Cmd: DELETE
+[2019.01.07-08.42.07:345][878]Cmd: ACTOR DELETE
+[2019.01.07-08.42.07:449][878]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.07-08.42.07:483][878]LogEditorActor: Deleted 1 Actors (0.035 secs)
+[2019.01.07-08.42.08:741][  0]LogActorFactory: Actor Factory created modularBuildings_065
+[2019.01.07-08.42.09:480][ 54]LogActorFactory: Actor Factory created modularBuildings_065
+[2019.01.07-08.43.56:565][883]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (modularBuildings_065)
+[2019.01.07-08.43.56:954][920]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (cliffBrown_block)
+[2019.01.07-08.43.58:561][ 40]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (modularBuildings_065)
+[2019.01.07-08.44.00:436][219]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (modularBuildings_065)
+[2019.01.07-08.44.20:458][758]LogActorFactory: Actor Factory created modularBuildings_075
+[2019.01.07-08.44.20:969][793]LogActorFactory: Actor Factory created modularBuildings_075
+[2019.01.07-08.45.28:659][532]LogActorFactory: Actor Factory created modularBuildings_097
+[2019.01.07-08.45.29:085][562]LogActorFactory: Actor Factory created modularBuildings_097
+[2019.01.07-08.45.33:992][948]Cmd: DELETE
+[2019.01.07-08.45.33:992][948]Cmd: ACTOR DELETE
+[2019.01.07-08.45.33:992][948]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.07-08.45.34:013][948]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2019.01.07-08.45.35:228][ 68]LogActorFactory: Actor Factory created modularBuildings_097
+[2019.01.07-08.45.35:735][109]LogActorFactory: Actor Factory created modularBuildings_097
+[2019.01.07-08.46.03:553][465]LogMaterial: Missing cached shader map for material Metal, compiling. 
+[2019.01.07-08.46.03:618][465]LogStaticMesh: Building static mesh modularBuildings_096...
+[2019.01.07-08.46.03:656][465]LogStaticMesh: Built static mesh [0.04s] /Game/Graphics/ModularBuildings/modularBuildings_096.modularBuildings_096
+[2019.01.07-08.46.03:812][473]LogActorFactory: Actor Factory created modularBuildings_096
+[2019.01.07-08.46.05:518][584]LogActorFactory: Actor Factory created modularBuildings_096
+[2019.01.07-08.46.06:865][698]Cmd: DELETE
+[2019.01.07-08.46.06:865][698]Cmd: ACTOR DELETE
+[2019.01.07-08.46.06:865][698]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.07-08.46.06:892][698]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2019.01.07-08.46.08:312][826]LogActorFactory: Actor Factory created modularBuildings_097
+[2019.01.07-08.46.09:011][872]LogActorFactory: Actor Factory created modularBuildings_097
+[2019.01.07-08.46.49:728][ 94]LogStaticMesh: Building static mesh modularBuildings_073...
+[2019.01.07-08.46.49:751][ 94]LogStaticMesh: Built static mesh [0.02s] /Game/Graphics/ModularBuildings/modularBuildings_073.modularBuildings_073
+[2019.01.07-08.46.50:237][129]LogActorFactory: Actor Factory created modularBuildings_073
+[2019.01.07-08.46.50:595][152]LogActorFactory: Actor Factory created modularBuildings_073
+[2019.01.07-08.46.57:463][624]Cmd: DELETE
+[2019.01.07-08.46.57:463][624]Cmd: ACTOR DELETE
+[2019.01.07-08.46.57:464][624]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.07-08.46.57:483][624]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2019.01.07-08.47.11:971][959]LogStaticMesh: Building static mesh modularBuildings_007...
+[2019.01.07-08.47.11:997][959]LogStaticMesh: Built static mesh [0.03s] /Game/Graphics/ModularBuildings/modularBuildings_007.modularBuildings_007
+[2019.01.07-08.47.12:003][959]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (253) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2019.01.07-08.47.12:003][959]LogPhysics:Warning: Failed to cook convex: /Game/Graphics/ModularBuildings/modularBuildings_007.modularBuildings_007 0 (FlipX:0). The remaining elements will not get cooked.
+[2019.01.07-08.47.12:208][974]LogActorFactory: Actor Factory created modularBuildings_007
+[2019.01.07-08.47.12:208][974]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Graphics/ModularBuildings/modularBuildings_007.modularBuildings_007] ConvexElem[0] invalid
+[2019.01.07-08.47.12:208][974]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Graphics/ModularBuildings/modularBuildings_007.modularBuildings_007] ConvexElem[0] invalid
+[2019.01.07-08.47.12:606][  7]LogActorFactory: Actor Factory created modularBuildings_007
+[2019.01.07-08.47.12:606][  7]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Graphics/ModularBuildings/modularBuildings_007.modularBuildings_007] ConvexElem[0] invalid
+[2019.01.07-08.47.12:623][  7]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Graphics/ModularBuildings/modularBuildings_007.modularBuildings_007] ConvexElem[0] invalid
+[2019.01.07-08.47.24:297][954]Cmd: DELETE
+[2019.01.07-08.47.24:297][954]Cmd: ACTOR DELETE
+[2019.01.07-08.47.24:298][954]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.07-08.47.24:319][954]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2019.01.07-08.47.27:420][239]LogStaticMesh: Building static mesh modularBuildings_009...
+[2019.01.07-08.47.27:437][239]LogStaticMesh: Built static mesh [0.02s] /Game/Graphics/ModularBuildings/modularBuildings_009.modularBuildings_009
+[2019.01.07-08.47.27:666][257]LogActorFactory: Actor Factory created modularBuildings_009
+[2019.01.07-08.47.28:280][303]LogActorFactory: Actor Factory created modularBuildings_009
+[2019.01.07-08.47.33:537][795]Cmd: DELETE
+[2019.01.07-08.47.33:537][795]Cmd: ACTOR DELETE
+[2019.01.07-08.47.33:538][795]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.07-08.47.33:559][795]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2019.01.07-08.47.43:596][725]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (tree_default)
+[2019.01.07-08.47.46:386][982]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (tree_detailed)
+[2019.01.07-08.47.50:724][372]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (tree_detailed2)
+[2019.01.07-08.47.53:096][584]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (tree_default2)
+[2019.01.07-08.48.17:861][645]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (tree_pineSmall_round4)
+[2019.01.07-08.48.23:856][182]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (tree_pineSmall_round5)
+[2019.01.07-08.48.54:879][931]LogSavePackage: Save=64.37ms
+[2019.01.07-08.48.54:879][931]LogSavePackage: Moving '../../../../../TowerOfDefence/TopDownMiniGame/Saved/Untitled_Auto19782ABF24A319F84C3600F8C1FDCFE17.tmp' to '../../../../../TowerOfDefence/TopDownMiniGame/Saved/Autosaves/Game/TopDownBP/Maps/Untitled_Auto1.umap'
+[2019.01.07-08.48.54:881][931]LogSavePackage: Total save time: 138.39ms
+[2019.01.07-08.48.54:881][931]LogSavePackage:Display: Finished SavePackage ../../../../../TowerOfDefence/TopDownMiniGame/Saved/Autosaves/Game/TopDownBP/Maps/Untitled_Auto1.umap
+[2019.01.07-08.48.54:883][931]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/Untitled' took 0.197
+[2019.01.07-08.48.54:883][931]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.197
+[2019.01.07-08.49.57:319][ 11]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (modularBuildings_026)
+[2019.01.07-08.52.39:018][607]LogStaticMesh: Building static mesh stone_block...
+[2019.01.07-08.52.39:077][607]LogStaticMesh: Built static mesh [0.06s] /Game/Graphics/Nature/stone_block.stone_block
+[2019.01.07-08.52.39:290][621]LogActorFactory: Actor Factory created stone_block
+[2019.01.07-08.52.40:584][709]LogActorFactory: Actor Factory created stone_block
+[2019.01.07-08.52.41:999][844]Cmd: DELETE
+[2019.01.07-08.52.42:000][844]Cmd: ACTOR DELETE
+[2019.01.07-08.52.42:000][844]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.07-08.52.42:023][844]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2019.01.07-08.52.49:095][491]LogStaticMesh: Building static mesh tent_detailedOpen...
+[2019.01.07-08.52.49:143][491]LogStaticMesh: Built static mesh [0.05s] /Game/Graphics/Nature/tent_detailedOpen.tent_detailedOpen
+[2019.01.07-08.52.49:152][491]LogMaterial: Missing cached shader map for material natureKit-mushroomDark, compiling. 
+[2019.01.07-08.52.49:168][491]LogMaterial: Missing cached shader map for material natureKit-mushroom, compiling. 
+[2019.01.07-08.52.49:452][515]LogActorFactory: Actor Factory created tent_detailedOpen
+[2019.01.07-08.52.49:831][541]LogActorFactory: Actor Factory created tent_detailedOpen
+[2019.01.07-08.52.55:732][900]Cmd: DELETE
+[2019.01.07-08.52.55:732][900]Cmd: ACTOR DELETE
+[2019.01.07-08.52.55:733][900]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.07-08.52.55:759][900]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2019.01.07-08.53.43:156][296]LogStaticMesh: Building static mesh cliffBrown_blockQuarter...
+[2019.01.07-08.53.43:174][296]LogStaticMesh: Built static mesh [0.02s] /Game/Graphics/Nature/cliffBrown_blockQuarter.cliffBrown_blockQuarter
+[2019.01.07-08.53.43:668][342]LogActorFactory: Actor Factory created cliffBrown_blockQuarter
+[2019.01.07-08.53.44:674][434]LogActorFactory: Actor Factory created cliffBrown_blockQuarter
+[2019.01.07-08.53.48:749][749]Cmd: DELETE
+[2019.01.07-08.53.48:749][749]Cmd: ACTOR DELETE
+[2019.01.07-08.53.48:749][749]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.07-08.53.48:772][749]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2019.01.07-08.53.49:301][809]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (cliffBrown_block)
+[2019.01.07-08.53.50:281][904]Cmd: EDIT COPY
+[2019.01.07-08.53.50:665][942]Cmd: EDIT PASTE
+[2019.01.07-08.53.55:590][275]LogPhysics:Warning: Scale 'X=10.500 Y=8.500 Z=0.000' is not valid on object '/Game/TopDownBP/Maps/Untitled.Untitled:PersistentLevel.cliffBrown_block2.StaticMeshComponent0 cliffBrown_block'.
+[2019.01.07-08.53.55:590][275]LogPhysics:Warning: Scale 'X=10.500 Y=8.500 Z=0.000' is not valid on object '/Game/TopDownBP/Maps/Untitled.Untitled:PersistentLevel.cliffBrown_block2.StaticMeshComponent0 cliffBrown_block'.
+[2019.01.07-08.53.55:590][275]LogPhysics:Warning: Scale 'X=10.500 Y=8.500 Z=0.000' is not valid on object '/Game/TopDownBP/Maps/Untitled.Untitled:PersistentLevel.cliffBrown_block2.StaticMeshComponent0 cliffBrown_block'.
+[2019.01.07-08.53.55:590][275]LogPhysics:Warning: Scale 'X=10.500 Y=8.500 Z=0.000' is not valid on object '/Game/TopDownBP/Maps/Untitled.Untitled:PersistentLevel.cliffBrown_block2.StaticMeshComponent0 cliffBrown_block'.
+[2019.01.07-08.53.56:295][326]LogPhysics:Warning: Scale 'X=10.500 Y=8.500 Z=0.000' is not valid on object '/Game/TopDownBP/Maps/Untitled.Untitled:PersistentLevel.cliffBrown_block2.StaticMeshComponent0 cliffBrown_block'.
+[2019.01.07-08.53.56:295][326]LogPhysics:Warning: Scale 'X=10.500 Y=8.500 Z=0.000' is not valid on object '/Game/TopDownBP/Maps/Untitled.Untitled:PersistentLevel.cliffBrown_block2.StaticMeshComponent0 cliffBrown_block'.
+[2019.01.07-08.53.56:295][326]LogPhysics:Warning: Scale 'X=10.500 Y=8.500 Z=0.000' is not valid on object '/Game/TopDownBP/Maps/Untitled.Untitled:PersistentLevel.cliffBrown_block2.StaticMeshComponent0 cliffBrown_block'.
+[2019.01.07-08.53.56:295][326]LogPhysics:Warning: Scale 'X=10.500 Y=8.500 Z=0.000' is not valid on object '/Game/TopDownBP/Maps/Untitled.Untitled:PersistentLevel.cliffBrown_block2.StaticMeshComponent0 cliffBrown_block'.
+[2019.01.07-08.54.11:227][311]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (tree_detailed2)
+[2019.01.07-08.54.11:750][340]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (tree_detailed)
+[2019.01.07-08.54.12:242][376]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (tree_default)
+[2019.01.07-08.54.13:255][460]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (tree_pineSmall_round4)
+[2019.01.07-08.54.13:841][510]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (tree_default2)
+[2019.01.07-08.54.14:721][589]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (tree_pineSmall_round5)
+[2019.01.07-08.54.21:358][166]Cmd: TRANSACTION UNDO
+[2019.01.07-08.54.21:358][166]LogEditorTransaction: Undo Move Actors
+[2019.01.07-08.54.46:195][981]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (tree_pineSmall_round4)
+[2019.01.07-08.54.47:109][ 62]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (tree_pineSmall_round5)
+[2019.01.07-08.54.58:202][992]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.07-08.55.03:586][343]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2019.01.07-08.55.05:042][452]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2019.01.07-08.55.07:482][600]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2019.01.07-08.55.08:552][672]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2019.01.07-08.55.11:214][857]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2019.01.07-08.56.31:882][501]LogStaticMesh: Building static mesh hanging_moss...
+[2019.01.07-08.56.31:905][501]LogStaticMesh: Built static mesh [0.02s] /Game/Graphics/Nature/hanging_moss.hanging_moss
+[2019.01.07-08.56.32:062][509]LogActorFactory: Actor Factory created hanging_moss
+[2019.01.07-08.56.33:313][600]LogActorFactory: Actor Factory created hanging_moss
+[2019.01.07-08.56.33:762][629]LogActorFactory: Actor Factory created hanging_moss
+[2019.01.07-08.56.39:273][ 40]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hanging_moss)
+[2019.01.07-08.56.42:295][327]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hanging_moss)
+[2019.01.07-08.56.42:646][359]Cmd: DELETE
+[2019.01.07-08.56.42:646][359]Cmd: ACTOR DELETE
+[2019.01.07-08.56.42:647][359]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.07-08.56.42:670][359]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2019.01.07-08.57.42:253][736]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2019.01.07-08.59.22:563][735]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.07-08.59.26:672][101]Cmd: TRANSACTION UNDO
+[2019.01.07-08.59.26:672][101]LogEditorTransaction: Undo Move Actors
+[2019.01.07-08.59.28:182][229]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.07-08.59.29:151][318]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.07-08.59.33:783][672]Cmd: TRANSACTION UNDO
+[2019.01.07-08.59.33:783][672]LogEditorTransaction: Undo Move Actors
+[2019.01.07-08.59.36:025][859]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.07-08.59.59:777][102]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.07-09.00.00:697][176]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.07-09.00.35:750][ 92]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (modularBuildings_98)
+[2019.01.07-09.00.38:461][331]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.07-09.00.39:757][426]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.07-09.00.45:618][845]LogStaticMesh: Building static mesh logs_stackLarge...
+[2019.01.07-09.00.45:648][845]LogStaticMesh: Built static mesh [0.03s] /Game/Graphics/Nature/logs_stackLarge.logs_stackLarge
+[2019.01.07-09.00.45:658][845]LogMaterial: Missing cached shader map for material natureKit-woodLight, compiling. 
+[2019.01.07-09.00.45:820][853]LogActorFactory: Actor Factory created logs_stackLarge
+[2019.01.07-09.00.46:211][872]LogActorFactory: Actor Factory created logs_stackLarge
+[2019.01.07-09.01.22:605][695]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (logs_stackLarge)
+[2019.01.07-09.01.23:298][763]Cmd: DELETE
+[2019.01.07-09.01.23:298][763]Cmd: ACTOR DELETE
+[2019.01.07-09.01.23:299][763]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.07-09.01.23:328][763]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2019.01.07-09.01.47:773][ 69]LogMaterial: Missing cached shader map for material natureKit-_defaultMat, compiling. 
+[2019.01.07-09.01.47:784][ 69]LogStaticMesh: Building static mesh mushroom_brownGroup...
+[2019.01.07-09.01.47:900][ 69]LogStaticMesh: Built static mesh [0.12s] /Game/Graphics/Nature/mushroom_brownGroup.mushroom_brownGroup
+[2019.01.07-09.01.48:118][ 88]LogActorFactory: Actor Factory created mushroom_brownGroup
+[2019.01.07-09.01.48:517][119]LogActorFactory: Actor Factory created mushroom_brownGroup
+[2019.01.07-09.02.34:017][662]LogActorFactory: Actor Factory created hanging_moss
+[2019.01.07-09.02.34:277][680]LogActorFactory: Actor Factory created hanging_moss
+[2019.01.07-09.02.43:396][395]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (hanging_moss)
+[2019.01.07-09.02.43:707][422]Cmd: DELETE
+[2019.01.07-09.02.43:708][422]Cmd: ACTOR DELETE
+[2019.01.07-09.02.43:708][422]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.07-09.02.43:731][422]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2019.01.07-09.02.47:066][738]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (mushroom_brownGroup)
+[2019.01.07-09.02.48:140][821]Cmd: DELETE
+[2019.01.07-09.02.48:140][821]Cmd: ACTOR DELETE
+[2019.01.07-09.02.48:141][821]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.07-09.02.48:163][821]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2019.01.07-09.03.41:178][860]LogActorFactory: Actor Factory created grass
+[2019.01.07-09.03.57:329][478]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2019.01.07-09.04.40:924][632]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2019.01.07-09.05.04:171][756]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2019.01.07-09.05.05:874][911]LogStaticMesh: Building static mesh cactus_tall...
+[2019.01.07-09.05.05:929][911]LogStaticMesh: Built static mesh [0.06s] /Game/Graphics/Nature/cactus_tall.cactus_tall
+[2019.01.07-09.05.06:049][917]LogActorFactory: Actor Factory created cactus_tall
+[2019.01.07-09.05.06:856][982]LogActorFactory: Actor Factory created cactus_tall
+[2019.01.07-09.05.11:769][339]Cmd: DELETE
+[2019.01.07-09.05.11:769][339]Cmd: ACTOR DELETE
+[2019.01.07-09.05.11:770][339]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.07-09.05.11:799][339]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2019.01.07-09.05.24:814][480]LogStaticMesh: Building static mesh canoe...
+[2019.01.07-09.05.24:887][480]LogStaticMesh: Built static mesh [0.07s] /Game/Graphics/Nature/canoe.canoe
+[2019.01.07-09.05.25:083][491]LogActorFactory: Actor Factory created canoe
+[2019.01.07-09.05.25:404][517]LogActorFactory: Actor Factory created canoe
+[2019.01.07-09.05.29:952][837]Cmd: DELETE
+[2019.01.07-09.05.29:952][837]Cmd: ACTOR DELETE
+[2019.01.07-09.05.29:953][837]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.07-09.05.29:980][837]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2019.01.07-09.05.39:570][734]LogStaticMesh: Building static mesh campfire_small...
+[2019.01.07-09.05.39:612][734]LogStaticMesh: Built static mesh [0.04s] /Game/Graphics/Nature/campfire_small.campfire_small
+[2019.01.07-09.05.39:698][738]LogActorFactory: Actor Factory created campfire_small
+[2019.01.07-09.05.40:094][765]LogActorFactory: Actor Factory created campfire_small
+[2019.01.07-09.05.45:409][204]Cmd: DELETE
+[2019.01.07-09.05.45:409][204]Cmd: ACTOR DELETE
+[2019.01.07-09.05.45:409][204]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.07-09.05.45:432][204]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2019.01.07-09.05.46:138][270]LogStaticMesh: Building static mesh campfire_large...
+[2019.01.07-09.05.46:169][270]LogStaticMesh: Built static mesh [0.03s] /Game/Graphics/Nature/campfire_large.campfire_large
+[2019.01.07-09.05.46:254][274]LogActorFactory: Actor Factory created campfire_large
+[2019.01.07-09.05.46:952][330]LogActorFactory: Actor Factory created campfire_large
+[2019.01.07-09.05.58:527][154]Cmd: DELETE
+[2019.01.07-09.05.58:527][154]Cmd: ACTOR DELETE
+[2019.01.07-09.05.58:528][154]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.07-09.05.58:554][154]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2019.01.07-09.06.51:105][ 39]LogStaticMesh: Building static mesh ground_dirtRiverRocks...
+[2019.01.07-09.06.51:189][ 39]LogStaticMesh: Built static mesh [0.08s] /Game/Graphics/Nature/ground_dirtRiverRocks.ground_dirtRiverRocks
+[2019.01.07-09.06.51:199][ 39]LogMaterial: Missing cached shader map for material natureKit-water, compiling. 
+[2019.01.07-09.06.51:339][ 47]LogActorFactory: Actor Factory created ground_dirtRiverRocks
+[2019.01.07-09.06.52:018][100]LogActorFactory: Actor Factory created ground_dirtRiverRocks
+[2019.01.07-09.07.01:776][869]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.07-09.07.02:867][960]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ground_dirtRiverRocks)
+[2019.01.07-09.07.08:021][346]Cmd: DELETE
+[2019.01.07-09.07.08:021][346]Cmd: ACTOR DELETE
+[2019.01.07-09.07.08:021][346]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.07-09.07.08:049][346]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2019.01.07-09.07.13:324][841]LogStaticMesh: Building static mesh ground_dirt...
+[2019.01.07-09.07.13:337][841]LogStaticMesh: Built static mesh [0.01s] /Game/Graphics/Nature/ground_dirt.ground_dirt
+[2019.01.07-09.07.13:492][851]LogActorFactory: Actor Factory created ground_dirt
+[2019.01.07-09.07.13:774][871]LogActorFactory: Actor Factory created ground_dirt
+[2019.01.07-09.07.15:980][ 29]Cmd: DELETE
+[2019.01.07-09.07.15:980][ 29]Cmd: ACTOR DELETE
+[2019.01.07-09.07.15:980][ 29]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.07-09.07.16:002][ 29]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2019.01.07-09.07.16:914][ 98]LogStaticMesh: Building static mesh ground_dirtRiver...
+[2019.01.07-09.07.16:975][ 98]LogStaticMesh: Built static mesh [0.06s] /Game/Graphics/Nature/ground_dirtRiver.ground_dirtRiver
+[2019.01.07-09.07.17:061][102]LogActorFactory: Actor Factory created ground_dirtRiver
+[2019.01.07-09.07.17:549][141]LogActorFactory: Actor Factory created ground_dirtRiver
+[2019.01.07-09.07.25:541][730]Cmd: DELETE
+[2019.01.07-09.07.25:542][730]Cmd: ACTOR DELETE
+[2019.01.07-09.07.25:542][730]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.07-09.07.25:568][730]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2019.01.07-09.07.28:259][972]LogStaticMesh: Building static mesh ground_dirtRiverWater...
+[2019.01.07-09.07.28:279][972]LogStaticMesh: Built static mesh [0.02s] /Game/Graphics/Nature/ground_dirtRiverWater.ground_dirtRiverWater
+[2019.01.07-09.07.28:432][979]LogActorFactory: Actor Factory created ground_dirtRiverWater
+[2019.01.07-09.07.28:743][999]LogActorFactory: Actor Factory created ground_dirtRiverWater
+[2019.01.07-09.07.30:590][115]Cmd: DELETE
+[2019.01.07-09.07.30:590][115]Cmd: ACTOR DELETE
+[2019.01.07-09.07.30:591][115]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.07-09.07.30:617][115]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2019.01.07-09.07.32:541][271]LogActorFactory: Actor Factory created ground_dirtRiverRocks
+[2019.01.07-09.07.32:732][283]LogActorFactory: Actor Factory created ground_dirtRiverRocks
+[2019.01.07-09.07.34:732][417]Cmd: DELETE
+[2019.01.07-09.07.34:733][417]Cmd: ACTOR DELETE
+[2019.01.07-09.07.34:733][417]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.07-09.07.34:758][417]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2019.01.07-09.07.37:059][587]LogStaticMesh: Building static mesh ground_dirtRiverSide...
+[2019.01.07-09.07.37:092][587]LogStaticMesh: Built static mesh [0.03s] /Game/Graphics/Nature/ground_dirtRiverSide.ground_dirtRiverSide
+[2019.01.07-09.07.37:335][606]LogActorFactory: Actor Factory created ground_dirtRiverSide
+[2019.01.07-09.07.37:506][617]LogActorFactory: Actor Factory created ground_dirtRiverSide
+[2019.01.07-09.07.39:641][749]Cmd: DELETE
+[2019.01.07-09.07.39:641][749]Cmd: ACTOR DELETE
+[2019.01.07-09.07.39:642][749]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.07-09.07.39:668][749]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2019.01.07-09.07.40:748][828]LogStaticMesh: Building static mesh ground_dirtRiverSideCorner...
+[2019.01.07-09.07.40:779][828]LogStaticMesh: Built static mesh [0.03s] /Game/Graphics/Nature/ground_dirtRiverSideCorner.ground_dirtRiverSideCorner
+[2019.01.07-09.07.40:974][839]LogActorFactory: Actor Factory created ground_dirtRiverSideCorner
+[2019.01.07-09.07.41:120][849]LogActorFactory: Actor Factory created ground_dirtRiverSideCorner
+[2019.01.07-09.07.44:982][119]Cmd: DELETE
+[2019.01.07-09.07.44:982][119]Cmd: ACTOR DELETE
+[2019.01.07-09.07.44:982][119]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.07-09.07.45:005][119]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2019.01.07-09.07.54:304][885]LogStaticMesh: Building static mesh cliffGrey_waterfallTop...
+[2019.01.07-09.07.54:365][885]LogStaticMesh: Built static mesh [0.06s] /Game/Graphics/Nature/cliffGrey_waterfallTop.cliffGrey_waterfallTop
+[2019.01.07-09.07.54:471][891]LogActorFactory: Actor Factory created cliffGrey_waterfallTop
+[2019.01.07-09.07.54:643][898]LogActorFactory: Actor Factory created cliffGrey_waterfallTop
+[2019.01.07-09.07.57:003][ 59]Cmd: DELETE
+[2019.01.07-09.07.57:003][ 59]Cmd: ACTOR DELETE
+[2019.01.07-09.07.57:003][ 59]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.07-09.07.57:025][ 59]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2019.01.07-09.08.01:559][439]LogStaticMesh: Building static mesh cliffGrey_waterfallMid...
+[2019.01.07-09.08.01:586][439]LogStaticMesh: Built static mesh [0.03s] /Game/Graphics/Nature/cliffGrey_waterfallMid.cliffGrey_waterfallMid
+[2019.01.07-09.08.01:777][448]LogActorFactory: Actor Factory created cliffGrey_waterfallMid
+[2019.01.07-09.08.01:927][457]LogActorFactory: Actor Factory created cliffGrey_waterfallMid
+[2019.01.07-09.08.07:757][881]Cmd: DELETE
+[2019.01.07-09.08.07:757][881]Cmd: ACTOR DELETE
+[2019.01.07-09.08.07:757][881]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.07-09.08.07:782][881]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2019.01.07-09.08.10:547][118]LogActorFactory: Actor Factory created cliffGrey_waterfallTop
+[2019.01.07-09.08.10:946][142]LogActorFactory: Actor Factory created cliffGrey_waterfallTop
+[2019.01.07-09.11.31:259][ 34]Cmd: DELETE
+[2019.01.07-09.11.31:259][ 34]Cmd: ACTOR DELETE
+[2019.01.07-09.11.31:259][ 34]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.07-09.11.31:283][ 34]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2019.01.07-09.11.51:207][789]LogStaticMesh: Building static mesh plant_flatSmall...
+[2019.01.07-09.11.51:228][789]LogStaticMesh: Built static mesh [0.02s] /Game/Graphics/Nature/plant_flatSmall.plant_flatSmall
+[2019.01.07-09.11.51:368][795]LogActorFactory: Actor Factory created plant_flatSmall
+[2019.01.07-09.11.51:810][825]LogActorFactory: Actor Factory created plant_flatSmall
+[2019.01.07-09.12.00:632][448]Cmd: DELETE
+[2019.01.07-09.12.00:632][448]Cmd: ACTOR DELETE
+[2019.01.07-09.12.00:633][448]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.07-09.12.00:658][448]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2019.01.07-09.12.08:061][ 62]LogActorFactory: Actor Factory created stone_block
+[2019.01.07-09.12.08:284][ 75]LogActorFactory: Actor Factory created stone_block
+[2019.01.07-09.12.12:176][330]Cmd: DELETE
+[2019.01.07-09.12.12:176][330]Cmd: ACTOR DELETE
+[2019.01.07-09.12.12:177][330]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.07-09.12.12:201][330]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2019.01.07-09.12.43:075][372]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (cliffBrown_block)
+[2019.01.07-09.12.55:029][390]LogStaticMesh: Building static mesh stone_obelisk...
+[2019.01.07-09.12.55:049][390]LogStaticMesh: Built static mesh [0.02s] /Game/Graphics/Nature/stone_obelisk.stone_obelisk
+[2019.01.07-09.12.55:176][396]LogActorFactory: Actor Factory created stone_obelisk
+[2019.01.07-09.12.55:513][412]LogActorFactory: Actor Factory created stone_obelisk
+[2019.01.07-09.13.02:167][883]Cmd: DELETE
+[2019.01.07-09.13.02:167][883]Cmd: ACTOR DELETE
+[2019.01.07-09.13.02:168][883]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.07-09.13.02:190][883]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2019.01.07-09.13.37:342][213]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (cliffBrown_block)
+[2019.01.07-09.13.37:818][231]LogSavePackage: Save=72.44ms
+[2019.01.07-09.13.37:818][231]LogSavePackage: Moving '../../../../../TowerOfDefence/TopDownMiniGame/Saved/Untitled_Auto2A3A0F10444E53E8EDE722ABCC4C43637.tmp' to '../../../../../TowerOfDefence/TopDownMiniGame/Saved/Autosaves/Game/TopDownBP/Maps/Untitled_Auto2.umap'
+[2019.01.07-09.13.37:820][231]LogSavePackage: Total save time: 80.06ms
+[2019.01.07-09.13.37:820][231]LogSavePackage:Display: Finished SavePackage ../../../../../TowerOfDefence/TopDownMiniGame/Saved/Autosaves/Game/TopDownBP/Maps/Untitled_Auto2.umap
+[2019.01.07-09.13.37:822][231]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/Untitled' took 0.109
+[2019.01.07-09.13.37:822][231]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.109
+[2019.01.07-09.13.38:140][258]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.07-09.13.58:679][774]LogStaticMesh: Building static mesh stone_column...
+[2019.01.07-09.13.58:755][774]LogStaticMesh: Built static mesh [0.08s] /Game/Graphics/Nature/stone_column.stone_column
+[2019.01.07-09.13.58:929][786]LogActorFactory: Actor Factory created stone_column
+[2019.01.07-09.13.59:238][806]LogActorFactory: Actor Factory created stone_column
+[2019.01.07-09.14.04:208][145]Cmd: DELETE
+[2019.01.07-09.14.04:208][145]Cmd: ACTOR DELETE
+[2019.01.07-09.14.04:209][145]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.07-09.14.04:233][145]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2019.01.07-09.14.38:671][169]LogActorFactory: Actor Factory created ground_dirtRiver
+[2019.01.07-09.14.38:950][182]LogActorFactory: Actor Factory created ground_dirtRiver
+[2019.01.07-09.14.46:214][738]Cmd: DELETE
+[2019.01.07-09.14.46:214][738]Cmd: ACTOR DELETE
+[2019.01.07-09.14.46:215][738]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.07-09.14.46:236][738]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2019.01.07-09.16.05:674][ 66]LogStaticMesh: Building static mesh ground_dirtRiverTile...
+[2019.01.07-09.16.05:746][ 66]LogStaticMesh: Built static mesh [0.07s] /Game/Graphics/Nature/ground_dirtRiverTile.ground_dirtRiverTile
+[2019.01.07-09.16.05:904][ 76]LogActorFactory: Actor Factory created ground_dirtRiverTile
+[2019.01.07-09.16.07:240][176]LogActorFactory: Actor Factory created ground_dirtRiverTile
+[2019.01.07-09.16.07:858][228]LogActorFactory: Actor Factory created ground_dirtRiverTile
+[2019.01.07-09.16.10:669][483]Cmd: DELETE
+[2019.01.07-09.16.10:669][483]Cmd: ACTOR DELETE
+[2019.01.07-09.16.10:669][483]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.07-09.16.10:693][483]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2019.01.07-09.16.13:664][739]LogStaticMesh: Building static mesh ground_dirtRiverCornerInner...
+[2019.01.07-09.16.13:720][739]LogStaticMesh: Built static mesh [0.06s] /Game/Graphics/Nature/ground_dirtRiverCornerInner.ground_dirtRiverCornerInner
+[2019.01.07-09.16.13:820][745]LogActorFactory: Actor Factory created ground_dirtRiverCornerInner
+[2019.01.07-09.16.14:852][829]LogActorFactory: Actor Factory created ground_dirtRiverCornerInner
+[2019.01.07-09.16.15:144][850]LogActorFactory: Actor Factory created ground_dirtRiverCornerInner
+[2019.01.07-09.16.15:753][898]Cmd: DELETE
+[2019.01.07-09.16.15:753][898]Cmd: ACTOR DELETE
+[2019.01.07-09.16.15:754][898]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.07-09.16.15:777][898]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2019.01.07-09.16.16:541][963]LogStaticMesh: Building static mesh ground_dirtRiverCorner...
+[2019.01.07-09.16.16:584][963]LogStaticMesh: Built static mesh [0.04s] /Game/Graphics/Nature/ground_dirtRiverCorner.ground_dirtRiverCorner
+[2019.01.07-09.16.16:700][968]LogActorFactory: Actor Factory created ground_dirtRiverCorner
+[2019.01.07-09.16.16:877][979]LogActorFactory: Actor Factory created ground_dirtRiverCorner
+[2019.01.07-09.16.17:229][  2]Cmd: DELETE
+[2019.01.07-09.16.17:229][  2]Cmd: ACTOR DELETE
+[2019.01.07-09.16.17:230][  2]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.07-09.16.17:255][  2]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2019.01.07-09.16.18:067][ 74]LogActorFactory: Actor Factory created ground_dirtRiver
+[2019.01.07-09.16.18:403][ 99]LogActorFactory: Actor Factory created ground_dirtRiver
+[2019.01.07-09.16.18:812][127]Cmd: DELETE
+[2019.01.07-09.16.18:812][127]Cmd: ACTOR DELETE
+[2019.01.07-09.16.18:813][127]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.07-09.16.18:835][127]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2019.01.07-09.16.20:024][233]LogActorFactory: Actor Factory created ground_dirt
+[2019.01.07-09.16.20:284][246]LogActorFactory: Actor Factory created ground_dirt
+[2019.01.07-09.16.20:663][273]Cmd: DELETE
+[2019.01.07-09.16.20:663][273]Cmd: ACTOR DELETE
+[2019.01.07-09.16.20:664][273]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.07-09.16.20:687][273]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2019.01.07-09.16.25:458][688]LogStaticMesh: Building static mesh cliffGrey_blockQuarter...
+[2019.01.07-09.16.25:477][688]LogStaticMesh: Built static mesh [0.02s] /Game/Graphics/Nature/cliffGrey_blockQuarter.cliffGrey_blockQuarter
+[2019.01.07-09.16.25:734][709]LogActorFactory: Actor Factory created cliffGrey_blockQuarter
+[2019.01.07-09.16.26:042][728]LogActorFactory: Actor Factory created cliffGrey_blockQuarter
+[2019.01.07-09.16.29:181][975]Cmd: DELETE
+[2019.01.07-09.16.29:181][975]Cmd: ACTOR DELETE
+[2019.01.07-09.16.29:182][975]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.07-09.16.29:204][975]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2019.01.07-09.16.29:799][ 23]LogStaticMesh: Building static mesh cliffGrey_cornerInnerMid...
+[2019.01.07-09.16.29:820][ 23]LogStaticMesh: Built static mesh [0.02s] /Game/Graphics/Nature/cliffGrey_cornerInnerMid.cliffGrey_cornerInnerMid
+[2019.01.07-09.16.30:242][ 57]LogActorFactory: Actor Factory created cliffGrey_cornerInnerMid
+[2019.01.07-09.16.31:196][138]LogActorFactory: Actor Factory created cliffGrey_cornerInnerMid
+[2019.01.07-09.16.32:085][216]LogActorFactory: Actor Factory created cliffGrey_cornerInnerMid
+[2019.01.07-09.16.32:426][245]LogActorFactory: Actor Factory created cliffGrey_cornerInnerMid
+[2019.01.07-09.16.35:805][485]Cmd: DELETE
+[2019.01.07-09.16.35:805][485]Cmd: ACTOR DELETE
+[2019.01.07-09.16.35:806][485]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.07-09.16.35:831][485]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2019.01.07-09.16.48:723][590]LogTexture:Display: Building textures: Texture2D_2 (G8)
+[2019.01.07-09.17.13:193][881]LogActorFactory: Actor Factory created ground_dirtRiver
+[2019.01.07-09.17.13:430][895]LogActorFactory: Actor Factory created ground_dirtRiver
+[2019.01.07-09.17.16:067][ 72]LogActorFactory: Actor Factory created ground_dirtRiver
+[2019.01.07-09.17.19:152][293]LogActorFactory: Actor Factory created ground_dirtRiver
+[2019.01.07-09.17.29:649][ 60]Cmd: DELETE
+[2019.01.07-09.17.29:649][ 60]Cmd: ACTOR DELETE
+[2019.01.07-09.17.29:649][ 60]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.07-09.17.29:674][ 60]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2019.01.07-09.17.30:050][ 84]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ground_dirtRiver)
+[2019.01.07-09.17.30:153][ 88]Cmd: DELETE
+[2019.01.07-09.17.30:153][ 88]Cmd: ACTOR DELETE
+[2019.01.07-09.17.30:154][ 88]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.07-09.17.30:181][ 88]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2019.01.07-09.17.49:548][849]LogStaticMesh: Building static mesh bridge_straight...
+[2019.01.07-09.17.49:597][849]LogStaticMesh: Built static mesh [0.05s] /Game/Graphics/Nature/bridge_straight.bridge_straight
+[2019.01.07-09.17.49:684][851]LogActorFactory: Actor Factory created bridge_straight
+[2019.01.07-09.17.50:491][906]LogActorFactory: Actor Factory created bridge_straight
+[2019.01.07-09.17.59:722][599]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bridge_straight)
+[2019.01.07-09.18.07:392][280]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (bridge_straight)
+[2019.01.07-09.18.12:728][730]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.07-09.18.13:832][797]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bridge_straight)
+[2019.01.07-09.19.10:063][955]Cmd: ACTOR BAKEPREPIVOT
+[2019.01.07-09.19.26:058][135]Cmd: EDIT COPY
+[2019.01.07-09.19.26:497][164]Cmd: EDIT PASTE
+[2019.01.07-09.19.31:703][647]Cmd: EDIT COPY
+[2019.01.07-09.19.32:073][684]Cmd: EDIT PASTE
+[2019.01.07-09.19.35:294][925]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bridge_straight2)
+[2019.01.07-09.19.48:955][ 85]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bridge_straight)
+[2019.01.07-09.19.52:560][349]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bridge_straight2)
+[2019.01.07-09.19.55:923][661]Cmd: DELETE
+[2019.01.07-09.19.55:923][661]Cmd: ACTOR DELETE
+[2019.01.07-09.19.55:924][661]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.07-09.19.55:951][661]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2019.01.07-09.19.56:364][702]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bridge_straight3)
+[2019.01.07-09.19.56:532][712]Cmd: DELETE
+[2019.01.07-09.19.56:532][712]Cmd: ACTOR DELETE
+[2019.01.07-09.19.56:533][712]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.07-09.19.56:556][712]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2019.01.07-09.19.56:989][760]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bridge_straight)
+[2019.01.07-09.19.57:113][767]Cmd: DELETE
+[2019.01.07-09.19.57:113][767]Cmd: ACTOR DELETE
+[2019.01.07-09.19.57:114][767]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.07-09.19.57:138][767]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2019.01.07-09.20.02:254][223]LogActorFactory: Actor Factory created bamboo
+[2019.01.07-09.20.02:586][240]LogActorFactory: Actor Factory created bamboo
+[2019.01.07-09.20.08:642][653]Cmd: DELETE
+[2019.01.07-09.20.08:642][653]Cmd: ACTOR DELETE
+[2019.01.07-09.20.08:643][653]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.07-09.20.08:674][653]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2019.01.07-09.20.10:933][848]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (cliffBrown_block)
+[2019.01.07-09.20.15:795][195]LogTexture:Display: Building textures: Texture2D_3 (G8)
+[2019.01.07-09.20.21:600][656]LogTexture:Display: Building textures: Texture2D_4 (G8)
+[2019.01.07-09.20.35:053][745]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (cliffBrown_block)
+[2019.01.07-09.20.48:710][880]LogStaticMesh: Building static mesh fence_diagonalStrong...
+[2019.01.07-09.20.48:754][880]LogStaticMesh: Built static mesh [0.04s] /Game/Graphics/Nature/fence_diagonalStrong.fence_diagonalStrong
+[2019.01.07-09.20.49:085][905]LogActorFactory: Actor Factory created fence_diagonalStrong
+[2019.01.07-09.20.49:377][921]LogActorFactory: Actor Factory created fence_diagonalStrong
+[2019.01.07-09.21.37:939][235]Cmd: ACTOR BAKEPREPIVOT
+[2019.01.07-09.22.08:555][458]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (cliffBrown_block)
+[2019.01.07-09.22.09:669][536]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (fence_diagonalStrong)
+[2019.01.07-09.22.23:644][500]Cmd: EDIT COPY
+[2019.01.07-09.22.24:056][528]Cmd: EDIT PASTE
+[2019.01.07-09.22.35:136][383]Cmd: DELETE
+[2019.01.07-09.22.35:136][383]Cmd: ACTOR DELETE
+[2019.01.07-09.22.35:137][383]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.07-09.22.35:163][383]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2019.01.07-09.22.35:641][430]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (fence_diagonalStrong)
+[2019.01.07-09.23.02:601][538]Cmd: MODE ROTGRID=0
+[2019.01.07-09.23.15:907][504]Cmd: MODE ROTGRID=1
+[2019.01.07-09.23.27:390][335]Cmd: MODE ROTGRID=0
+[2019.01.07-09.23.30:808][610]Cmd: MODE ROTGRID=1
+[2019.01.07-09.23.38:483][159]Cmd: EDIT COPY
+[2019.01.07-09.23.38:977][187]Cmd: EDIT PASTE
+[2019.01.07-09.23.48:353][809]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (fence_diagonalStrong)
+[2019.01.07-09.23.51:657][ 76]Cmd: MODE ROTGRID=0
+[2019.01.07-09.24.34:940][469]LogSavePackage: Save=66.70ms
+[2019.01.07-09.24.34:940][469]LogSavePackage: Moving '../../../../../TowerOfDefence/TopDownMiniGame/Saved/Untitled_Auto35032E7334427D2C56E26F9968E6B9DB4.tmp' to '../../../../../TowerOfDefence/TopDownMiniGame/Saved/Autosaves/Game/TopDownBP/Maps/Untitled_Auto3.umap'
+[2019.01.07-09.24.34:944][469]LogSavePackage: Total save time: 78.75ms
+[2019.01.07-09.24.34:944][469]LogSavePackage:Display: Finished SavePackage ../../../../../TowerOfDefence/TopDownMiniGame/Saved/Autosaves/Game/TopDownBP/Maps/Untitled_Auto3.umap
+[2019.01.07-09.24.34:947][469]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/Untitled' took 0.117
+[2019.01.07-09.24.34:947][469]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.117
+[2019.01.07-09.24.40:696][596]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (fence_diagonalStrong2)
+[2019.01.07-09.24.42:608][767]Cmd: DELETE
+[2019.01.07-09.24.42:608][767]Cmd: ACTOR DELETE
+[2019.01.07-09.24.42:609][767]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.07-09.24.42:631][767]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2019.01.07-09.24.43:508][858]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (fence_diagonalStrong)
+[2019.01.07-09.24.43:798][880]Cmd: DELETE
+[2019.01.07-09.24.43:798][880]Cmd: ACTOR DELETE
+[2019.01.07-09.24.43:799][880]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.07-09.24.43:827][880]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2019.01.07-09.24.57:091][ 49]LogActorFactory: Actor Factory created hanging_moss
+[2019.01.07-09.24.58:562][159]LogActorFactory: Actor Factory created hanging_moss
+[2019.01.07-09.24.59:703][253]Cmd: DELETE
+[2019.01.07-09.24.59:703][253]Cmd: ACTOR DELETE
+[2019.01.07-09.24.59:704][253]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.07-09.24.59:730][253]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2019.01.07-09.25.09:494][156]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (modularBuildings_026)
+[2019.01.07-09.25.10:301][211]Cmd: DELETE
+[2019.01.07-09.25.10:301][211]Cmd: ACTOR DELETE
+[2019.01.07-09.25.10:302][211]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.07-09.25.10:327][211]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2019.01.07-09.25.10:680][249]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (modularBuildings_065)
+[2019.01.07-09.25.10:841][260]Cmd: DELETE
+[2019.01.07-09.25.10:841][260]Cmd: ACTOR DELETE
+[2019.01.07-09.25.10:842][260]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.07-09.25.10:864][260]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2019.01.07-09.25.11:245][298]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (modularBuildings_075)
+[2019.01.07-09.25.11:444][312]Cmd: DELETE
+[2019.01.07-09.25.11:445][312]Cmd: ACTOR DELETE
+[2019.01.07-09.25.11:445][312]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.07-09.25.11:470][312]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2019.01.07-09.25.11:864][357]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (cliffBrown_block)
+[2019.01.07-09.25.12:917][454]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (modularBuildings_98)
+[2019.01.07-09.25.13:422][495]Cmd: DELETE
+[2019.01.07-09.25.13:422][495]Cmd: ACTOR DELETE
+[2019.01.07-09.25.13:423][495]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.07-09.25.13:447][495]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2019.01.07-09.25.14:001][558]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (modularBuildings_097)
+[2019.01.07-09.25.14:350][585]Cmd: DELETE
+[2019.01.07-09.25.14:350][585]Cmd: ACTOR DELETE
+[2019.01.07-09.25.14:350][585]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.07-09.25.14:373][585]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2019.01.07-09.26.02:497][339]LogStaticMesh: Building static mesh modularBuildings_057...
+[2019.01.07-09.26.02:521][339]LogStaticMesh: Built static mesh [0.02s] /Game/Graphics/ModularBuildings/modularBuildings_057.modularBuildings_057
+[2019.01.07-09.26.02:527][339]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (253) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2019.01.07-09.26.02:527][339]LogPhysics:Warning: Failed to cook convex: /Game/Graphics/ModularBuildings/modularBuildings_057.modularBuildings_057 0 (FlipX:1). The remaining elements will not get cooked.
+[2019.01.07-09.26.02:715][354]LogActorFactory: Actor Factory created modularBuildings_057
+[2019.01.07-09.26.03:064][379]LogActorFactory: Actor Factory created modularBuildings_057
+[2019.01.07-09.26.19:157][543]Cmd: TRANSACTION UNDO
+[2019.01.07-09.26.19:157][543]LogEditorTransaction: Undo Rotate Actors
+[2019.01.07-09.26.19:568][574]Cmd: TRANSACTION UNDO
+[2019.01.07-09.26.19:568][574]LogEditorTransaction: Undo Rotate Actors
+[2019.01.07-09.26.19:758][590]Cmd: TRANSACTION UNDO
+[2019.01.07-09.26.19:758][590]LogEditorTransaction: Undo Create Actors
+[2019.01.07-09.26.19:968][611]Cmd: TRANSACTION UNDO
+[2019.01.07-09.26.19:968][611]LogEditorTransaction: Undo Delete Actors
+[2019.01.07-09.26.23:807][  2]Cmd: ACTOR UNHIDE ALL
+[2019.01.07-09.26.27:946][347]Cmd: DELETE
+[2019.01.07-09.26.27:946][347]Cmd: ACTOR DELETE
+[2019.01.07-09.26.27:947][347]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.07-09.26.27:969][347]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2019.01.07-09.26.33:715][884]LogStaticMesh: Building static mesh modularBuildings_055...
+[2019.01.07-09.26.33:732][884]LogStaticMesh: Built static mesh [0.02s] /Game/Graphics/ModularBuildings/modularBuildings_055.modularBuildings_055
+[2019.01.07-09.26.33:737][884]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (253) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2019.01.07-09.26.33:737][884]LogPhysics:Warning: Failed to cook convex: /Game/Graphics/ModularBuildings/modularBuildings_055.modularBuildings_055 0 (FlipX:0). The remaining elements will not get cooked.
+[2019.01.07-09.26.33:738][884]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (253) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2019.01.07-09.26.33:738][884]LogPhysics:Warning: Failed to cook convex: /Game/Graphics/ModularBuildings/modularBuildings_055.modularBuildings_055 0 (FlipX:1). The remaining elements will not get cooked.
+[2019.01.07-09.26.33:947][901]LogActorFactory: Actor Factory created modularBuildings_055
+[2019.01.07-09.26.33:947][901]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Graphics/ModularBuildings/modularBuildings_055.modularBuildings_055:BodySetup_1518)
+[2019.01.07-09.26.33:947][901]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Graphics/ModularBuildings/modularBuildings_055.modularBuildings_055:BodySetup_1518)
+[2019.01.07-09.26.34:652][955]LogActorFactory: Actor Factory created modularBuildings_055
+[2019.01.07-09.26.34:652][955]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Graphics/ModularBuildings/modularBuildings_055.modularBuildings_055:BodySetup_1518)
+[2019.01.07-09.26.34:670][955]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Graphics/ModularBuildings/modularBuildings_055.modularBuildings_055:BodySetup_1518)
+[2019.01.07-09.26.35:718][ 57]Cmd: DELETE
+[2019.01.07-09.26.35:718][ 57]Cmd: ACTOR DELETE
+[2019.01.07-09.26.35:719][ 57]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.07-09.26.35:740][ 57]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2019.01.07-09.26.37:582][237]LogStaticMesh: Building static mesh modularBuildings_053...
+[2019.01.07-09.26.37:617][237]LogStaticMesh: Built static mesh [0.04s] /Game/Graphics/ModularBuildings/modularBuildings_053.modularBuildings_053
+[2019.01.07-09.26.37:623][237]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (253) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2019.01.07-09.26.37:623][237]LogPhysics:Warning: Failed to cook convex: /Game/Graphics/ModularBuildings/modularBuildings_053.modularBuildings_053 0 (FlipX:0). The remaining elements will not get cooked.
+[2019.01.07-09.26.37:624][237]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (253) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2019.01.07-09.26.37:624][237]LogPhysics:Warning: Failed to cook convex: /Game/Graphics/ModularBuildings/modularBuildings_053.modularBuildings_053 0 (FlipX:1). The remaining elements will not get cooked.
+[2019.01.07-09.26.37:742][246]LogActorFactory: Actor Factory created modularBuildings_053
+[2019.01.07-09.26.37:742][246]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Graphics/ModularBuildings/modularBuildings_053.modularBuildings_053:BodySetup_1516)
+[2019.01.07-09.26.37:742][246]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Graphics/ModularBuildings/modularBuildings_053.modularBuildings_053:BodySetup_1516)
+[2019.01.07-09.26.38:276][284]LogActorFactory: Actor Factory created modularBuildings_053
+[2019.01.07-09.26.38:276][284]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Graphics/ModularBuildings/modularBuildings_053.modularBuildings_053:BodySetup_1516)
+[2019.01.07-09.26.38:294][284]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Graphics/ModularBuildings/modularBuildings_053.modularBuildings_053:BodySetup_1516)
+[2019.01.07-09.26.40:343][429]Cmd: MODE ROTGRID=1
+[2019.01.07-09.26.41:377][508]LogStaticMesh: Building static mesh modularBuildings_054...
+[2019.01.07-09.26.41:408][508]LogStaticMesh: Built static mesh [0.03s] /Game/Graphics/ModularBuildings/modularBuildings_054.modularBuildings_054
+[2019.01.07-09.26.41:414][508]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (253) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2019.01.07-09.26.41:414][508]LogPhysics:Warning: Failed to cook convex: /Game/Graphics/ModularBuildings/modularBuildings_054.modularBuildings_054 0 (FlipX:0). The remaining elements will not get cooked.
+[2019.01.07-09.26.41:415][508]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (253) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2019.01.07-09.26.41:415][508]LogPhysics:Warning: Failed to cook convex: /Game/Graphics/ModularBuildings/modularBuildings_054.modularBuildings_054 0 (FlipX:1). The remaining elements will not get cooked.
+[2019.01.07-09.26.41:556][518]LogActorFactory: Actor Factory created modularBuildings_054
+[2019.01.07-09.26.41:556][518]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Graphics/ModularBuildings/modularBuildings_054.modularBuildings_054:BodySetup_1517)
+[2019.01.07-09.26.41:557][518]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Graphics/ModularBuildings/modularBuildings_054.modularBuildings_054:BodySetup_1517)
+[2019.01.07-09.26.42:066][553]LogActorFactory: Actor Factory created modularBuildings_054
+[2019.01.07-09.26.42:066][553]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Graphics/ModularBuildings/modularBuildings_054.modularBuildings_054:BodySetup_1517)
+[2019.01.07-09.26.42:082][553]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Graphics/ModularBuildings/modularBuildings_054.modularBuildings_054:BodySetup_1517)
+[2019.01.07-09.26.46:961][943]Cmd: DELETE
+[2019.01.07-09.26.46:961][943]Cmd: ACTOR DELETE
+[2019.01.07-09.26.46:962][943]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.07-09.26.46:983][943]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2019.01.07-09.26.47:601][ 16]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (modularBuildings_053)
+[2019.01.07-09.26.53:324][520]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (modularBuildings_053)
+[2019.01.07-09.27.26:024][256]Cmd: DELETE
+[2019.01.07-09.27.26:024][256]Cmd: ACTOR DELETE
+[2019.01.07-09.27.26:025][256]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.07-09.27.26:050][256]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2019.01.07-09.27.28:244][490]LogStaticMesh: Building static mesh modularBuildings_025...
+[2019.01.07-09.27.28:289][490]LogStaticMesh: Built static mesh [0.05s] /Game/Graphics/ModularBuildings/modularBuildings_025.modularBuildings_025
+[2019.01.07-09.27.28:464][505]LogActorFactory: Actor Factory created modularBuildings_025
+[2019.01.07-09.27.29:504][592]LogActorFactory: Actor Factory created modularBuildings_025
+[2019.01.07-09.27.48:652][284]LogStaticMesh: Building static mesh modularBuildings_022...
+[2019.01.07-09.27.48:688][284]LogStaticMesh: Built static mesh [0.04s] /Game/Graphics/ModularBuildings/modularBuildings_022.modularBuildings_022
+[2019.01.07-09.27.48:693][284]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (253) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2019.01.07-09.27.48:693][284]LogPhysics:Warning: Failed to cook convex: /Game/Graphics/ModularBuildings/modularBuildings_022.modularBuildings_022 0 (FlipX:0). The remaining elements will not get cooked.
+[2019.01.07-09.27.48:694][284]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (253) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2019.01.07-09.27.48:694][284]LogPhysics:Warning: Failed to cook convex: /Game/Graphics/ModularBuildings/modularBuildings_022.modularBuildings_022 0 (FlipX:1). The remaining elements will not get cooked.
+[2019.01.07-09.27.48:908][301]LogActorFactory: Actor Factory created modularBuildings_022
+[2019.01.07-09.27.48:908][301]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Graphics/ModularBuildings/modularBuildings_022.modularBuildings_022:BodySetup_1485)
+[2019.01.07-09.27.48:908][301]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Graphics/ModularBuildings/modularBuildings_022.modularBuildings_022:BodySetup_1485)
+[2019.01.07-09.27.49:633][352]LogActorFactory: Actor Factory created modularBuildings_022
+[2019.01.07-09.27.49:633][352]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Graphics/ModularBuildings/modularBuildings_022.modularBuildings_022:BodySetup_1485)
+[2019.01.07-09.27.49:650][352]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Graphics/ModularBuildings/modularBuildings_022.modularBuildings_022:BodySetup_1485)
+[2019.01.07-09.28.02:643][502]LogStaticMesh: Building static mesh modularBuildings_019...
+[2019.01.07-09.28.02:662][502]LogStaticMesh: Built static mesh [0.02s] /Game/Graphics/ModularBuildings/modularBuildings_019.modularBuildings_019
+[2019.01.07-09.28.02:667][502]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (253) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2019.01.07-09.28.02:667][502]LogPhysics:Warning: Failed to cook convex: /Game/Graphics/ModularBuildings/modularBuildings_019.modularBuildings_019 0 (FlipX:0). The remaining elements will not get cooked.
+[2019.01.07-09.28.02:850][515]LogActorFactory: Actor Factory created modularBuildings_019
+[2019.01.07-09.28.02:851][515]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Graphics/ModularBuildings/modularBuildings_019.modularBuildings_019] ConvexElem[0] invalid
+[2019.01.07-09.28.02:851][515]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Graphics/ModularBuildings/modularBuildings_019.modularBuildings_019] ConvexElem[0] invalid
+[2019.01.07-09.28.04:330][620]LogActorFactory: Actor Factory created modularBuildings_019
+[2019.01.07-09.28.04:330][620]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Graphics/ModularBuildings/modularBuildings_019.modularBuildings_019] ConvexElem[0] invalid
+[2019.01.07-09.28.04:346][620]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Graphics/ModularBuildings/modularBuildings_019.modularBuildings_019] ConvexElem[0] invalid
+[2019.01.07-09.28.49:162][616]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (modularBuildings_022)
+[2019.01.07-09.29.33:022][695]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
+[2019.01.07-09.29.54:172][509]LogActorFactory: Actor Factory created modularBuildings_063
+[2019.01.07-09.29.54:877][553]LogActorFactory: Actor Factory created modularBuildings_063
+[2019.01.07-09.31.06:025][569]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.07-09.31.09:481][828]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (modularBuildings_063)
+[2019.01.07-09.31.12:768][150]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.07-09.31.13:626][218]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (modularBuildings_063)
+[2019.01.07-09.31.18:938][762]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.07-09.31.26:250][327]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (modularBuildings_019)
+[2019.01.07-09.31.32:048][916]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (modularBuildings_022)
+[2019.01.07-09.32.02:202][551]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.07-09.32.05:696][845]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.07-09.32.05:714][845]PIE: New page: PIE session: Untitled (Jan 8, 2019, 1:32:05 AM)
+[2019.01.07-09.32.05:714][845]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_Untitled
+[2019.01.07-09.32.05:733][845]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018658s)
+[2019.01.07-09.32.05:734][845]LogAIModule: Creating AISystem for world Untitled
+[2019.01.07-09.32.05:734][845]LogPlayLevel: PIE: World Init took: (0.000943s)
+[2019.01.07-09.32.05:734][845]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/Untitled.Untitled to /Game/TopDownBP/Maps/UEDPIE_0_Untitled.Untitled (0.019926s)
+[2019.01.07-09.32.05:776][845]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.07-09.32.05:791][845]LogInit: FAudioDevice initialized.
+[2019.01.07-09.32.05:868][845]LogWorld: Game class is 'TopDownGameMode_C'
+[2019.01.07-09.32.05:900][845]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Graphics/ModularBuildings/modularBuildings_022.modularBuildings_022:BodySetup_1485)
+[2019.01.07-09.32.05:900][845]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Graphics/ModularBuildings/modularBuildings_019.modularBuildings_019] ConvexElem[0] invalid
+[2019.01.07-09.32.05:900][845]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_Untitled.Untitled up for play (max tick rate 0) at 2019.01.07-17.32.05
+[2019.01.07-09.32.05:901][845]LogWorld: Bringing up level for play took: 0.004157
+[2019.01.07-09.32.05:951][845]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 9 classes and 0 folders.
+[2019.01.07-09.32.06:006][845]LogBlueprintUserMessages: [Quest_Test_C_0] Соберите 5 коробок.
+[2019.01.07-09.32.06:020][845]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_Untitled 0.391
+[2019.01.07-09.32.06:080][846]LogRenderer: Reallocating scene render targets to support 1024x600 (Frame:270337).
+[2019.01.07-09.32.09:607][111]LogBlueprintUserMessages: [Interactable] Hello
+[2019.01.07-09.32.09:712][119]LogBlueprintUserMessages: [Interactable] Hello
+[2019.01.07-09.32.18:039][743]LogStaticMesh: Building static mesh modularBuildings_064...
+[2019.01.07-09.32.18:055][743]LogStaticMesh: Built static mesh [0.02s] /Game/Graphics/ModularBuildings/modularBuildings_064.modularBuildings_064
+[2019.01.07-09.32.18:171][750]LogActorFactory: Actor Factory created modularBuildings_064
+[2019.01.07-09.32.19:397][837]LogActorFactory: Actor Factory created modularBuildings_064
+[2019.01.07-09.32.24:464][209]Cmd: DELETE
+[2019.01.07-09.32.24:464][209]Cmd: ACTOR DELETE
+[2019.01.07-09.32.24:464][209]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.07-09.32.24:486][209]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2019.01.07-09.32.34:893][265]LogStaticMesh: Building static mesh modularBuildings_051...
+[2019.01.07-09.32.34:909][265]LogStaticMesh: Built static mesh [0.02s] /Game/Graphics/ModularBuildings/modularBuildings_051.modularBuildings_051
+[2019.01.07-09.32.35:122][284]LogActorFactory: Actor Factory created modularBuildings_051
+[2019.01.07-09.32.35:847][342]LogActorFactory: Actor Factory created modularBuildings_051
+[2019.01.07-09.32.37:214][460]Cmd: DELETE
+[2019.01.07-09.32.37:214][460]Cmd: ACTOR DELETE
+[2019.01.07-09.32.37:215][460]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.07-09.32.37:236][460]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2019.01.07-09.32.38:298][566]LogActorFactory: Actor Factory created modularBuildings_052
+[2019.01.07-09.32.38:921][605]LogActorFactory: Actor Factory created modularBuildings_052
+[2019.01.07-09.33.40:189][ 80]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (cliffBrown_block)
+[2019.01.07-09.33.46:996][648]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (modularBuildings_052)
+[2019.01.07-09.34.05:482][309]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (modularBuildings_052)
+[2019.01.07-09.34.47:237][987]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.07-09.34.56:330][754]LogStaticMesh: Building static mesh modularBuildings_058...
+[2019.01.07-09.34.56:352][754]LogStaticMesh: Built static mesh [0.02s] /Game/Graphics/ModularBuildings/modularBuildings_058.modularBuildings_058
+[2019.01.07-09.34.56:357][754]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (253) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2019.01.07-09.34.56:357][754]LogPhysics:Warning: Failed to cook convex: /Game/Graphics/ModularBuildings/modularBuildings_058.modularBuildings_058 0 (FlipX:0). The remaining elements will not get cooked.
+[2019.01.07-09.34.56:357][754]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (253) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2019.01.07-09.34.56:357][754]LogPhysics:Warning: Failed to cook convex: /Game/Graphics/ModularBuildings/modularBuildings_058.modularBuildings_058 0 (FlipX:1). The remaining elements will not get cooked.
+[2019.01.07-09.34.56:752][783]LogActorFactory: Actor Factory created modularBuildings_058
+[2019.01.07-09.34.56:752][783]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Graphics/ModularBuildings/modularBuildings_058.modularBuildings_058:BodySetup_1521)
+[2019.01.07-09.34.56:753][783]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Graphics/ModularBuildings/modularBuildings_058.modularBuildings_058:BodySetup_1521)
+[2019.01.07-09.34.57:873][860]LogActorFactory: Actor Factory created modularBuildings_058
+[2019.01.07-09.34.57:873][860]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Graphics/ModularBuildings/modularBuildings_058.modularBuildings_058:BodySetup_1521)
+[2019.01.07-09.34.57:896][860]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Graphics/ModularBuildings/modularBuildings_058.modularBuildings_058:BodySetup_1521)
+[2019.01.07-09.35.02:806][223]Cmd: DELETE
+[2019.01.07-09.35.02:806][223]Cmd: ACTOR DELETE
+[2019.01.07-09.35.02:807][223]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.07-09.35.02:831][223]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2019.01.07-09.35.06:476][546]LogStaticMesh: Building static mesh modularBuildings_036...
+[2019.01.07-09.35.06:491][546]LogStaticMesh: Built static mesh [0.02s] /Game/Graphics/ModularBuildings/modularBuildings_036.modularBuildings_036
+[2019.01.07-09.35.06:497][546]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (253) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2019.01.07-09.35.06:497][546]LogPhysics:Warning: Failed to cook convex: /Game/Graphics/ModularBuildings/modularBuildings_036.modularBuildings_036 0 (FlipX:0). The remaining elements will not get cooked.
+[2019.01.07-09.35.06:498][546]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (253) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2019.01.07-09.35.06:498][546]LogPhysics:Warning: Failed to cook convex: /Game/Graphics/ModularBuildings/modularBuildings_036.modularBuildings_036 0 (FlipX:1). The remaining elements will not get cooked.
+[2019.01.07-09.35.06:675][559]LogActorFactory: Actor Factory created modularBuildings_036
+[2019.01.07-09.35.06:675][559]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Graphics/ModularBuildings/modularBuildings_036.modularBuildings_036:BodySetup_1499)
+[2019.01.07-09.35.06:676][559]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Graphics/ModularBuildings/modularBuildings_036.modularBuildings_036:BodySetup_1499)
+[2019.01.07-09.35.07:330][614]LogActorFactory: Actor Factory created modularBuildings_036
+[2019.01.07-09.35.07:331][614]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Graphics/ModularBuildings/modularBuildings_036.modularBuildings_036:BodySetup_1499)
+[2019.01.07-09.35.07:347][614]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Graphics/ModularBuildings/modularBuildings_036.modularBuildings_036:BodySetup_1499)
+[2019.01.07-09.35.10:971][872]Cmd: DELETE
+[2019.01.07-09.35.10:971][872]Cmd: ACTOR DELETE
+[2019.01.07-09.35.10:972][872]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.07-09.35.10:992][872]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2019.01.07-09.35.15:261][255]LogStaticMesh: Building static mesh modularBuildings_033...
+[2019.01.07-09.35.15:312][255]LogStaticMesh: Built static mesh [0.05s] /Game/Graphics/ModularBuildings/modularBuildings_033.modularBuildings_033
+[2019.01.07-09.35.15:322][255]LogMaterial: Missing cached shader map for material Green, compiling. 
+[2019.01.07-09.35.15:384][256]LogActorFactory: Actor Factory created modularBuildings_033
+[2019.01.07-09.35.16:019][295]LogActorFactory: Actor Factory created modularBuildings_033
+[2019.01.07-09.35.18:813][460]Cmd: DELETE
+[2019.01.07-09.35.18:813][460]Cmd: ACTOR DELETE
+[2019.01.07-09.35.18:814][460]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.07-09.35.18:841][460]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2019.01.07-09.35.23:345][889]LogStaticMesh: Building static mesh modularBuildings_046...
+[2019.01.07-09.35.23:362][889]LogStaticMesh: Built static mesh [0.02s] /Game/Graphics/ModularBuildings/modularBuildings_046.modularBuildings_046
+[2019.01.07-09.35.23:368][889]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (253) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2019.01.07-09.35.23:368][889]LogPhysics:Warning: Failed to cook convex: /Game/Graphics/ModularBuildings/modularBuildings_046.modularBuildings_046 0 (FlipX:0). The remaining elements will not get cooked.
+[2019.01.07-09.35.23:368][889]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (253) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2019.01.07-09.35.23:368][889]LogPhysics:Warning: Failed to cook convex: /Game/Graphics/ModularBuildings/modularBuildings_046.modularBuildings_046 0 (FlipX:1). The remaining elements will not get cooked.
+[2019.01.07-09.35.23:503][899]LogActorFactory: Actor Factory created modularBuildings_046
+[2019.01.07-09.35.23:503][899]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Graphics/ModularBuildings/modularBuildings_046.modularBuildings_046:BodySetup_1509)
+[2019.01.07-09.35.23:503][899]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Graphics/ModularBuildings/modularBuildings_046.modularBuildings_046:BodySetup_1509)
+[2019.01.07-09.35.23:938][934]LogActorFactory: Actor Factory created modularBuildings_046
+[2019.01.07-09.35.23:938][934]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Graphics/ModularBuildings/modularBuildings_046.modularBuildings_046:BodySetup_1509)
+[2019.01.07-09.35.23:955][934]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Graphics/ModularBuildings/modularBuildings_046.modularBuildings_046:BodySetup_1509)
+[2019.01.07-09.35.29:856][369]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (modularBuildings_019)
+[2019.01.07-09.35.34:558][824]Cmd: EDIT COPY
+[2019.01.07-09.35.35:039][868]Cmd: EDIT PASTE
+[2019.01.07-09.35.35:043][868]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Graphics/ModularBuildings/modularBuildings_019.modularBuildings_019] ConvexElem[0] invalid
+[2019.01.07-09.35.35:043][868]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Graphics/ModularBuildings/modularBuildings_019.modularBuildings_019] ConvexElem[0] invalid
+[2019.01.07-09.35.35:043][868]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Graphics/ModularBuildings/modularBuildings_019.modularBuildings_019] ConvexElem[0] invalid
+[2019.01.07-09.35.47:101][969]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (modularBuildings_046)
+[2019.01.07-09.37.55:901][465]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.07-09.37.59:534][740]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (modularBuildings_046)
+[2019.01.07-09.38.02:587][961]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.07-09.38.07:262][338]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (modularBuildings_052)
+[2019.01.07-09.38.14:451][ 19]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (modularBuildings_022)
+[2019.01.07-09.38.15:009][ 73]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (modularBuildings_019)
+[2019.01.07-09.38.29:180][334]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.07-09.38.33:813][690]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (modularBuildings_046)
+[2019.01.07-09.38.38:140][ 71]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (modularBuildings_025)
+[2019.01.07-09.38.39:223][167]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (modularBuildings_046)
+[2019.01.07-09.38.50:690][146]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.07-09.38.53:863][379]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.07-09.39.00:976][955]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (modularBuildings_20)
+[2019.01.07-09.39.37:770][395]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (modularBuildings_046)
+[2019.01.07-09.39.40:727][680]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (modularBuildings_046)
+[2019.01.07-09.39.57:889][242]LogEditorViewport: Clicking Background
+[2019.01.07-09.39.58:524][313]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (modularBuildings_20)
+[2019.01.07-09.40.02:727][697]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.07-09.40.05:986][945]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.07-09.40.06:822][998]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.07-09.40.10:023][235]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.07-09.40.10:190][243]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.07-09.40.17:742][883]Cmd: TRANSACTION UNDO
+[2019.01.07-09.40.17:742][883]LogEditorTransaction: Undo Move Actors
+[2019.01.07-09.41.28:619][661]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.07-09.41.30:289][801]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.07-09.41.30:289][801]PIE: New page: PIE session: Untitled (Jan 8, 2019, 1:41:30 AM)
+[2019.01.07-09.41.30:289][801]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_Untitled
+[2019.01.07-09.41.30:295][801]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005907s)
+[2019.01.07-09.41.30:296][801]LogAIModule: Creating AISystem for world Untitled
+[2019.01.07-09.41.30:296][801]LogPlayLevel: PIE: World Init took: (0.001501s)
+[2019.01.07-09.41.30:297][801]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/Untitled.Untitled to /Game/TopDownBP/Maps/UEDPIE_0_Untitled.Untitled (0.007744s)
+[2019.01.07-09.41.30:338][801]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.07-09.41.30:353][801]LogInit: FAudioDevice initialized.
+[2019.01.07-09.41.30:404][801]LogWorld: Game class is 'TopDownGameMode_C'
+[2019.01.07-09.41.30:407][801]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Graphics/ModularBuildings/modularBuildings_022.modularBuildings_022:BodySetup_1485)
+[2019.01.07-09.41.30:407][801]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Graphics/ModularBuildings/modularBuildings_019.modularBuildings_019] ConvexElem[0] invalid
+[2019.01.07-09.41.30:408][801]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Graphics/ModularBuildings/modularBuildings_046.modularBuildings_046:BodySetup_1509)
+[2019.01.07-09.41.30:408][801]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Graphics/ModularBuildings/modularBuildings_019.modularBuildings_019] ConvexElem[0] invalid
+[2019.01.07-09.41.30:408][801]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_Untitled.Untitled up for play (max tick rate 0) at 2019.01.07-17.41.30
+[2019.01.07-09.41.30:408][801]LogWorld: Bringing up level for play took: 0.003937
+[2019.01.07-09.41.30:412][801]LogBlueprintUserMessages: [Quest_Test_C_1] Соберите 5 коробок.
+[2019.01.07-09.41.30:426][801]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_Untitled 0.797
+[2019.01.07-09.41.38:592][424]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (modularBuildings_046)
+[2019.01.07-09.41.58:932][201]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Graphics/ModularBuildings/modularBuildings_046.modularBuildings_046:BodySetup_1509)
+[2019.01.07-09.42.05:844][876]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (modularBuildings_063)
+[2019.01.07-09.42.25:900][740]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (modularBuildings_025)
+[2019.01.07-09.42.33:274][392]LogStaticMesh: Building static mesh modularBuildings_076...
+[2019.01.07-09.42.33:289][392]LogStaticMesh: Built static mesh [0.02s] /Game/Graphics/ModularBuildings/modularBuildings_076.modularBuildings_076
+[2019.01.07-09.42.35:205][572]LogActorFactory: Actor Factory created modularBuildings_076
+[2019.01.07-09.42.35:780][614]LogActorFactory: Actor Factory created modularBuildings_076
+[2019.01.07-09.43.35:237][887]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.07-09.43.35:237][887]PIE: New page: PIE session: Untitled (Jan 8, 2019, 1:43:35 AM)
+[2019.01.07-09.43.35:237][887]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_Untitled
+[2019.01.07-09.43.35:244][887]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006320s)
+[2019.01.07-09.43.35:245][887]LogAIModule: Creating AISystem for world Untitled
+[2019.01.07-09.43.35:245][887]LogPlayLevel: PIE: World Init took: (0.001251s)
+[2019.01.07-09.43.35:245][887]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/Untitled.Untitled to /Game/TopDownBP/Maps/UEDPIE_0_Untitled.Untitled (0.007801s)
+[2019.01.07-09.43.35:294][887]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.07-09.43.35:311][887]LogInit: FAudioDevice initialized.
+[2019.01.07-09.43.35:358][887]LogWorld: Game class is 'TopDownGameMode_C'
+[2019.01.07-09.43.35:362][887]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Graphics/ModularBuildings/modularBuildings_022.modularBuildings_022:BodySetup_1485)
+[2019.01.07-09.43.35:362][887]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Graphics/ModularBuildings/modularBuildings_019.modularBuildings_019] ConvexElem[0] invalid
+[2019.01.07-09.43.35:362][887]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Graphics/ModularBuildings/modularBuildings_046.modularBuildings_046:BodySetup_1509)
+[2019.01.07-09.43.35:363][887]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Graphics/ModularBuildings/modularBuildings_019.modularBuildings_019] ConvexElem[0] invalid
+[2019.01.07-09.43.35:363][887]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_Untitled.Untitled up for play (max tick rate 0) at 2019.01.07-17.43.35
+[2019.01.07-09.43.35:363][887]LogWorld: Bringing up level for play took: 0.004259
+[2019.01.07-09.43.35:367][887]LogBlueprintUserMessages: [Quest_Test_C_2] Соберите 5 коробок.
+[2019.01.07-09.43.35:381][887]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_Untitled -0.249
+[2019.01.07-09.44.39:956][493]LogStaticMesh: Building static mesh rock_small3...
+[2019.01.07-09.44.39:973][493]LogStaticMesh: Built static mesh [0.02s] /Game/Graphics/Nature/rock_small3.rock_small3
+[2019.01.07-09.44.40:145][503]LogActorFactory: Actor Factory created rock_small3
+[2019.01.07-09.44.40:951][557]LogActorFactory: Actor Factory created rock_small3
+[2019.01.07-09.45.13:668][396]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (rock_small3)
+[2019.01.07-09.45.17:574][825]Cmd: DELETE
+[2019.01.07-09.45.17:574][825]Cmd: ACTOR DELETE
+[2019.01.07-09.45.17:575][825]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.07-09.45.17:596][825]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2019.01.07-09.45.43:328][ 41]LogSavePackage: Save=40.07ms
+[2019.01.07-09.45.43:328][ 41]LogSavePackage: Moving '../../../../../TowerOfDefence/TopDownMiniGame/Saved/Untitled_Auto4926FB3A043EFBCD389608692214ABD90.tmp' to '../../../../../TowerOfDefence/TopDownMiniGame/Saved/Autosaves/Game/TopDownBP/Maps/Untitled_Auto4.umap'
+[2019.01.07-09.45.43:330][ 41]LogSavePackage: Total save time: 48.37ms
+[2019.01.07-09.45.43:330][ 41]LogSavePackage:Display: Finished SavePackage ../../../../../TowerOfDefence/TopDownMiniGame/Saved/Autosaves/Game/TopDownBP/Maps/Untitled_Auto4.umap
+[2019.01.07-09.45.43:333][ 41]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/Untitled' took 0.079
+[2019.01.07-09.45.43:333][ 41]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.079
+[2019.01.07-10.32.39:265][312]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Maps/Untitled" FILE="../../../../../TowerOfDefence/TopDownMiniGame/Content/TopDownBP/Maps/Untitled.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.01.07-10.32.39:332][312]LogSavePackage: Save=37.75ms
+[2019.01.07-10.32.39:333][312]LogSavePackage: Moving '../../../../../TowerOfDefence/TopDownMiniGame/Saved/Untitled6B1BA8F749F2F8D4733F9989CF8C1610.tmp' to '../../../../../TowerOfDefence/TopDownMiniGame/Content/TopDownBP/Maps/Untitled.umap'
+[2019.01.07-10.32.39:335][312]LogSavePackage: Total save time: 46.23ms
+[2019.01.07-10.32.39:335][312]LogSavePackage:Display: Finished SavePackage ../../../../../TowerOfDefence/TopDownMiniGame/Content/TopDownBP/Maps/Untitled.umap
+[2019.01.07-10.32.41:253][505]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2019.01.07-10.32.41:550][506]Cmd: QUIT_EDITOR
+[2019.01.07-10.32.41:670][506]LogExit: Preparing to exit.
+[2019.01.07-10.32.41:974][506]LogExit: Editor shut down
+[2019.01.07-10.32.41:974][506]LogExit: Transaction tracking system shut down
+[2019.01.07-10.32.42:128][506]LogObj: Freed 0b from 0 cluster array pools.
+[2019.01.07-10.32.42:128][506]LogExit: Object subsystem successfully closed.
+[2019.01.07-10.32.42:148][506]LogD3D11RHI: Shutdown
+[2019.01.07-10.32.42:148][506]LogD3D11RHI: CleanupD3DDevice
+[2019.01.07-10.32.42:266][506]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.01.07-10.32.42:279][506]LogDerivedDataCache: Shutdown
+[2019.01.07-10.32.42:280][506]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (205)
+[2019.01.07-10.32.42:280][506]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (204)
+[2019.01.07-10.32.42:280][506]LogModuleManager: Shutting down and abandoning module CrashTracker (203)
+[2019.01.07-10.32.42:280][506]LogModuleManager: Shutting down and abandoning module SceneOutliner (202)
+[2019.01.07-10.32.42:280][506]LogModuleManager: Shutting down and abandoning module SuperSearch (201)
+[2019.01.07-10.32.42:280][506]LogModuleManager: Shutting down and abandoning module WidgetCarousel (200)
+[2019.01.07-10.32.42:280][506]LogModuleManager: Shutting down and abandoning module AddContentDialog (199)
+[2019.01.07-10.32.42:281][506]LogModuleManager: Shutting down and abandoning module GameplayTags (198)
+[2019.01.07-10.32.42:282][506]LogModuleManager: Shutting down and abandoning module EditorWidgets (197)
+[2019.01.07-10.32.42:282][506]LogModuleManager: Shutting down and abandoning module CollectionManager (196)
+[2019.01.07-10.32.42:282][506]LogModuleManager: Shutting down and abandoning module StatsViewer (195)
+[2019.01.07-10.32.42:282][506]LogModuleManager: Shutting down and abandoning module FoliageEdit (194)
+[2019.01.07-10.32.42:282][506]LogModuleManager: Shutting down and abandoning module LandscapeEditor (193)
+[2019.01.07-10.32.42:282][506]LogModuleManager: Shutting down and abandoning module ActorPickerMode (192)
+[2019.01.07-10.32.42:282][506]LogModuleManager: Shutting down and abandoning module GeometryMode (191)
+[2019.01.07-10.32.42:282][506]LogModuleManager: Shutting down and abandoning module TextureAlignMode (190)
+[2019.01.07-10.32.42:282][506]LogModuleManager: Shutting down and abandoning module BspMode (189)
+[2019.01.07-10.32.42:282][506]LogModuleManager: Shutting down and abandoning module PlacementMode (188)
+[2019.01.07-10.32.42:282][506]LogModuleManager: Shutting down and abandoning module AutomationWorker (187)
+[2019.01.07-10.32.42:282][506]LogModuleManager: Shutting down and abandoning module CharacterAI (186)
+[2019.01.07-10.32.42:282][506]LogModuleManager: Shutting down and abandoning module SmartSnapping (185)
+[2019.01.07-10.32.42:282][506]LogModuleManager: Shutting down and abandoning module ViewportSnapping (184)
+[2019.01.07-10.32.42:282][506]LogModuleManager: Shutting down and abandoning module LogVisualizer (183)
+[2019.01.07-10.32.42:282][506]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (182)
+[2019.01.07-10.32.42:282][506]LogModuleManager: Shutting down and abandoning module IntroTutorials (181)
+[2019.01.07-10.32.42:282][506]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (180)
+[2019.01.07-10.32.42:282][506]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (179)
+[2019.01.07-10.32.42:282][506]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (178)
+[2019.01.07-10.32.42:282][506]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (177)
+[2019.01.07-10.32.43:139][506]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (176)
+[2019.01.07-10.32.43:139][506]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (175)
+[2019.01.07-10.32.43:139][506]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (174)
+[2019.01.07-10.32.43:139][506]LogModuleManager: Shutting down and abandoning module MergeActors (173)
+[2019.01.07-10.32.43:139][506]LogModuleManager: Shutting down and abandoning module SizeMap (172)
+[2019.01.07-10.32.43:139][506]LogModuleManager: Shutting down and abandoning module TreeMap (171)
+[2019.01.07-10.32.43:139][506]LogModuleManager: Shutting down and abandoning module ReferenceViewer (170)
+[2019.01.07-10.32.43:139][506]LogModuleManager: Shutting down and abandoning module LocalizationService (169)
+[2019.01.07-10.32.43:139][506]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (168)
+[2019.01.07-10.32.43:139][506]LogModuleManager: Shutting down and abandoning module HardwareTargeting (167)
+[2019.01.07-10.32.43:139][506]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (166)
+[2019.01.07-10.32.43:139][506]LogModuleManager: Shutting down and abandoning module UndoHistory (165)
+[2019.01.07-10.32.43:139][506]LogModuleManager: Shutting down and abandoning module UserFeedback (164)
+[2019.01.07-10.32.43:139][506]LogModuleManager: Shutting down and abandoning module XmlParser (163)
+[2019.01.07-10.32.43:139][506]LogModuleManager: Shutting down and abandoning module Blutility (162)
+[2019.01.07-10.32.43:139][506]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (161)
+[2019.01.07-10.32.43:139][506]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (160)
+[2019.01.07-10.32.43:139][506]LogModuleManager: Shutting down and abandoning module InputBindingEditor (159)
+[2019.01.07-10.32.43:139][506]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (158)
+[2019.01.07-10.32.43:139][506]LogModuleManager: Shutting down and abandoning module SettingsEditor (157)
+[2019.01.07-10.32.43:139][506]LogModuleManager: Shutting down and abandoning module ProjectLauncher (156)
+[2019.01.07-10.32.43:139][506]LogModuleManager: Shutting down and abandoning module SessionFrontend (155)
+[2019.01.07-10.32.43:139][506]LogModuleManager: Shutting down and abandoning module ProfilerClient (154)
+[2019.01.07-10.32.43:139][506]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (153)
+[2019.01.07-10.32.43:139][506]LogModuleManager: Shutting down and abandoning module DeviceManager (152)
+[2019.01.07-10.32.43:170][506]LogModuleManager: Shutting down and abandoning module AutomationController (151)
+[2019.01.07-10.32.43:170][506]LogModuleManager: Shutting down and abandoning module AutomationWindow (150)
+[2019.01.07-10.32.43:170][506]LogModuleManager: Shutting down and abandoning module Layers (149)
+[2019.01.07-10.32.43:170][506]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (148)
+[2019.01.07-10.32.43:170][506]LogModuleManager: Shutting down and abandoning module DetailCustomizations (147)
+[2019.01.07-10.32.43:170][506]LogModuleManager: Shutting down and abandoning module PackagesDialog (146)
+[2019.01.07-10.32.43:171][506]LogModuleManager: Shutting down and abandoning module Persona (145)
+[2019.01.07-10.32.43:171][506]LogModuleManager: Shutting down and abandoning module Kismet (144)
+[2019.01.07-10.32.43:171][506]LogModuleManager: Shutting down and abandoning module GraphEditor (143)
+[2019.01.07-10.32.43:171][506]LogModuleManager: Shutting down and abandoning module ClassViewer (142)
+[2019.01.07-10.32.43:172][506]LogModuleManager: Shutting down and abandoning module Toolbox (141)
+[2019.01.07-10.32.43:172][506]LogModuleManager: Shutting down and abandoning module ModuleUI (140)
+[2019.01.07-10.32.43:172][506]LogModuleManager: Shutting down and abandoning module MovieSceneTools (139)
+[2019.01.07-10.32.43:172][506]LogModuleManager: Shutting down and abandoning module OutputLog (138)
+[2019.01.07-10.32.43:172][506]LogModuleManager: Shutting down and abandoning module GammaUI (137)
+[2019.01.07-10.32.43:172][506]LogModuleManager: Shutting down and abandoning module Documentation (136)
+[2019.01.07-10.32.43:172][506]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (135)
+[2019.01.07-10.32.43:172][506]LogModuleManager: Shutting down and abandoning module AnalyticsET (134)
+[2019.01.07-10.32.43:172][506]LogModuleManager: Shutting down and abandoning module Analytics (133)
+[2019.01.07-10.32.43:172][506]LogModuleManager: Shutting down and abandoning module PortalServices (132)
+[2019.01.07-10.32.43:172][506]LogModuleManager: Shutting down and abandoning module PortalRpc (131)
+[2019.01.07-10.32.43:172][506]LogModuleManager: Shutting down and abandoning module MessagingRpc (130)
+[2019.01.07-10.32.43:172][506]LogModuleManager: Shutting down and abandoning module AITestSuite (129)
+[2019.01.07-10.32.43:172][506]LogModuleManager: Shutting down and abandoning module GameplayDebugger (128)
+[2019.01.07-10.32.43:172][506]LogModuleManager: Shutting down and abandoning module AIModule (127)
+[2019.01.07-10.32.43:172][506]LogModuleManager: Shutting down and abandoning module ProfilerService (126)
+[2019.01.07-10.32.43:363][506]LogModuleManager: Shutting down and abandoning module TaskGraph (125)
+[2019.01.07-10.32.43:363][506]LogModuleManager: Shutting down and abandoning module SlateRemote (124)
+[2019.01.07-10.32.43:363][506]LogModuleManager: Shutting down and abandoning module SteamVRController (123)
+[2019.01.07-10.32.43:363][506]LogModuleManager: Shutting down and abandoning module SteamVR (122)
+[2019.01.07-10.32.43:363][506]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (121)
+[2019.01.07-10.32.43:363][506]LogModuleManager: Shutting down and abandoning module OculusLibrary (120)
+[2019.01.07-10.32.43:363][506]LogModuleManager: Shutting down and abandoning module OculusInput (119)
+[2019.01.07-10.32.43:363][506]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (118)
+[2019.01.07-10.32.43:363][506]LogModuleManager: Shutting down and abandoning module CableComponent (117)
+[2019.01.07-10.32.43:363][506]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (116)
+[2019.01.07-10.32.43:363][506]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (115)
+[2019.01.07-10.32.43:363][506]LogModuleManager: Shutting down and abandoning module HTML5Networking (114)
+[2019.01.07-10.32.43:363][506]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (113)
+[2019.01.07-10.32.43:363][506]LogModuleManager: Shutting down and abandoning module PluginBrowser (112)
+[2019.01.07-10.32.43:364][506]LogModuleManager: Shutting down and abandoning module EpicSurvey (111)
+[2019.01.07-10.32.43:364][506]LogModuleManager: Shutting down and abandoning module DesktopPlatform (110)
+[2019.01.07-10.32.43:364][506]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (109)
+[2019.01.07-10.32.43:364][506]LogModuleManager: Shutting down and abandoning module UObjectPlugin (108)
+[2019.01.07-10.32.43:364][506]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (107)
+[2019.01.07-10.32.43:364][506]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (106)
+[2019.01.07-10.32.43:364][506]LogModuleManager: Shutting down and abandoning module SourceControl (105)
+[2019.01.07-10.32.43:367][506]LogModuleManager: Shutting down and abandoning module GitSourceControl (104)
+[2019.01.07-10.32.43:367][506]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (103)
+[2019.01.07-10.32.43:367][506]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (102)
+[2019.01.07-10.32.43:367][506]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (101)
+[2019.01.07-10.32.43:367][506]LogModuleManager: Shutting down and abandoning module MeshPaint (100)
+[2019.01.07-10.32.43:368][506]LogModuleManager: Shutting down and abandoning module HotReload (99)
+[2019.01.07-10.32.43:369][506]LogModuleManager: Shutting down and abandoning module MainFrame (98)
+[2019.01.07-10.32.43:369][506]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
+[2019.01.07-10.32.43:370][506]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (96)
+[2019.01.07-10.32.43:375][506]LogModuleManager: Shutting down and abandoning module AssetRegistry (95)
+[2019.01.07-10.32.43:541][506]LogModuleManager: Shutting down and abandoning module ContentBrowser (94)
+[2019.01.07-10.32.43:542][506]LogModuleManager: Shutting down and abandoning module Paper2DEditor (93)
+[2019.01.07-10.32.43:542][506]LogModuleManager: Shutting down and abandoning module UdpMessaging (92)
+[2019.01.07-10.32.43:643][506]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (91)
+[2019.01.07-10.32.43:643][506]LogModuleManager: Shutting down and abandoning module Paper2D (90)
+[2019.01.07-10.32.43:643][506]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (89)
+[2019.01.07-10.32.43:643][506]LogModuleManager: Shutting down and abandoning module Media (88)
+[2019.01.07-10.32.43:643][506]LogModuleManager: Shutting down and abandoning module WmfMedia (87)
+[2019.01.07-10.32.43:647][506]LogModuleManager: Shutting down and abandoning module MediaAssets (86)
+[2019.01.07-10.32.43:647][506]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (85)
+[2019.01.07-10.32.43:647][506]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (84)
+[2019.01.07-10.32.43:647][506]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (83)
+[2019.01.07-10.32.43:647][506]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (82)
+[2019.01.07-10.32.43:647][506]LogModuleManager: Shutting down and abandoning module PropertyEditor (81)
+[2019.01.07-10.32.43:647][506]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (80)
+[2019.01.07-10.32.43:647][506]LogModuleManager: Shutting down and abandoning module FunctionalTesting (79)
+[2019.01.07-10.32.43:647][506]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (78)
+[2019.01.07-10.32.43:647][506]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2019.01.07-10.32.43:647][506]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2019.01.07-10.32.43:647][506]LogModuleManager: Shutting down and abandoning module Sequencer (75)
+[2019.01.07-10.32.43:647][506]LogModuleManager: Shutting down and abandoning module AssetTools (74)
+[2019.01.07-10.32.43:647][506]LogModuleManager: Shutting down and abandoning module UMGEditor (73)
+[2019.01.07-10.32.43:647][506]LogModuleManager: Shutting down and abandoning module UMG (72)
+[2019.01.07-10.32.43:647][506]LogModuleManager: Shutting down and abandoning module SlateReflector (71)
+[2019.01.07-10.32.43:648][506]LogModuleManager: Shutting down and abandoning module Slate (70)
+[2019.01.07-10.32.43:648][506]LogModuleManager: Shutting down and abandoning module EditorStyle (69)
+[2019.01.07-10.32.43:652][506]LogModuleManager: Shutting down and abandoning module SessionServices (68)
+[2019.01.07-10.32.43:652][506]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (67)
+[2019.01.07-10.32.43:652][506]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (66)
+[2019.01.07-10.32.43:652][506]LogModuleManager: Shutting down and abandoning module XAudio2 (65)
+[2019.01.07-10.32.43:652][506]LogModuleManager: Shutting down and abandoning module Networking (63)
+[2019.01.07-10.32.43:652][506]LogModuleManager: Shutting down and abandoning module Core (62)
+[2019.01.07-10.32.43:652][506]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2019.01.07-10.32.43:652][506]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2019.01.07-10.32.43:652][506]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2019.01.07-10.32.43:652][506]LogModuleManager: Shutting down and abandoning module CookingStats (58)
+[2019.01.07-10.32.43:652][506]LogModuleManager: Shutting down and abandoning module DerivedDataCache (57)
+[2019.01.07-10.32.43:652][506]LogDerivedDataCache: Shutdown
+[2019.01.07-10.32.43:652][506]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2019.01.07-10.32.43:652][506]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2019.01.07-10.32.43:652][506]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2019.01.07-10.32.43:652][506]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2019.01.07-10.32.43:652][506]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2019.01.07-10.32.43:652][506]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2019.01.07-10.32.43:653][506]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2019.01.07-10.32.43:653][506]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2019.01.07-10.32.43:653][506]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2019.01.07-10.32.43:653][506]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2019.01.07-10.32.43:653][506]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2019.01.07-10.32.43:653][506]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2019.01.07-10.32.43:653][506]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2019.01.07-10.32.43:653][506]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2019.01.07-10.32.43:653][506]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2019.01.07-10.32.43:653][506]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2019.01.07-10.32.43:653][506]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2019.01.07-10.32.43:653][506]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2019.01.07-10.32.43:653][506]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2019.01.07-10.32.43:653][506]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2019.01.07-10.32.43:653][506]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2019.01.07-10.32.43:653][506]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2019.01.07-10.32.43:653][506]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2019.01.07-10.32.43:653][506]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2019.01.07-10.32.43:653][506]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2019.01.07-10.32.43:653][506]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2019.01.07-10.32.43:653][506]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2019.01.07-10.32.43:653][506]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2019.01.07-10.32.43:653][506]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2019.01.07-10.32.43:653][506]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2019.01.07-10.32.43:653][506]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2019.01.07-10.32.43:653][506]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2019.01.07-10.32.43:653][506]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2019.01.07-10.32.43:653][506]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2019.01.07-10.32.43:653][506]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2019.01.07-10.32.43:653][506]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2019.01.07-10.32.43:653][506]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2019.01.07-10.32.43:653][506]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2019.01.07-10.32.45:657][506]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2019.01.07-10.32.45:657][506]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2019.01.07-10.32.45:657][506]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2019.01.07-10.32.45:657][506]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2019.01.07-10.32.45:657][506]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2019.01.07-10.32.45:657][506]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2019.01.07-10.32.45:657][506]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2019.01.07-10.32.45:661][506]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2019.01.07-10.32.45:661][506]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2019.01.07-10.32.45:661][506]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2019.01.07-10.32.45:661][506]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2019.01.07-10.32.45:661][506]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2019.01.07-10.32.45:661][506]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2019.01.07-10.32.45:661][506]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2019.01.07-10.32.45:661][506]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2019.01.07-10.32.45:661][506]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2019.01.07-10.32.45:661][506]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2019.01.07-10.32.45:663][506]LogExit: Exiting.
+[2019.01.07-10.32.45:666][506]Log file closed, 01/07/19 18:32:45
