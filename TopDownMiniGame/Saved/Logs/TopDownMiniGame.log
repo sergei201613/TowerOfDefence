@@ -1,11 +1,20 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿Log file open, 01/08/19 12:04:47
 LogInit:Display: Running engine for game: TopDownMiniGame
 LogPlatformFile: Not using cached read wrapper
 LogInit:Display: RandInit(2105540893) SRandInit(2105540895).
 LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
 LogStats: Stats thread started at 0.069063
+=======
+﻿Log file open, 01/06/19 17:22:57
+LogInit:Display: Running engine for game: TopDownMiniGame
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1948068146) SRandInit(-1948068144).
+LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+LogStats: Stats thread started at 1.004145
+>>>>>>> ef9877b757a6f4541793f69a666b0254414c0e9b
 =======
 ﻿Log file open, 01/06/19 17:22:57
 LogInit:Display: Running engine for game: TopDownMiniGame
@@ -47,6 +56,7 @@ LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
 LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
 LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 [2019.01.08-04.04.47:784][  0]LogInit: Selected Device Profile: [Windows]
@@ -742,6 +752,8 @@ LogInit: Object subsystem initialized
 =======
 =======
 >>>>>>> ef9877b757a6f4541793f69a666b0254414c0e9b
+=======
+>>>>>>> ef9877b757a6f4541793f69a666b0254414c0e9b
 [2019.01.06-09.22.59:653][  0]LogInit: Selected Device Profile: [Windows]
 [2019.01.06-09.22.59:653][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
 [2019.01.06-09.22.59:728][  0]LogInit: Computer: 1-ПК
@@ -1178,6 +1190,9 @@ LogInit: Object subsystem initialized
 [2019.01.06-10.19.14:644][152]LogExit: Exiting.
 [2019.01.06-10.19.17:205][152]Log file closed, 01/06/19 18:19:17
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ef9877b757a6f4541793f69a666b0254414c0e9b
+=======
 >>>>>>> ef9877b757a6f4541793f69a666b0254414c0e9b
 =======
 >>>>>>> ef9877b757a6f4541793f69a666b0254414c0e9b
