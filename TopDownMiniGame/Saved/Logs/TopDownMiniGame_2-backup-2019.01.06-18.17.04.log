@@ -1,0 +1,1230 @@
+﻿Log file open, 01/05/19 15:54:22
+LogInit:Display: Running engine for game: TopDownMiniGame
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1634042966) SRandInit(1634042969).
+LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+LogStats: Stats thread started at 0.340975
+LogInit: Version: 4.11.2-2946394+++UE4+Release-4.11
+LogInit: API Version: 2927265
+LogInit: Compiled (64-bit): Apr 18 2016 02:18:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.11
+LogInit: Command line:  
+LogInit: Base directory: D:/UE_4.11/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.01.05-07.54.26:365][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.05-07.54.26:365][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.01.05-07.54.28:387][  0]LogInit: Computer: 1-ПК
+[2019.01.05-07.54.28:761][  0]LogInit: User: 1
+[2019.01.05-07.54.28:762][  0]LogInit: CPU Page size=65536, Cores=2
+[2019.01.05-07.54.28:762][  0]LogInit: High frequency timer resolution =2.338466 MHz
+[2019.01.05-07.54.28:994][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx)
+[2019.01.05-07.54.29:364][  0]LogMemory: Platform Memory Stats for Windows
+[2019.01.05-07.54.29:364][  0]LogMemory: Process Physical Memory: 315.80 MB used, 315.80 MB peak
+[2019.01.05-07.54.29:364][  0]LogMemory: Process Virtual Memory: 316.09 MB used, 316.09 MB peak
+[2019.01.05-07.54.29:364][  0]LogMemory: Physical Memory: 3437.77 MB used, 4010.14 MB total
+[2019.01.05-07.54.29:364][  0]LogMemory: Virtual Memory: 623.42 MB used, 8388608.00 MB total
+[2019.01.05-07.54.53:391][  0]LogTextLocalizationManager: No translations for ('ru-RU') exist, falling back to 'en' for localization and internationalization data.
+[2019.01.05-07.55.10:740][  0]LogD3D11RHI: D3D11 adapters:
+[2019.01.05-07.55.17:931][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 410M' (Feature Level 11_0)
+[2019.01.05-07.55.17:931][  0]LogD3D11RHI:       969MB of dedicated video memory, 0MB of dedicated system memory, and 1749MB of shared system memory, 1 output[s]
+[2019.01.05-07.55.17:995][  0]LogD3D11RHI:    1. 'NVIDIA GeForce 410M' (Feature Level 11_0)
+[2019.01.05-07.55.17:995][  0]LogD3D11RHI:       969MB of dedicated video memory, 0MB of dedicated system memory, and 1749MB of shared system memory, 0 output[s]
+[2019.01.05-07.55.17:995][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.01.05-07.55.18:017][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.01.05-07.55.18:058][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 3000
+[2019.01.05-07.55.18:059][  0]LogD3D11RHI:   Driver Version: Unknown (internal Unknown)
+[2019.01.05-07.55.18:059][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.01.05-07.55.18:059][  0]LogRHI: Texture pool is 1290 MB (70% of 1843 MB)
+[2019.01.05-07.55.18:318][  0]LogD3D11RHI: Async texture creation enabled
+[2019.01.05-07.55.20:641][  0]LogShaderCompilers: Guid format shader working directory is -33 characters bigger than the processId version (../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Intermediate/Shaders/WorkingDirectory/5944/).
+[2019.01.05-07.55.20:641][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/1/AppData/Local/Temp/UnrealShaderWorkingDir/3E2D52314597218730CABBBB6FB4173B/'.
+[2019.01.05-07.55.20:641][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2019.01.05-07.56.14:046][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2019.01.05-07.56.14:307][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2019.01.05-07.56.14:612][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.01.05-07.56.14:847][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2019.01.05-07.56.15:065][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2019.01.05-07.56.15:365][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2019.01.05-07.56.15:680][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2019.01.05-07.56.15:879][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2019.01.05-07.56.15:966][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2019.01.05-07.56.16:484][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2019.01.05-07.56.16:765][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2019.01.05-07.56.17:540][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2019.01.05-07.56.17:540][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2019.01.05-07.56.17:882][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2019.01.05-07.56.19:114][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2019.01.05-07.56.19:120][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2019.01.05-07.56.19:358][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.01.05-07.56.19:546][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2019.01.05-07.56.19:880][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2019.01.05-07.56.19:880][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2019.01.05-07.56.27:209][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2019.01.05-07.56.28:774][  0]LogDerivedDataCache: Loaded boot cache 1.54s 46MB C:/Users/1/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2019.01.05-07.56.28:775][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/1/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
+[2019.01.05-07.56.28:775][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.01.05-07.56.28:775][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.01.05-07.56.28:775][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.01.05-07.56.28:775][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.01.05-07.56.28:876][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.01.05-07.56.28:890][  0]LogDerivedDataCache: Using Local data cache path C:/Users/1/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.01.05-07.56.37:333][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.05-07.56.37:406][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2019.01.05-07.56.38:700][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2019.01.05-07.56.40:542][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2019.01.05-07.56.40:542][  0]LogMeshUtilities: No automatic mesh merging module available
+[2019.01.05-07.56.40:542][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2019.01.05-07.56.47:174][  0]LogUObjectArray: 27679 objects as part of root set at end of initial load.
+[2019.01.05-07.56.47:186][  0]LogUObjectAllocator: 5591600 out of 0 bytes used by permanent object pool.
+[2019.01.05-07.56.47:186][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.01.05-07.56.47:263][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2019.01.05-07.56.53:440][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.01.05-07.56.53:440][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.01.05-07.57.11:111][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2019.01.05-07.57.11:111][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2019.01.05-07.57.11:111][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2019.01.05-07.57.11:111][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2019.01.05-07.57.11:111][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2019.01.05-07.57.11:111][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2019.01.05-07.58.06:149][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.01.05-07.58.06:972][  0]LogAssetRegistry: FAssetRegistry took 0.0214 seconds to start up
+[2019.01.05-07.58.09:957][  0]SourceControl: Info Source control is disabled
+[2019.01.05-07.58.09:959][  0]SourceControl: Info Source control is disabled
+[2019.01.05-07.58.10:304][  0]SourceControl: Info Source control is disabled
+[2019.01.05-07.58.10:438][  0]SourceControl: Info Source control is disabled
+[2019.01.05-07.58.12:095][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.05-07.58.12:846][  0]LogEngine: Initializing Engine...
+[2019.01.05-07.58.14:388][  0]LogAIModule: Creating AISystem for world NewWorld
+[2019.01.05-07.58.14:468][  0]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.05-07.58.14:487][  0]LogInit: FAudioDevice initialized.
+[2019.01.05-07.58.14:550][  0]LogDerivedDataCache: Saved boot cache 0.06s 46MB C:/Users/1/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2019.01.05-07.58.14:558][  0]LogInit: Texture streaming: Enabled
+[2019.01.05-07.58.15:702][  0]LogInit: Transaction tracking system initialized
+[2019.01.05-07.58.17:524][  0]BlueprintLog: New page: Editor Load
+[2019.01.05-07.58.23:896][  0]LocalizationService: Info Localization service is disabled
+[2019.01.05-07.58.29:378][  0]LogConsoleResponse:Display: 
+[2019.01.05-07.58.36:572][  0]LogFileCache: Scanning file cache for directory 'D:/sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/' took 0.02s
+[2019.01.05-07.58.36:572][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2019.01.05-07.58.36:659][  0]LogCook:Display: Mobile HDR setting 1
+[2019.01.05-07.58.36:692][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2019.01.05-07.58.41:158][  0]SourceControl: Info Source control is disabled
+[2019.01.05-07.58.41:227][  0]Cmd: MAP LOAD FILE="../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.05-07.58.41:338][  0]LightingResults: New page: Lighting Build
+[2019.01.05-07.58.41:625][  0]MapCheck: New page: Map Check
+[2019.01.05-07.58.41:625][  0]LightingResults: New page: Lighting Build
+[2019.01.05-07.59.05:505][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2019.01.05-07.59.05:926][  0]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Graphics/ModularBuildings/modularBuildings_004.modularBuildings_004] ConvexElem[0] invalid
+[2019.01.05-07.59.06:627][  0]LogEditorServer: Finished looking for orphan Actors (0.034 secs)
+[2019.01.05-07.59.06:995][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.05-07.59.07:122][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 126.78ms to complete.
+[2019.01.05-07.59.07:122][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 25.894
+[2019.01.05-07.59.09:431][  0]LogCollectionManager: Loaded 0 collections in 0.048523 seconds
+[2019.01.05-07.59.10:292][  0]LogFileCache: Scanning file cache for directory 'D:/sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Saved/Collections/' took 0.01s
+[2019.01.05-07.59.10:292][  0]LogFileCache: Scanning file cache for directory 'D:/sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/Developers/1/Collections/' took 0.00s
+[2019.01.05-07.59.10:292][  0]LogFileCache: Scanning file cache for directory 'D:/sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/Collections/' took 0.00s
+[2019.01.05-07.59.10:292][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2019.01.05-07.59.10:373][  0]LogContentBrowser: Native class hierarchy populated in 0.0798 seconds. Added 1979 classes and 343 folders.
+[2019.01.05-07.59.10:767][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.05-07.59.10:767][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.05-07.59.10:768][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0008 seconds. Added 12 classes and 0 folders.
+[2019.01.05-07.59.10:809][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.01.05-07.59.12:565][  0]LogContentBrowser: Native class hierarchy updated for 'SuperSearch' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2019.01.05-07.59.17:518][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0020 seconds. Added 0 classes and 0 folders.
+[2019.01.05-07.59.17:735][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0043 seconds. Added 1 classes and 2 folders.
+[2019.01.05-07.59.18:195][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2019.01.05-07.59.18:405][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2019.01.05-07.59.18:746][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2019.01.05-07.59.18:746][  0]LogLoad: Full Startup: 297.98 seconds (BP compile: 3.89 seconds)
+[2019.01.05-07.59.18:747][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2019.01.05-07.59.18:747][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2019.01.05-07.59.19:172][  0]LogOcInput: OculusInput pre-init called
+[2019.01.05-07.59.20:010][  0]LogContentStreaming: Texture pool size now 200 MB
+[2019.01.05-07.59.21:237][  0]LogRenderer: Reallocating scene render targets to support 856x408 (Frame:2).
+[2019.01.05-07.59.23:858][  4]LogAssetRegistry: Asset discovery search completed in 76.9064 seconds
+[2019.01.05-07.59.24:182][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.01.05-07.59.24:182][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.323631 seconds (updated 0 objects)
+[2019.01.05-07.59.43:732][468]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.05-07.59.43:732][468]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.05-07.59.44:552][468]PIE: New page: PIE session: TopDownExampleMap (Jan 5, 2019, 11:59:43 PM)
+[2019.01.05-07.59.44:552][468]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2019.01.05-07.59.44:600][468]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048072s)
+[2019.01.05-07.59.44:601][468]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2019.01.05-07.59.44:601][468]LogPlayLevel: PIE: World Init took: (0.001110s)
+[2019.01.05-07.59.44:602][468]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.049524s)
+[2019.01.05-07.59.44:672][468]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.05-07.59.44:687][468]LogInit: FAudioDevice initialized.
+[2019.01.05-07.59.44:761][468]LogWorld: Game class is 'TopDownGameMode_C'
+[2019.01.05-07.59.44:804][468]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Graphics/ModularBuildings/modularBuildings_004.modularBuildings_004] ConvexElem[0] invalid
+[2019.01.05-07.59.44:808][468]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2019.01.05-15.59.44
+[2019.01.05-07.59.44:810][468]LogWorld: Bringing up level for play took: 0.025635
+[2019.01.05-07.59.45:083][468]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 9 classes and 0 folders.
+[2019.01.05-07.59.45:086][468]LogBlueprintUserMessages: [Quest_Test_C_0] Соберите 5 коробок.
+[2019.01.05-07.59.45:108][468]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 2.092
+[2019.01.05-07.59.45:109][468]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.05-07.59.46:454][496]LogBlueprintUserMessages: [Interactable] Hello
+[2019.01.05-07.59.50:123][610]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.05-07.59.50:207][610]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.05-08.00.11:465][ 80]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Graphics/ModularBuildings/modularBuildings_004.modularBuildings_004] ConvexElem[0] invalid
+[2019.01.05-08.00.31:949][388]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.05-08.00.31:949][388]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.05-08.00.31:949][388]PIE: New page: PIE session: TopDownExampleMap (Jan 6, 2019, 12:00:31 AM)
+[2019.01.05-08.00.31:949][388]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2019.01.05-08.00.32:026][388]LogPlayLevel: PIE: StaticDuplicateObject took: (0.076285s)
+[2019.01.05-08.00.32:027][388]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2019.01.05-08.00.32:028][388]LogPlayLevel: PIE: World Init took: (0.001585s)
+[2019.01.05-08.00.32:028][388]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.078444s)
+[2019.01.05-08.00.32:072][388]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.05-08.00.32:087][388]LogInit: FAudioDevice initialized.
+[2019.01.05-08.00.32:144][388]LogWorld: Game class is 'TopDownGameMode_C'
+[2019.01.05-08.00.32:159][388]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Graphics/ModularBuildings/modularBuildings_004.modularBuildings_004] ConvexElem[0] invalid
+[2019.01.05-08.00.32:163][388]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2019.01.05-16.00.32
+[2019.01.05-08.00.32:164][388]LogWorld: Bringing up level for play took: 0.019088
+[2019.01.05-08.00.32:168][388]LogBlueprintUserMessages: [Quest_Test_C_1] Соберите 5 коробок.
+[2019.01.05-08.00.32:190][388]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 1.173
+[2019.01.05-08.00.32:190][388]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.05-08.00.32:224][389]LogRenderer: Reallocating scene render targets to support 1024x600 (Frame:484).
+[2019.01.05-08.00.35:864][522]LogBlueprintUserMessages: [Interactable] Hello
+[2019.01.05-08.00.38:564][621]LogBlueprintUserMessages: [Interactable] Hello
+[2019.01.05-08.00.44:712][847]LogBlueprintUserMessages: [Interactable] Hello
+[2019.01.05-08.00.45:411][873]LogBlueprintUserMessages: [Interactable] Hello
+[2019.01.05-08.00.46:315][908]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.05-08.00.46:397][908]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.05-08.01.11:782][165]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2019.01.05-08.01.40:871][589]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2019.01.05-08.01.40:871][589]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_GEN_VARIABLE) Not registered. Aborting.
+[2019.01.05-08.01.45:522][781]LogMetaData: Removing '/Game/AI/TopDownCharacter2.SKEL_TopDownCharacter2_C:ExecuteUbergraph_TopDownCharacter2' ref from Metadata '/Game/TopDownBP/Blueprints/TopDownCharacter2.PackageMetaData'
+[2019.01.05-08.01.45:522][781]LogMetaData: Removing '/Game/AI/TopDownCharacter2.SKEL_TopDownCharacter2_C:UserConstructionScript' ref from Metadata '/Game/TopDownBP/Blueprints/TopDownCharacter2.PackageMetaData'
+[2019.01.05-08.01.45:523][781]LogMetaData: Removing '/Game/AI/TopDownCharacter2.SKEL_TopDownCharacter2_C:ReceiveTick' ref from Metadata '/Game/TopDownBP/Blueprints/TopDownCharacter2.PackageMetaData'
+[2019.01.05-08.01.45:523][781]LogMetaData: Removing '/Game/AI/TopDownCharacter2.SKEL_TopDownCharacter2_C:ReceiveBeginPlay' ref from Metadata '/Game/TopDownBP/Blueprints/TopDownCharacter2.PackageMetaData'
+[2019.01.05-08.01.45:523][781]LogMetaData: Removing '/Game/AI/TopDownCharacter2.SKEL_TopDownCharacter2_C:Health' ref from Metadata '/Game/TopDownBP/Blueprints/TopDownCharacter2.PackageMetaData'
+[2019.01.05-08.01.45:523][781]LogMetaData: Removing '/Game/AI/TopDownCharacter2.SKEL_TopDownCharacter2_C:InteractCollision' ref from Metadata '/Game/TopDownBP/Blueprints/TopDownCharacter2.PackageMetaData'
+[2019.01.05-08.01.45:523][781]LogMetaData: Removing '/Game/AI/TopDownCharacter2.SKEL_TopDownCharacter2_C:Interactable' ref from Metadata '/Game/TopDownBP/Blueprints/TopDownCharacter2.PackageMetaData'
+[2019.01.05-08.01.45:523][781]LogMetaData: Removing '/Game/AI/TopDownCharacter2.SKEL_TopDownCharacter2_C:Camera' ref from Metadata '/Game/TopDownBP/Blueprints/TopDownCharacter2.PackageMetaData'
+[2019.01.05-08.01.45:523][781]LogMetaData: Removing '/Game/AI/TopDownCharacter2.SKEL_TopDownCharacter2_C:SpringArm' ref from Metadata '/Game/TopDownBP/Blueprints/TopDownCharacter2.PackageMetaData'
+[2019.01.05-08.01.45:523][781]LogMetaData: Removing '/Game/AI/TopDownCharacter2.SKEL_TopDownCharacter2_C:PickUpItems' ref from Metadata '/Game/TopDownBP/Blueprints/TopDownCharacter2.PackageMetaData'
+[2019.01.05-08.01.45:523][781]LogMetaData: Removing '/Game/AI/TopDownCharacter2.SKEL_TopDownCharacter2_C:MainHUDRef' ref from Metadata '/Game/TopDownBP/Blueprints/TopDownCharacter2.PackageMetaData'
+[2019.01.05-08.01.45:523][781]LogMetaData: Removing '/Game/AI/TopDownCharacter2.SKEL_TopDownCharacter2_C:TargetInteractable' ref from Metadata '/Game/TopDownBP/Blueprints/TopDownCharacter2.PackageMetaData'
+[2019.01.05-08.01.45:523][781]LogMetaData: Removing '/Game/AI/TopDownCharacter2.SKEL_TopDownCharacter2_C:EventInteracting' ref from Metadata '/Game/TopDownBP/Blueprints/TopDownCharacter2.PackageMetaData'
+[2019.01.05-08.01.45:523][781]LogMetaData: Removing '/Game/AI/TopDownCharacter2.SKEL_TopDownCharacter2_C:PlayerController' ref from Metadata '/Game/TopDownBP/Blueprints/TopDownCharacter2.PackageMetaData'
+[2019.01.05-08.01.45:523][781]LogMetaData: Removing '/Game/AI/TopDownCharacter2.SKEL_TopDownCharacter2_C' ref from Metadata '/Game/TopDownBP/Blueprints/TopDownCharacter2.PackageMetaData'
+[2019.01.05-08.01.45:523][781]LogMetaData: Removing '/Game/AI/TopDownCharacter2.TopDownCharacter2_C' ref from Metadata '/Game/TopDownBP/Blueprints/TopDownCharacter2.PackageMetaData'
+[2019.01.05-08.01.45:523][781]LogMetaData: Removing '/Game/AI/TopDownCharacter2.TopDownCharacter2_C:PlayerController' ref from Metadata '/Game/TopDownBP/Blueprints/TopDownCharacter2.PackageMetaData'
+[2019.01.05-08.01.45:523][781]LogMetaData: Removing '/Game/AI/TopDownCharacter2.TopDownCharacter2_C:EventInteracting' ref from Metadata '/Game/TopDownBP/Blueprints/TopDownCharacter2.PackageMetaData'
+[2019.01.05-08.01.45:523][781]LogMetaData: Removing '/Game/AI/TopDownCharacter2.TopDownCharacter2_C:TargetInteractable' ref from Metadata '/Game/TopDownBP/Blueprints/TopDownCharacter2.PackageMetaData'
+[2019.01.05-08.01.45:523][781]LogMetaData: Removing '/Game/AI/TopDownCharacter2.TopDownCharacter2_C:MainHUDRef' ref from Metadata '/Game/TopDownBP/Blueprints/TopDownCharacter2.PackageMetaData'
+[2019.01.05-08.01.45:523][781]LogMetaData: Removing '/Game/AI/TopDownCharacter2.TopDownCharacter2_C:PickUpItems' ref from Metadata '/Game/TopDownBP/Blueprints/TopDownCharacter2.PackageMetaData'
+[2019.01.05-08.01.45:523][781]LogMetaData: Removing '/Game/AI/TopDownCharacter2.TopDownCharacter2_C:SpringArm' ref from Metadata '/Game/TopDownBP/Blueprints/TopDownCharacter2.PackageMetaData'
+[2019.01.05-08.01.45:523][781]LogMetaData: Removing '/Game/AI/TopDownCharacter2.TopDownCharacter2_C:Camera' ref from Metadata '/Game/TopDownBP/Blueprints/TopDownCharacter2.PackageMetaData'
+[2019.01.05-08.01.45:523][781]LogMetaData: Removing '/Game/AI/TopDownCharacter2.TopDownCharacter2_C:Interactable' ref from Metadata '/Game/TopDownBP/Blueprints/TopDownCharacter2.PackageMetaData'
+[2019.01.05-08.01.45:523][781]LogMetaData: Removing '/Game/AI/TopDownCharacter2.TopDownCharacter2_C:InteractCollision' ref from Metadata '/Game/TopDownBP/Blueprints/TopDownCharacter2.PackageMetaData'
+[2019.01.05-08.01.45:523][781]LogMetaData: Removing '/Game/AI/TopDownCharacter2.TopDownCharacter2_C:Health' ref from Metadata '/Game/TopDownBP/Blueprints/TopDownCharacter2.PackageMetaData'
+[2019.01.05-08.01.45:524][781]LogMetaData: Removing '/Game/AI/TopDownCharacter2.TopDownCharacter2_C:ReceiveBeginPlay' ref from Metadata '/Game/TopDownBP/Blueprints/TopDownCharacter2.PackageMetaData'
+[2019.01.05-08.01.45:524][781]LogMetaData: Removing '/Game/AI/TopDownCharacter2.TopDownCharacter2_C:ReceiveTick' ref from Metadata '/Game/TopDownBP/Blueprints/TopDownCharacter2.PackageMetaData'
+[2019.01.05-08.01.45:524][781]LogMetaData: Removing '/Game/AI/TopDownCharacter2.TopDownCharacter2_C:UserConstructionScript' ref from Metadata '/Game/TopDownBP/Blueprints/TopDownCharacter2.PackageMetaData'
+[2019.01.05-08.01.45:524][781]LogMetaData: Removing '/Game/AI/TopDownCharacter2.TopDownCharacter2_C:ExecuteUbergraph_TopDownCharacter2' ref from Metadata '/Game/TopDownBP/Blueprints/TopDownCharacter2.PackageMetaData'
+[2019.01.05-08.01.45:792][781]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/TopDownCharacter2" FILE="../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/AI/TopDownCharacter2.uasset" SILENT=true
+[2019.01.05-08.01.46:372][781]LogSavePackage: Save=576.26ms
+[2019.01.05-08.01.46:373][781]LogSavePackage: Moving '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Saved/TopDownCharacter2DA737AAF425E3A636F1D25A7EFFC4B9B.tmp' to '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/AI/TopDownCharacter2.uasset'
+[2019.01.05-08.01.46:378][781]LogSavePackage: Total save time: 582.80ms
+[2019.01.05-08.01.46:378][781]LogSavePackage:Display: Finished SavePackage ../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/AI/TopDownCharacter2.uasset
+[2019.01.05-08.01.46:497][781]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2019.01.05-08.01.46:497][781]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_C_0) Not registered. Aborting.
+[2019.01.05-08.01.46:497][781]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2019.01.05-08.01.46:497][781]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_C_1) Not registered. Aborting.
+[2019.01.05-08.02.01:291][434]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2019.01.05-08.02.01:292][434]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_GEN_VARIABLE) Not registered. Aborting.
+[2019.01.05-08.02.01:292][434]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2019.01.05-08.02.01:292][434]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_C_2) Not registered. Aborting.
+[2019.01.05-08.02.01:468][434]LogMetaData: Removing '/Game/AI/AI_Enemy.AI_Enemy_C' ref from Metadata '/Game/AI/TopDownCharacter2.PackageMetaData'
+[2019.01.05-08.02.01:468][434]LogMetaData: Removing '/Game/AI/AI_Enemy.SKEL_AI_Enemy_C' ref from Metadata '/Game/AI/TopDownCharacter2.PackageMetaData'
+[2019.01.05-08.02.01:581][434]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AI_Enemy" FILE="../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/AI/AI_Enemy.uasset" SILENT=true
+[2019.01.05-08.02.02:202][434]LogSavePackage: Save=617.86ms
+[2019.01.05-08.02.02:203][434]LogSavePackage: Moving '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Saved/AI_Enemy19A93260403D18C19680A8AEDB1EF967.tmp' to '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/AI/AI_Enemy.uasset'
+[2019.01.05-08.02.02:210][434]LogSavePackage: Total save time: 626.13ms
+[2019.01.05-08.02.02:210][434]LogSavePackage:Display: Finished SavePackage ../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/AI/AI_Enemy.uasset
+[2019.01.05-08.02.02:287][434]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2019.01.05-08.02.02:287][434]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_GEN_VARIABLE) Not registered. Aborting.
+[2019.01.05-08.02.11:475][729]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0028 seconds. Added 108 classes and 0 folders.
+[2019.01.05-08.02.28:085][252]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2019.01.05-08.02.28:085][252]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_GEN_VARIABLE) Not registered. Aborting.
+[2019.01.05-08.02.46:621][234]BlueprintLog: New page: Compile AI_Enemy
+[2019.01.05-08.02.46:662][234]LogBlueprint:Warning: [compiler AI_Enemy] Warning  Sequence  has no valid output
+[2019.01.05-08.02.46:679][234]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2019.01.05-08.02.46:679][234]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_C_3) Not registered. Aborting.
+[2019.01.05-08.02.47:128][234]LogBlueprint:Warning: [compiler AI_Enemy] Warning [0506.36] Compile of AI_Enemy successful, but with 1 Warning(s) [in 506 ms]
+[2019.01.05-08.02.47:138][234]BlueprintEditorCompileResults:Warning: Warning  Sequence  has no valid output
+[2019.01.05-08.02.47:138][234]BlueprintEditorCompileResults:Warning: Warning [0506.36] Compile of AI_Enemy successful, but with 1 Warning(s) [in 506 ms]
+[2019.01.05-08.03.01:812][ 68]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2019.01.05-08.03.01:812][ 68]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_GEN_VARIABLE) Not registered. Aborting.
+[2019.01.05-08.03.06:241][312]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2019.01.05-08.03.06:241][312]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_C_4) Not registered. Aborting.
+[2019.01.05-08.03.11:480][574]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2019.01.05-08.03.11:480][574]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_C_5) Not registered. Aborting.
+[2019.01.05-08.03.12:655][637]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2019.01.05-08.03.12:655][637]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_C_6) Not registered. Aborting.
+[2019.01.05-08.03.17:040][881]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2019.01.05-08.03.17:040][881]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_C_7) Not registered. Aborting.
+[2019.01.05-08.03.22:080][172]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2019.01.05-08.03.22:080][172]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_C_8) Not registered. Aborting.
+[2019.01.05-08.03.22:196][172]LogSavePackage: Save=2.74ms
+[2019.01.05-08.03.22:196][172]LogSavePackage: Moving '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Saved/TopDownCharacter200CC557D490C04FE2E0C2AB40F777A47.tmp' to '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/TopDownBP/Blueprints/TopDownCharacter2.uasset'
+[2019.01.05-08.03.22:200][172]LogSavePackage: Total save time: 8.33ms
+[2019.01.05-08.03.22:201][172]LogSavePackage:Display: Finished SavePackage ../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/TopDownBP/Blueprints/TopDownCharacter2.uasset
+[2019.01.05-08.03.22:264][172]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AI_Enemy" FILE="../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/AI/AI_Enemy.uasset" SILENT=true
+[2019.01.05-08.03.22:427][172]LogSavePackage: Save=126.43ms
+[2019.01.05-08.03.22:427][172]LogSavePackage: Moving '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Saved/AI_Enemy9286CFBE40DDA1C8B091C78F5B28C090.tmp' to '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/AI/AI_Enemy.uasset'
+[2019.01.05-08.03.22:435][172]LogSavePackage: Total save time: 167.71ms
+[2019.01.05-08.03.22:435][172]LogSavePackage:Display: Finished SavePackage ../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/AI/AI_Enemy.uasset
+[2019.01.05-08.03.38:469][840]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2019.01.05-08.03.38:469][840]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_GEN_VARIABLE) Not registered. Aborting.
+[2019.01.05-08.03.41:312][908]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2019.01.05-08.03.41:312][908]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_C_9) Not registered. Aborting.
+[2019.01.05-08.03.41:461][908]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AI_Enemy" FILE="../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/AI/AI_Enemy.uasset" SILENT=true
+[2019.01.05-08.03.41:636][908]LogSavePackage: Save=159.48ms
+[2019.01.05-08.03.41:636][908]LogSavePackage: Moving '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Saved/AI_Enemy8F13FABD49F47AEE14E0B193CD0ED9D4.tmp' to '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/AI/AI_Enemy.uasset'
+[2019.01.05-08.03.41:643][908]LogSavePackage: Total save time: 177.37ms
+[2019.01.05-08.03.41:643][908]LogSavePackage:Display: Finished SavePackage ../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/AI/AI_Enemy.uasset
+[2019.01.05-08.03.49:880][132]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2019.01.05-08.03.49:880][132]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_GEN_VARIABLE) Not registered. Aborting.
+[2019.01.05-08.05.08:277][858]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2019.01.05-08.05.08:277][858]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_C_10) Not registered. Aborting.
+[2019.01.05-08.05.08:448][858]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AI_Enemy" FILE="../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/AI/AI_Enemy.uasset" SILENT=true
+[2019.01.05-08.05.08:630][858]LogSavePackage: Save=166.88ms
+[2019.01.05-08.05.08:630][858]LogSavePackage: Moving '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Saved/AI_Enemy64DB2B1644B7CE1CB689B5A36A719143.tmp' to '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/AI/AI_Enemy.uasset'
+[2019.01.05-08.05.08:638][858]LogSavePackage: Total save time: 186.99ms
+[2019.01.05-08.05.08:638][858]LogSavePackage:Display: Finished SavePackage ../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/AI/AI_Enemy.uasset
+[2019.01.05-08.05.08:654][858]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/NewBlueprint" FILE="../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/AI/NewBlueprint.uasset" SILENT=true
+[2019.01.05-08.05.08:694][858]LogSavePackage: Save=37.81ms
+[2019.01.05-08.05.08:695][858]LogSavePackage: Moving '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Saved/NewBlueprintA76A7A5947ED944F4796C0B6F58E9B3E.tmp' to '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/AI/NewBlueprint.uasset'
+[2019.01.05-08.05.08:700][858]LogSavePackage: Total save time: 44.15ms
+[2019.01.05-08.05.08:700][858]LogSavePackage:Display: Finished SavePackage ../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/AI/NewBlueprint.uasset
+[2019.01.05-08.05.17:553][218]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2019.01.05-08.05.17:554][218]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_GEN_VARIABLE) Not registered. Aborting.
+[2019.01.05-08.05.23:333][545]BlueprintLog: New page: Compile AI_Enemy
+[2019.01.05-08.05.23:356][545]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2019.01.05-08.05.23:356][545]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_C_11) Not registered. Aborting.
+[2019.01.05-08.05.23:719][545]BlueprintEditorCompileResults: Info [0662.95] Compile of AI_Enemy successful! [in 385 ms]
+[2019.01.05-08.05.26:138][685]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2019.01.05-08.05.26:138][685]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_GEN_VARIABLE) Not registered. Aborting.
+[2019.01.05-08.05.26:267][685]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AI_Enemy" FILE="../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/AI/AI_Enemy.uasset" SILENT=true
+[2019.01.05-08.05.26:409][685]LogSavePackage: Save=127.32ms
+[2019.01.05-08.05.26:409][685]LogSavePackage: Moving '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Saved/AI_EnemyDD503B534414BC060771BD9FC9827A31.tmp' to '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/AI/AI_Enemy.uasset'
+[2019.01.05-08.05.26:416][685]LogSavePackage: Total save time: 143.70ms
+[2019.01.05-08.05.26:416][685]LogSavePackage:Display: Finished SavePackage ../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/AI/AI_Enemy.uasset
+[2019.01.05-08.05.36:836][144]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2019.01.05-08.05.36:836][144]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_GEN_VARIABLE) Not registered. Aborting.
+[2019.01.05-08.05.53:220][601]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2019.01.05-08.05.53:220][601]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_GEN_VARIABLE) Not registered. Aborting.
+[2019.01.05-08.05.54:781][601]LogSavePackage: Save=1066.08ms
+[2019.01.05-08.05.54:781][601]LogSavePackage: Moving '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Saved/TopDownExampleMap97F2EBD44F309EC76B69F58884D06F70.tmp' to '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2019.01.05-08.05.54:788][601]LogSavePackage: Total save time: 1142.91ms
+[2019.01.05-08.05.54:788][601]LogSavePackage:Display: Finished SavePackage ../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/TopDownBP/Maps/TopDownExampleMap.umap
+[2019.01.05-08.05.55:700][601]LogFileHelpers: Saving map 'TopDownExampleMap' took 2.368
+[2019.01.05-08.05.59:139][760]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.05-08.05.59:139][760]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.05-08.05.59:140][760]PIE: New page: PIE session: TopDownExampleMap (Jan 6, 2019, 12:05:59 AM)
+[2019.01.05-08.05.59:140][760]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2019.01.05-08.05.59:211][760]LogPlayLevel: PIE: StaticDuplicateObject took: (0.070543s)
+[2019.01.05-08.05.59:212][760]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2019.01.05-08.05.59:213][760]LogPlayLevel: PIE: World Init took: (0.001953s)
+[2019.01.05-08.05.59:213][760]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.072980s)
+[2019.01.05-08.05.59:311][760]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.05-08.05.59:359][760]LogInit: FAudioDevice initialized.
+[2019.01.05-08.05.59:435][760]LogWorld: Game class is 'TopDownGameMode_C'
+[2019.01.05-08.05.59:462][760]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Graphics/ModularBuildings/modularBuildings_004.modularBuildings_004] ConvexElem[0] invalid
+[2019.01.05-08.05.59:471][760]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2019.01.05-16.05.59
+[2019.01.05-08.05.59:576][760]LogWorld: Bringing up level for play took: 0.139975
+[2019.01.05-08.05.59:583][760]LogBlueprintUserMessages: [Quest_Test_C_2] Соберите 5 коробок.
+[2019.01.05-08.05.59:610][760]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 0.589
+[2019.01.05-08.05.59:610][760]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.05-08.06.02:515][861]LogBlueprintUserMessages: [Interactable] Hello
+[2019.01.05-08.06.04:975][949]LogBlueprintUserMessages: [Interactable] Hello
+[2019.01.05-08.06.06:171][992]LogBlueprintUserMessages: [Interactable] Hello
+[2019.01.05-08.06.07:235][ 31]LogBlueprintUserMessages: [Interactable] Hello
+[2019.01.05-08.06.07:919][ 55]LogBlueprintUserMessages: [Interactable] Hello
+[2019.01.05-08.06.13:498][251]LogBlueprintUserMessages: [Interactable] Hello
+[2019.01.05-08.06.15:207][312]LogBlueprintUserMessages: [Interactable] Hello
+[2019.01.05-08.06.20:005][481]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.06.20:848][510]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.06.21:298][527]LogBlueprintUserMessages: [Interactable] Hello
+[2019.01.05-08.06.21:648][539]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.06.21:825][546]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.06.22:000][552]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.06.22:179][559]LogBlueprintUserMessages: [Interactable] Hello
+[2019.01.05-08.06.25:090][657]LogBlueprintUserMessages: [Interactable] Hello
+[2019.01.05-08.06.25:928][686]LogBlueprintUserMessages: [Interactable] Hello
+[2019.01.05-08.06.27:500][741]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.06.28:331][769]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.05-08.06.28:673][769]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.05-08.06.52:456][ 32]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2019.01.05-08.06.52:456][ 32]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_GEN_VARIABLE) Not registered. Aborting.
+[2019.01.05-08.07.03:468][584]BlueprintLog: New page: Compile AI_Enemy
+[2019.01.05-08.07.03:602][584]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2019.01.05-08.07.03:602][584]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_C_12) Not registered. Aborting.
+[2019.01.05-08.07.04:298][584]BlueprintEditorCompileResults: Info [0763.52] Compile of AI_Enemy successful! [in 829 ms]
+[2019.01.05-08.07.05:049][620]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.05-08.07.05:049][620]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.05-08.07.05:050][620]PIE: New page: PIE session: TopDownExampleMap (Jan 6, 2019, 12:07:05 AM)
+[2019.01.05-08.07.05:050][620]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2019.01.05-08.07.05:137][620]LogPlayLevel: PIE: StaticDuplicateObject took: (0.086916s)
+[2019.01.05-08.07.05:139][620]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2019.01.05-08.07.05:139][620]LogPlayLevel: PIE: World Init took: (0.002299s)
+[2019.01.05-08.07.05:140][620]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.090112s)
+[2019.01.05-08.07.05:140][620]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2019.01.05-08.07.05:140][620]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_GEN_VARIABLE) Not registered. Aborting.
+[2019.01.05-08.07.05:258][620]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.05-08.07.05:281][620]LogInit: FAudioDevice initialized.
+[2019.01.05-08.07.05:356][620]LogWorld: Game class is 'TopDownGameMode_C'
+[2019.01.05-08.07.05:385][620]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Graphics/ModularBuildings/modularBuildings_004.modularBuildings_004] ConvexElem[0] invalid
+[2019.01.05-08.07.05:395][620]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2019.01.05-16.07.05
+[2019.01.05-08.07.05:398][620]LogWorld: Bringing up level for play took: 0.040009
+[2019.01.05-08.07.05:404][620]LogBlueprintUserMessages: [Quest_Test_C_3] Соберите 5 коробок.
+[2019.01.05-08.07.05:418][620]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 0.397
+[2019.01.05-08.07.05:419][620]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.05-08.07.07:113][676]LogBlueprintUserMessages: [Interactable] Hello
+[2019.01.05-08.07.11:141][815]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.07.13:878][908]LogBlueprintUserMessages: [Interactable] Hello
+[2019.01.05-08.07.14:680][936]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.07.15:537][965]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.05-08.07.15:775][965]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.05-08.07.18:200][ 95]BlueprintLog: New page: Compile AI_Enemy
+[2019.01.05-08.07.18:994][ 95]BlueprintEditorCompileResults: Info [0778.22] Compile of AI_Enemy successful! [in 793 ms]
+[2019.01.05-08.07.19:565][123]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2019.01.05-08.07.19:565][123]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_GEN_VARIABLE) Not registered. Aborting.
+[2019.01.05-08.07.21:319][123]LogSavePackage: Save=1294.80ms
+[2019.01.05-08.07.21:320][123]LogSavePackage: Moving '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Saved/TopDownExampleMap7DF77CDA44B0EBE3B4BD06A26F40B66F.tmp' to '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2019.01.05-08.07.21:349][123]LogSavePackage: Total save time: 1339.23ms
+[2019.01.05-08.07.21:349][123]LogSavePackage:Display: Finished SavePackage ../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/TopDownBP/Maps/TopDownExampleMap.umap
+[2019.01.05-08.07.21:453][123]LogFileHelpers: Saving map 'TopDownExampleMap' took 1.768
+[2019.01.05-08.07.21:497][123]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AI_Enemy" FILE="../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/AI/AI_Enemy.uasset" SILENT=true
+[2019.01.05-08.07.21:592][123]LogSavePackage: Save=86.97ms
+[2019.01.05-08.07.21:593][123]LogSavePackage: Moving '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Saved/AI_EnemyABFCF58441E4DF590FAB51B75418D956.tmp' to '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/AI/AI_Enemy.uasset'
+[2019.01.05-08.07.21:599][123]LogSavePackage: Total save time: 99.38ms
+[2019.01.05-08.07.21:599][123]LogSavePackage:Display: Finished SavePackage ../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/AI/AI_Enemy.uasset
+[2019.01.05-08.07.22:978][196]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.05-08.07.22:978][196]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.05-08.07.22:978][196]PIE: New page: PIE session: TopDownExampleMap (Jan 6, 2019, 12:07:22 AM)
+[2019.01.05-08.07.22:978][196]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2019.01.05-08.07.23:059][196]LogPlayLevel: PIE: StaticDuplicateObject took: (0.080847s)
+[2019.01.05-08.07.23:061][196]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2019.01.05-08.07.23:061][196]LogPlayLevel: PIE: World Init took: (0.002089s)
+[2019.01.05-08.07.23:062][196]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.083608s)
+[2019.01.05-08.07.23:062][196]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2019.01.05-08.07.23:062][196]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_GEN_VARIABLE) Not registered. Aborting.
+[2019.01.05-08.07.23:184][196]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.05-08.07.23:207][196]LogInit: FAudioDevice initialized.
+[2019.01.05-08.07.23:276][196]LogWorld: Game class is 'TopDownGameMode_C'
+[2019.01.05-08.07.23:306][196]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Graphics/ModularBuildings/modularBuildings_004.modularBuildings_004] ConvexElem[0] invalid
+[2019.01.05-08.07.23:317][196]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2019.01.05-16.07.23
+[2019.01.05-08.07.23:322][196]LogWorld: Bringing up level for play took: 0.044155
+[2019.01.05-08.07.23:328][196]LogBlueprintUserMessages: [Quest_Test_C_4] Соберите 5 коробок.
+[2019.01.05-08.07.23:347][196]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 0.326
+[2019.01.05-08.07.23:348][196]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.05-08.07.26:439][299]LogBlueprintUserMessages: [Interactable] Hello
+[2019.01.05-08.07.28:353][367]LogBlueprintUserMessages: [Interactable] Hello
+[2019.01.05-08.07.28:611][376]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.07.29:721][415]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.07.29:897][421]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.07.30:084][428]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.07.30:277][434]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.07.30:558][444]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.05-08.07.30:877][444]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.05-08.07.36:199][726]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2019.01.05-08.07.36:199][726]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_GEN_VARIABLE) Not registered. Aborting.
+[2019.01.05-08.07.49:457][424]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
+[2019.01.05-08.07.49:457][424]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_C_13) Not registered. Aborting.
+[2019.01.05-08.07.50:868][424]LogSavePackage: Save=1007.08ms
+[2019.01.05-08.07.50:868][424]LogSavePackage: Moving '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Saved/TopDownExampleMapE487627A445EC2A9EE7074BB30517335.tmp' to '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2019.01.05-08.07.50:885][424]LogSavePackage: Total save time: 1033.03ms
+[2019.01.05-08.07.50:885][424]LogSavePackage:Display: Finished SavePackage ../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/TopDownBP/Maps/TopDownExampleMap.umap
+[2019.01.05-08.07.50:984][424]LogFileHelpers: Saving map 'TopDownExampleMap' took 1.421
+[2019.01.05-08.07.51:038][424]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AI_Enemy" FILE="../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/AI/AI_Enemy.uasset" SILENT=true
+[2019.01.05-08.07.51:099][424]LogSavePackage: Save=52.83ms
+[2019.01.05-08.07.51:099][424]LogSavePackage: Moving '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Saved/AI_Enemy5143037B4633B168324222A313313EFF.tmp' to '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/AI/AI_Enemy.uasset'
+[2019.01.05-08.07.51:103][424]LogSavePackage: Total save time: 62.63ms
+[2019.01.05-08.07.51:103][424]LogSavePackage:Display: Finished SavePackage ../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/AI/AI_Enemy.uasset
+[2019.01.05-08.08.31:169][483]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2019.01.05-08.08.31:169][483]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_GEN_VARIABLE) Not registered. Aborting.
+[2019.01.05-08.08.43:096][161]BlueprintLog: New page: Compile Interactable
+[2019.01.05-08.08.43:344][161]BlueprintEditorCompileResults: Info [0862.57] Compile of Interactable successful! [in 247 ms]
+[2019.01.05-08.08.45:198][197]LogSavePackage: Save=859.62ms
+[2019.01.05-08.08.45:198][197]LogSavePackage: Moving '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Saved/TopDownExampleMapA0581CBC4239F79B77297B9CF8255393.tmp' to '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2019.01.05-08.08.45:205][197]LogSavePackage: Total save time: 875.80ms
+[2019.01.05-08.08.45:205][197]LogSavePackage:Display: Finished SavePackage ../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/TopDownBP/Maps/TopDownExampleMap.umap
+[2019.01.05-08.08.45:418][197]LogFileHelpers: Saving map 'TopDownExampleMap' took 1.324
+[2019.01.05-08.08.45:553][197]LogSavePackage: Save=78.94ms
+[2019.01.05-08.08.45:553][197]LogSavePackage: Moving '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Saved/Interactable1024C6DE496F5820FBC8408056B1A10B.tmp' to '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/TopDownBP/Inventory/Interactable.uasset'
+[2019.01.05-08.08.45:557][197]LogSavePackage: Total save time: 121.06ms
+[2019.01.05-08.08.45:557][197]LogSavePackage:Display: Finished SavePackage ../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/TopDownBP/Inventory/Interactable.uasset
+[2019.01.05-08.09.33:558][927]BlueprintLog: New page: Compile AI_Enemy
+[2019.01.05-08.09.34:128][927]BlueprintEditorCompileResults: Info [0913.35] Compile of AI_Enemy successful! [in 570 ms]
+[2019.01.05-08.09.34:845][948]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2019.01.05-08.09.34:845][948]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_GEN_VARIABLE) Not registered. Aborting.
+[2019.01.05-08.09.36:101][948]LogSavePackage: Save=924.39ms
+[2019.01.05-08.09.36:101][948]LogSavePackage: Moving '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Saved/TopDownExampleMapE7678F764B3AE4C9269AAE8C3C51FEF1.tmp' to '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2019.01.05-08.09.36:109][948]LogSavePackage: Total save time: 940.83ms
+[2019.01.05-08.09.36:109][948]LogSavePackage:Display: Finished SavePackage ../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/TopDownBP/Maps/TopDownExampleMap.umap
+[2019.01.05-08.09.36:199][948]LogFileHelpers: Saving map 'TopDownExampleMap' took 1.268
+[2019.01.05-08.11.09:660][617]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2019.01.05-08.11.09:660][617]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_GEN_VARIABLE) Not registered. Aborting.
+[2019.01.05-08.11.09:660][617]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
+[2019.01.05-08.11.09:660][617]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_C_0) Not registered. Aborting.
+[2019.01.05-08.11.11:596][726]BlueprintLog: New page: Compile AI_Enemy
+[2019.01.05-08.11.11:687][726]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_15) Not registered. Aborting.
+[2019.01.05-08.11.11:687][726]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_C_1) Not registered. Aborting.
+[2019.01.05-08.11.12:275][726]BlueprintEditorCompileResults: Info [1011.50] Compile of AI_Enemy successful! [in 679 ms]
+[2019.01.05-08.11.12:782][753]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2019.01.05-08.11.12:782][753]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_GEN_VARIABLE) Not registered. Aborting.
+[2019.01.05-08.11.14:248][753]LogSavePackage: Save=999.20ms
+[2019.01.05-08.11.14:248][753]LogSavePackage: Moving '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Saved/TopDownExampleMap6C9959264C5B2DFA4376E3A50B06AD0B.tmp' to '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2019.01.05-08.11.14:256][753]LogSavePackage: Total save time: 1088.58ms
+[2019.01.05-08.11.14:256][753]LogSavePackage:Display: Finished SavePackage ../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/TopDownBP/Maps/TopDownExampleMap.umap
+[2019.01.05-08.11.14:371][753]LogFileHelpers: Saving map 'TopDownExampleMap' took 1.491
+[2019.01.05-08.11.14:419][753]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AI_Enemy" FILE="../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/AI/AI_Enemy.uasset" SILENT=true
+[2019.01.05-08.11.14:475][753]LogSavePackage: Save=46.26ms
+[2019.01.05-08.11.14:475][753]LogSavePackage: Moving '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Saved/AI_Enemy49A2E23F424AF3C7B334D090757A53C1.tmp' to '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/AI/AI_Enemy.uasset'
+[2019.01.05-08.11.14:479][753]LogSavePackage: Total save time: 58.10ms
+[2019.01.05-08.11.14:479][753]LogSavePackage:Display: Finished SavePackage ../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/AI/AI_Enemy.uasset
+[2019.01.05-08.14.02:162][652]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2019.01.05-08.14.02:162][652]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_GEN_VARIABLE) Not registered. Aborting.
+[2019.01.05-08.14.14:949][381]BlueprintLog: New page: Compile AI_Enemy
+[2019.01.05-08.14.15:029][381]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2019.01.05-08.14.15:029][381]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_GEN_VARIABLE) Not registered. Aborting.
+[2019.01.05-08.14.15:536][381]BlueprintEditorCompileResults: Info [1194.76] Compile of AI_Enemy successful! [in 586 ms]
+[2019.01.05-08.14.15:960][405]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2019.01.05-08.14.15:960][405]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_GEN_VARIABLE) Not registered. Aborting.
+[2019.01.05-08.14.17:365][405]LogSavePackage: Save=975.91ms
+[2019.01.05-08.14.17:365][405]LogSavePackage: Moving '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Saved/TopDownExampleMapD93B2245447E8F940B9BB5BD66D850E2.tmp' to '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2019.01.05-08.14.17:496][405]LogSavePackage: Total save time: 1119.04ms
+[2019.01.05-08.14.17:496][405]LogSavePackage:Display: Finished SavePackage ../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/TopDownBP/Maps/TopDownExampleMap.umap
+[2019.01.05-08.14.17:597][405]LogFileHelpers: Saving map 'TopDownExampleMap' took 1.532
+[2019.01.05-08.14.17:635][405]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AI_Enemy" FILE="../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/AI/AI_Enemy.uasset" SILENT=true
+[2019.01.05-08.14.17:698][405]LogSavePackage: Save=56.21ms
+[2019.01.05-08.14.17:698][405]LogSavePackage: Moving '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Saved/AI_Enemy4AAC50A442D9A7287E2FD9AF559B7EA6.tmp' to '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/AI/AI_Enemy.uasset'
+[2019.01.05-08.14.17:702][405]LogSavePackage: Total save time: 65.14ms
+[2019.01.05-08.14.17:702][405]LogSavePackage:Display: Finished SavePackage ../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/AI/AI_Enemy.uasset
+[2019.01.05-08.15.08:111][753]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2019.01.05-08.15.08:111][753]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_GEN_VARIABLE) Not registered. Aborting.
+[2019.01.05-08.15.08:221][753]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AI_Enemy" FILE="../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/AI/AI_Enemy.uasset" SILENT=true
+[2019.01.05-08.15.08:294][753]LogSavePackage: Save=62.91ms
+[2019.01.05-08.15.08:294][753]LogSavePackage: Moving '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Saved/AI_EnemyF53B18284E8FFB5276B620863E79B05D.tmp' to '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/AI/AI_Enemy.uasset'
+[2019.01.05-08.15.08:337][753]LogSavePackage: Total save time: 112.94ms
+[2019.01.05-08.15.08:337][753]LogSavePackage:Display: Finished SavePackage ../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/AI/AI_Enemy.uasset
+[2019.01.05-08.15.36:564][906]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2019.01.05-08.15.36:565][906]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_GEN_VARIABLE) Not registered. Aborting.
+[2019.01.05-08.16.12:763][922]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2019.01.05-08.16.12:763][922]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_GEN_VARIABLE) Not registered. Aborting.
+[2019.01.05-08.16.18:722][260]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_16) Not registered. Aborting.
+[2019.01.05-08.16.18:722][260]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_C_2) Not registered. Aborting.
+[2019.01.05-08.16.45:158][625]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_17) Not registered. Aborting.
+[2019.01.05-08.16.45:158][625]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_C_3) Not registered. Aborting.
+[2019.01.05-08.17.03:531][628]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_18) Not registered. Aborting.
+[2019.01.05-08.17.03:531][628]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_C_4) Not registered. Aborting.
+[2019.01.05-08.17.27:260][992]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_19) Not registered. Aborting.
+[2019.01.05-08.17.27:260][992]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_C_5) Not registered. Aborting.
+[2019.01.05-08.17.29:314][ 86]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_20) Not registered. Aborting.
+[2019.01.05-08.17.29:314][ 86]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_C_6) Not registered. Aborting.
+[2019.01.05-08.17.30:562][ 86]LogSavePackage: Save=864.91ms
+[2019.01.05-08.17.30:562][ 86]LogSavePackage: Moving '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Saved/TopDownExampleMap067F26A1446BCFF31EB1309B4AA31D01.tmp' to '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2019.01.05-08.17.30:570][ 86]LogSavePackage: Total save time: 928.29ms
+[2019.01.05-08.17.30:570][ 86]LogSavePackage:Display: Finished SavePackage ../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/TopDownBP/Maps/TopDownExampleMap.umap
+[2019.01.05-08.17.30:653][ 86]LogFileHelpers: Saving map 'TopDownExampleMap' took 1.248
+[2019.01.05-08.17.30:714][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AI_Enemy" FILE="../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/AI/AI_Enemy.uasset" SILENT=true
+[2019.01.05-08.17.30:790][ 86]LogSavePackage: Save=67.14ms
+[2019.01.05-08.17.30:790][ 86]LogSavePackage: Moving '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Saved/AI_EnemyF87EA8544A7BE060A6FEA6A942EC019B.tmp' to '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/AI/AI_Enemy.uasset'
+[2019.01.05-08.17.30:795][ 86]LogSavePackage: Total save time: 79.37ms
+[2019.01.05-08.17.30:795][ 86]LogSavePackage:Display: Finished SavePackage ../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/AI/AI_Enemy.uasset
+[2019.01.05-08.17.55:104][422]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2019.01.05-08.17.55:104][422]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_GEN_VARIABLE) Not registered. Aborting.
+[2019.01.05-08.17.57:403][550]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_21) Not registered. Aborting.
+[2019.01.05-08.17.57:403][550]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_C_7) Not registered. Aborting.
+[2019.01.05-08.17.58:607][550]LogSavePackage: Save=852.66ms
+[2019.01.05-08.17.58:607][550]LogSavePackage: Moving '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Saved/TopDownExampleMap36D469CB4666DE3868F9A2AA75D38978.tmp' to '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2019.01.05-08.17.58:614][550]LogSavePackage: Total save time: 869.04ms
+[2019.01.05-08.17.58:614][550]LogSavePackage:Display: Finished SavePackage ../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/TopDownBP/Maps/TopDownExampleMap.umap
+[2019.01.05-08.17.58:752][550]LogFileHelpers: Saving map 'TopDownExampleMap' took 1.271
+[2019.01.05-08.17.58:804][550]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AI_Enemy" FILE="../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/AI/AI_Enemy.uasset" SILENT=true
+[2019.01.05-08.17.58:896][550]LogSavePackage: Save=83.05ms
+[2019.01.05-08.17.58:896][550]LogSavePackage: Moving '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Saved/AI_EnemyD15E8FDB416F5A0A899182B469672397.tmp' to '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/AI/AI_Enemy.uasset'
+[2019.01.05-08.17.58:901][550]LogSavePackage: Total save time: 95.17ms
+[2019.01.05-08.17.58:901][550]LogSavePackage:Display: Finished SavePackage ../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/AI/AI_Enemy.uasset
+[2019.01.05-08.18.51:271][456]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2019.01.05-08.18.51:272][456]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_GEN_VARIABLE) Not registered. Aborting.
+[2019.01.05-08.18.51:442][456]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AI_Enemy" FILE="../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/AI/AI_Enemy.uasset" SILENT=true
+[2019.01.05-08.18.51:584][456]LogSavePackage: Save=125.38ms
+[2019.01.05-08.18.51:584][456]LogSavePackage: Moving '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Saved/AI_Enemy7CC1143444D1BD5A51C72ABCFE391C82.tmp' to '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/AI/AI_Enemy.uasset'
+[2019.01.05-08.18.51:632][456]LogSavePackage: Total save time: 185.47ms
+[2019.01.05-08.18.51:632][456]LogSavePackage:Display: Finished SavePackage ../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/AI/AI_Enemy.uasset
+[2019.01.05-08.19.17:117][904]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2019.01.05-08.19.17:117][904]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_GEN_VARIABLE) Not registered. Aborting.
+[2019.01.05-08.19.18:419][975]BlueprintLog: New page: Compile AI_Enemy
+[2019.01.05-08.19.18:451][975]LogBlueprint:Error: [compiler AI_Enemy] Error No delegate function name  Create Event 
+[2019.01.05-08.19.18:471][975]LogBlueprint:Error: [compiler AI_Enemy] Error Failed to create property K2Node_CreateDelegate_OutputDelegate from  Event  due to a bad or unknown type (Delegate)
+[2019.01.05-08.19.18:471][975]LogBlueprint:Error: [compiler AI_Enemy] Error Event signature error:  No function name.  Create Event 
+[2019.01.05-08.19.19:217][975]LogBlueprint:Warning: [compiler AI_Enemy] Warning [1498.43] Compile of AI_Enemy failed. 3 Fatal Issue(s) 0 Warning(s) [in 797 ms]
+[2019.01.05-08.19.19:217][975]BlueprintEditorCompileResults:Error: Error No delegate function name  Create Event 
+[2019.01.05-08.19.19:217][975]BlueprintEditorCompileResults:Error: Error Failed to create property K2Node_CreateDelegate_OutputDelegate from  Event  due to a bad or unknown type (Delegate)
+[2019.01.05-08.19.19:217][975]BlueprintEditorCompileResults:Error: Error Event signature error:  No function name.  Create Event 
+[2019.01.05-08.19.19:217][975]BlueprintEditorCompileResults:Warning: Warning [1498.43] Compile of AI_Enemy failed. 3 Fatal Issue(s) 0 Warning(s) [in 797 ms]
+[2019.01.05-08.19.19:926][ 16]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2019.01.05-08.19.19:927][ 16]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_GEN_VARIABLE) Not registered. Aborting.
+[2019.01.05-08.19.21:258][ 16]LogSavePackage: Save=988.77ms
+[2019.01.05-08.19.21:259][ 16]LogSavePackage: Moving '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Saved/TopDownExampleMapB965E21446590CBDCFAD45A2B79D8E4D.tmp' to '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2019.01.05-08.19.21:266][ 16]LogSavePackage: Total save time: 1007.04ms
+[2019.01.05-08.19.21:266][ 16]LogSavePackage:Display: Finished SavePackage ../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/TopDownBP/Maps/TopDownExampleMap.umap
+[2019.01.05-08.19.21:456][ 16]LogFileHelpers: Saving map 'TopDownExampleMap' took 1.452
+[2019.01.05-08.20.45:264][653]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2019.01.05-08.20.45:264][653]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_GEN_VARIABLE) Not registered. Aborting.
+[2019.01.05-08.20.54:904][122]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_22) Not registered. Aborting.
+[2019.01.05-08.20.54:904][122]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_C_8) Not registered. Aborting.
+[2019.01.05-08.20.55:948][177]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_23) Not registered. Aborting.
+[2019.01.05-08.20.55:948][177]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_C_9) Not registered. Aborting.
+[2019.01.05-08.20.57:899][177]LogSavePackage: Save=1473.18ms
+[2019.01.05-08.20.57:899][177]LogSavePackage: Moving '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Saved/TopDownExampleMap3D9D495044AD4BF42D5E63A5E073286E.tmp' to '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2019.01.05-08.20.57:909][177]LogSavePackage: Total save time: 1493.85ms
+[2019.01.05-08.20.57:909][177]LogSavePackage:Display: Finished SavePackage ../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/TopDownBP/Maps/TopDownExampleMap.umap
+[2019.01.05-08.20.58:026][177]LogFileHelpers: Saving map 'TopDownExampleMap' took 1.941
+[2019.01.05-08.20.58:065][177]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AI_Enemy" FILE="../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/AI/AI_Enemy.uasset" SILENT=true
+[2019.01.05-08.20.58:141][177]LogSavePackage: Save=69.01ms
+[2019.01.05-08.20.58:141][177]LogSavePackage: Moving '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Saved/AI_Enemy19E9A93C4D6C2FAA407C0288193771E9.tmp' to '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/AI/AI_Enemy.uasset'
+[2019.01.05-08.20.58:145][177]LogSavePackage: Total save time: 78.21ms
+[2019.01.05-08.20.58:145][177]LogSavePackage:Display: Finished SavePackage ../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/AI/AI_Enemy.uasset
+[2019.01.05-08.23.58:182][335]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2019.01.05-08.23.58:182][335]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_GEN_VARIABLE) Not registered. Aborting.
+[2019.01.05-08.24.05:793][789]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_24) Not registered. Aborting.
+[2019.01.05-08.24.05:793][789]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_C_10) Not registered. Aborting.
+[2019.01.05-08.25.31:742][289]LogSCSEditor:Warning: Calling UpdateTree() from Tick() more frequently than expected due to invalid tree node state. This might be a performance issue.
+[2019.01.05-08.26.30:408][904]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_25) Not registered. Aborting.
+[2019.01.05-08.26.30:408][904]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_C_11) Not registered. Aborting.
+[2019.01.05-08.26.30:408][904]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_26) Not registered. Aborting.
+[2019.01.05-08.26.30:408][904]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_C_12) Not registered. Aborting.
+[2019.01.05-08.26.31:548][904]LogSavePackage: Save=555.57ms
+[2019.01.05-08.26.31:548][904]LogSavePackage: Moving '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Saved/TopDownExampleMapE6A38B99405967BC55D35E9D24C795C0.tmp' to '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2019.01.05-08.26.31:552][904]LogSavePackage: Total save time: 916.45ms
+[2019.01.05-08.26.31:552][904]LogSavePackage:Display: Finished SavePackage ../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/TopDownBP/Maps/TopDownExampleMap.umap
+[2019.01.05-08.26.31:630][904]LogFileHelpers: Saving map 'TopDownExampleMap' took 1.140
+[2019.01.05-08.26.31:944][904]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AI_Enemy" FILE="../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/AI/AI_Enemy.uasset" SILENT=true
+[2019.01.05-08.26.31:997][904]LogSavePackage: Save=46.13ms
+[2019.01.05-08.26.31:997][904]LogSavePackage: Moving '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Saved/AI_Enemy4E25151F4954324F0CFF6A99DCA5EB43.tmp' to '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/AI/AI_Enemy.uasset'
+[2019.01.05-08.26.32:000][904]LogSavePackage: Total save time: 53.86ms
+[2019.01.05-08.26.32:000][904]LogSavePackage:Display: Finished SavePackage ../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/AI/AI_Enemy.uasset
+[2019.01.05-08.37.02:570][400]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.05-08.37.02:570][400]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.01.05-08.37.02:577][400]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2019.01.05-08.37.02:577][400]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_GEN_VARIABLE) Not registered. Aborting.
+[2019.01.05-08.37.02:577][400]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_27) Not registered. Aborting.
+[2019.01.05-08.37.02:577][400]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_C_13) Not registered. Aborting.
+[2019.01.05-08.37.02:585][400]LogPlayLevel: [PlayLevel] Compiling AI_Enemy before play...
+[2019.01.05-08.37.02:596][400]LogBlueprint:Error: [compiler AI_Enemy] Error No delegate function name  Create Event 
+[2019.01.05-08.37.02:596][400]LogBlueprint:Error: [compiler AI_Enemy] Error Failed to create property K2Node_CreateDelegate_OutputDelegate from  Event  due to a bad or unknown type (Delegate)
+[2019.01.05-08.37.02:596][400]LogBlueprint:Error: [compiler AI_Enemy] Error Event signature error:  No function name.  Create Event 
+[2019.01.05-08.37.02:880][400]LogBlueprint:Warning: [compiler AI_Enemy] Warning [2562.08] Compile of AI_Enemy failed. 3 Fatal Issue(s) 0 Warning(s) [in 289 ms]
+[2019.01.05-08.37.02:880][400]LogBlueprint:Warning: [compiler AI_Enemy] Warning [2562.09] Compile of AI_Enemy failed. 3 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2019.01.05-08.37.02:880][400]LogBlueprint:Warning: [compiler AI_Enemy] Warning [2562.09] Compile of AI_Enemy failed. 3 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2019.01.05-08.37.02:880][400]LogBlueprint:Warning: [compiler AI_Enemy] Warning [2562.09] Compile of AI_Enemy failed. 3 Fatal Issue(s) 3 Warning(s) [in 0 ms]
+[2019.01.05-08.37.02:888][400]LogBlueprint:Warning: [compiler AI_Enemy] Warning [2562.09] Compile of AI_Enemy failed. 3 Fatal Issue(s) 4 Warning(s) [in 6 ms]
+[2019.01.05-08.37.02:888][400]LogBlueprint:Warning: [compiler AI_Enemy] Warning [2562.09] Compile of AI_Enemy failed. 3 Fatal Issue(s) 5 Warning(s) [in 0 ms]
+[2019.01.05-08.37.02:907][400]LogPlayLevel: PlayLevel: Blueprint regeneration took 337 ms (1 blueprints)
+[2019.01.05-08.37.02:957][400]BlueprintLog: Info Blueprint AI_Enemy failed to compile
+[2019.01.05-08.37.16:981][673]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2019.01.05-08.37.16:981][673]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_GEN_VARIABLE) Not registered. Aborting.
+[2019.01.05-08.37.16:981][673]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_28) Not registered. Aborting.
+[2019.01.05-08.37.16:981][673]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_C_14) Not registered. Aborting.
+[2019.01.05-08.37.17:937][728]BlueprintLog: New page: Compile AI_Enemy
+[2019.01.05-08.37.18:000][728]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_29) Not registered. Aborting.
+[2019.01.05-08.37.18:000][728]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_C_15) Not registered. Aborting.
+[2019.01.05-08.37.18:141][728]BlueprintEditorCompileResults: Info [2577.35] Compile of AI_Enemy successful! [in 203 ms]
+[2019.01.05-08.37.18:669][759]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2019.01.05-08.37.18:669][759]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_GEN_VARIABLE) Not registered. Aborting.
+[2019.01.05-08.37.19:741][759]LogSavePackage: Save=638.41ms
+[2019.01.05-08.37.19:741][759]LogSavePackage: Moving '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Saved/TopDownExampleMapD3E28C4A4D5E964C47715082A90F0756.tmp' to '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2019.01.05-08.37.19:746][759]LogSavePackage: Total save time: 849.52ms
+[2019.01.05-08.37.19:746][759]LogSavePackage:Display: Finished SavePackage ../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/TopDownBP/Maps/TopDownExampleMap.umap
+[2019.01.05-08.37.19:837][759]LogFileHelpers: Saving map 'TopDownExampleMap' took 1.084
+[2019.01.05-08.37.19:871][759]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AI_Enemy" FILE="../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/AI/AI_Enemy.uasset" SILENT=true
+[2019.01.05-08.37.19:943][759]LogSavePackage: Save=65.22ms
+[2019.01.05-08.37.19:943][759]LogSavePackage: Moving '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Saved/AI_EnemyC336ADF443AE69DBCC7D4B83C92EFE45.tmp' to '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/AI/AI_Enemy.uasset'
+[2019.01.05-08.37.19:952][759]LogSavePackage: Total save time: 78.78ms
+[2019.01.05-08.37.19:952][759]LogSavePackage:Display: Finished SavePackage ../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/AI/AI_Enemy.uasset
+[2019.01.05-08.37.35:284][872]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.05-08.37.35:284][872]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.05-08.37.35:284][872]PIE: New page: PIE session: TopDownExampleMap (Jan 6, 2019, 12:37:35 AM)
+[2019.01.05-08.37.35:284][872]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2019.01.05-08.37.35:344][872]LogPlayLevel: PIE: StaticDuplicateObject took: (0.059406s)
+[2019.01.05-08.37.35:345][872]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2019.01.05-08.37.35:346][872]LogPlayLevel: PIE: World Init took: (0.001898s)
+[2019.01.05-08.37.35:346][872]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.061926s)
+[2019.01.05-08.37.35:346][872]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2019.01.05-08.37.35:346][872]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_GEN_VARIABLE) Not registered. Aborting.
+[2019.01.05-08.37.35:419][872]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.05-08.37.35:430][872]LogInit: FAudioDevice initialized.
+[2019.01.05-08.37.35:480][872]LogWorld: Game class is 'TopDownGameMode_C'
+[2019.01.05-08.37.35:496][872]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Graphics/ModularBuildings/modularBuildings_004.modularBuildings_004] ConvexElem[0] invalid
+[2019.01.05-08.37.35:502][872]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2019.01.05-16.37.35
+[2019.01.05-08.37.35:504][872]LogWorld: Bringing up level for play took: 0.022218
+[2019.01.05-08.37.35:508][872]LogBlueprintUserMessages: [Quest_Test_C_5] Соберите 5 коробок.
+[2019.01.05-08.37.35:519][872]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 0.476
+[2019.01.05-08.37.35:519][872]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.05-08.37.41:501][ 82]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.37.42:245][109]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.05-08.37.42:439][109]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.05-08.42.49:917][964]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2019.01.05-08.42.49:917][964]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_GEN_VARIABLE) Not registered. Aborting.
+[2019.01.05-08.42.54:230][219]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_30) Not registered. Aborting.
+[2019.01.05-08.42.54:230][219]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_C_16) Not registered. Aborting.
+[2019.01.05-08.42.57:055][383]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_31) Not registered. Aborting.
+[2019.01.05-08.42.57:055][383]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_C_17) Not registered. Aborting.
+[2019.01.05-08.43.03:207][740]BlueprintLog: New page: Compile AI_Enemy
+[2019.01.05-08.43.03:274][740]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_32) Not registered. Aborting.
+[2019.01.05-08.43.03:274][740]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_C_18) Not registered. Aborting.
+[2019.01.05-08.43.03:706][740]BlueprintEditorCompileResults: Info [2922.91] Compile of AI_Enemy successful! [in 499 ms]
+[2019.01.05-08.43.08:535][ 21]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2019.01.05-08.43.08:535][ 21]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_GEN_VARIABLE) Not registered. Aborting.
+[2019.01.05-08.43.10:075][112]BlueprintLog: New page: Compile AI_Enemy
+[2019.01.05-08.43.10:140][112]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_33) Not registered. Aborting.
+[2019.01.05-08.43.10:140][112]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_C_19) Not registered. Aborting.
+[2019.01.05-08.43.10:286][112]BlueprintEditorCompileResults: Info [2929.49] Compile of AI_Enemy successful! [in 210 ms]
+[2019.01.05-08.43.10:740][137]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2019.01.05-08.43.10:740][137]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_GEN_VARIABLE) Not registered. Aborting.
+[2019.01.05-08.43.11:662][137]LogSavePackage: Save=613.54ms
+[2019.01.05-08.43.11:662][137]LogSavePackage: Moving '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Saved/TopDownExampleMap76B9AD2A46EB54E73C9299B43CC0E135.tmp' to '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2019.01.05-08.43.11:670][137]LogSavePackage: Total save time: 672.08ms
+[2019.01.05-08.43.11:670][137]LogSavePackage:Display: Finished SavePackage ../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/TopDownBP/Maps/TopDownExampleMap.umap
+[2019.01.05-08.43.11:802][137]LogFileHelpers: Saving map 'TopDownExampleMap' took 0.977
+[2019.01.05-08.43.11:836][137]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AI_Enemy" FILE="../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/AI/AI_Enemy.uasset" SILENT=true
+[2019.01.05-08.43.11:913][137]LogSavePackage: Save=70.17ms
+[2019.01.05-08.43.11:913][137]LogSavePackage: Moving '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Saved/AI_Enemy93CD50914723536736F2559A59AB884F.tmp' to '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/AI/AI_Enemy.uasset'
+[2019.01.05-08.43.11:917][137]LogSavePackage: Total save time: 79.36ms
+[2019.01.05-08.43.11:917][137]LogSavePackage:Display: Finished SavePackage ../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/AI/AI_Enemy.uasset
+[2019.01.05-08.43.12:988][193]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.05-08.43.12:989][193]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.05-08.43.12:989][193]PIE: New page: PIE session: TopDownExampleMap (Jan 6, 2019, 12:43:12 AM)
+[2019.01.05-08.43.12:989][193]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2019.01.05-08.43.13:041][193]LogPlayLevel: PIE: StaticDuplicateObject took: (0.052335s)
+[2019.01.05-08.43.13:043][193]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2019.01.05-08.43.13:043][193]LogPlayLevel: PIE: World Init took: (0.001486s)
+[2019.01.05-08.43.13:043][193]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.054276s)
+[2019.01.05-08.43.13:043][193]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2019.01.05-08.43.13:043][193]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_GEN_VARIABLE) Not registered. Aborting.
+[2019.01.05-08.43.13:109][193]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.05-08.43.13:126][193]LogInit: FAudioDevice initialized.
+[2019.01.05-08.43.13:171][193]LogWorld: Game class is 'TopDownGameMode_C'
+[2019.01.05-08.43.13:182][193]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Graphics/ModularBuildings/modularBuildings_004.modularBuildings_004] ConvexElem[0] invalid
+[2019.01.05-08.43.13:186][193]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2019.01.05-16.43.13
+[2019.01.05-08.43.13:188][193]LogWorld: Bringing up level for play took: 0.015917
+[2019.01.05-08.43.13:191][193]LogBlueprintUserMessages: [Quest_Test_C_6] Соберите 5 коробок.
+[2019.01.05-08.43.13:197][193]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 0.15
+[2019.01.05-08.43.13:197][193]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.05-08.43.21:363][480]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.43.22:001][503]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.43.22:343][516]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.43.22:523][522]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.43.22:682][528]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.43.22:850][534]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.43.22:990][539]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.43.23:167][546]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.43.23:696][565]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.43.23:879][572]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.43.24:074][579]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.43.24:207][584]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.43.24:379][590]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.43.24:540][596]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.43.24:693][602]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.43.24:859][608]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.43.25:029][615]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.43.25:189][619]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.43.25:346][625]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.43.25:515][630]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.43.25:716][637]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.43.25:910][643]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.43.26:181][653]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.05-08.43.26:342][653]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.05-08.45.09:399][546]BlueprintLog: New page: Compile AI_Enemy
+[2019.01.05-08.45.09:503][546]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2019.01.05-08.45.09:504][546]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_GEN_VARIABLE) Not registered. Aborting.
+[2019.01.05-08.45.10:196][546]BlueprintEditorCompileResults: Info [3049.39] Compile of AI_Enemy successful! [in 796 ms]
+[2019.01.05-08.45.10:649][570]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2019.01.05-08.45.10:650][570]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_GEN_VARIABLE) Not registered. Aborting.
+[2019.01.05-08.45.11:779][570]LogSavePackage: Save=777.00ms
+[2019.01.05-08.45.11:779][570]LogSavePackage: Moving '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Saved/TopDownExampleMap6E04FFBF4FC74EB493E188A5090E21BB.tmp' to '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2019.01.05-08.45.11:787][570]LogSavePackage: Total save time: 794.15ms
+[2019.01.05-08.45.11:787][570]LogSavePackage:Display: Finished SavePackage ../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/TopDownBP/Maps/TopDownExampleMap.umap
+[2019.01.05-08.45.11:909][570]LogFileHelpers: Saving map 'TopDownExampleMap' took 1.141
+[2019.01.05-08.45.11:963][570]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AI_Enemy" FILE="../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/AI/AI_Enemy.uasset" SILENT=true
+[2019.01.05-08.45.12:070][570]LogSavePackage: Save=98.78ms
+[2019.01.05-08.45.12:070][570]LogSavePackage: Moving '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Saved/AI_Enemy1ADE3A4149E6C245AB98CAAB00CC49F3.tmp' to '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/AI/AI_Enemy.uasset'
+[2019.01.05-08.45.12:075][570]LogSavePackage: Total save time: 109.10ms
+[2019.01.05-08.45.12:075][570]LogSavePackage:Display: Finished SavePackage ../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/AI/AI_Enemy.uasset
+[2019.01.05-08.53.06:277][505]BlueprintLog: New page: Compile AI_Enemy
+[2019.01.05-08.53.06:340][505]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2019.01.05-08.53.06:340][505]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_GEN_VARIABLE) Not registered. Aborting.
+[2019.01.05-08.53.06:482][505]BlueprintEditorCompileResults: Info [3525.68] Compile of AI_Enemy successful! [in 204 ms]
+[2019.01.05-08.53.06:908][530]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2019.01.05-08.53.06:908][530]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_GEN_VARIABLE) Not registered. Aborting.
+[2019.01.05-08.53.07:599][530]LogSavePackage: Save=460.60ms
+[2019.01.05-08.53.07:599][530]LogSavePackage: Moving '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Saved/TopDownExampleMap3A7D09644A41746C65B35FB6E93CC1F4.tmp' to '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2019.01.05-08.53.07:603][530]LogSavePackage: Total save time: 486.61ms
+[2019.01.05-08.53.07:603][530]LogSavePackage:Display: Finished SavePackage ../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/TopDownBP/Maps/TopDownExampleMap.umap
+[2019.01.05-08.53.07:663][530]LogFileHelpers: Saving map 'TopDownExampleMap' took 0.689
+[2019.01.05-08.53.07:690][530]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AI_Enemy" FILE="../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/AI/AI_Enemy.uasset" SILENT=true
+[2019.01.05-08.53.07:747][530]LogSavePackage: Save=50.96ms
+[2019.01.05-08.53.07:747][530]LogSavePackage: Moving '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Saved/AI_Enemy1980F6B64D7A3DF90BDA4F84EFD16377.tmp' to '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/AI/AI_Enemy.uasset'
+[2019.01.05-08.53.07:750][530]LogSavePackage: Total save time: 58.21ms
+[2019.01.05-08.53.07:750][530]LogSavePackage:Display: Finished SavePackage ../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/AI/AI_Enemy.uasset
+[2019.01.05-08.53.09:786][648]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.05-08.53.09:786][648]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.05-08.53.09:786][648]PIE: New page: PIE session: TopDownExampleMap (Jan 6, 2019, 12:53:09 AM)
+[2019.01.05-08.53.09:787][648]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2019.01.05-08.53.09:831][648]LogPlayLevel: PIE: StaticDuplicateObject took: (0.044758s)
+[2019.01.05-08.53.09:832][648]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2019.01.05-08.53.09:833][648]LogPlayLevel: PIE: World Init took: (0.001033s)
+[2019.01.05-08.53.09:833][648]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.046096s)
+[2019.01.05-08.53.09:833][648]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2019.01.05-08.53.09:833][648]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_GEN_VARIABLE) Not registered. Aborting.
+[2019.01.05-08.53.09:912][648]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.05-08.53.09:926][648]LogInit: FAudioDevice initialized.
+[2019.01.05-08.53.09:979][648]LogWorld: Game class is 'TopDownGameMode_C'
+[2019.01.05-08.53.09:994][648]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Graphics/ModularBuildings/modularBuildings_004.modularBuildings_004] ConvexElem[0] invalid
+[2019.01.05-08.53.10:000][648]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2019.01.05-16.53.10
+[2019.01.05-08.53.10:002][648]LogWorld: Bringing up level for play took: 0.022070
+[2019.01.05-08.53.10:006][648]LogBlueprintUserMessages: [Quest_Test_C_7] Соберите 5 коробок.
+[2019.01.05-08.53.10:015][648]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 0.961
+[2019.01.05-08.53.10:016][648]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.05-08.53.14:527][812]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.53.15:391][842]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.53.15:979][863]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.53.16:250][873]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.53.16:443][880]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.53.16:598][886]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.53.18:016][936]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.05-08.53.18:169][936]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.05-08.53.58:197][276]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2019.01.05-08.53.58:197][276]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_GEN_VARIABLE) Not registered. Aborting.
+[2019.01.05-08.54.01:096][422]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_34) Not registered. Aborting.
+[2019.01.05-08.54.01:097][422]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_C_20) Not registered. Aborting.
+[2019.01.05-08.54.02:573][486]BlueprintLog: New page: Compile TopDownCharacter
+[2019.01.05-08.54.02:786][486]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_35) Not registered. Aborting.
+[2019.01.05-08.54.02:786][486]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_C_21) Not registered. Aborting.
+[2019.01.05-08.54.03:214][486]BlueprintEditorCompileResults: Info [3582.41] Compile of TopDownCharacter successful! [in 640 ms]
+[2019.01.05-08.54.03:770][512]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2019.01.05-08.54.03:770][512]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_GEN_VARIABLE) Not registered. Aborting.
+[2019.01.05-08.54.03:770][512]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_36) Not registered. Aborting.
+[2019.01.05-08.54.03:770][512]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_C_0) Not registered. Aborting.
+[2019.01.05-08.54.04:780][512]LogSavePackage: Save=684.97ms
+[2019.01.05-08.54.04:780][512]LogSavePackage: Moving '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Saved/TopDownExampleMap59DB0227450AA2EC36F872A10747D6A8.tmp' to '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2019.01.05-08.54.04:787][512]LogSavePackage: Total save time: 697.77ms
+[2019.01.05-08.54.04:787][512]LogSavePackage:Display: Finished SavePackage ../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/TopDownBP/Maps/TopDownExampleMap.umap
+[2019.01.05-08.54.04:951][512]LogFileHelpers: Saving map 'TopDownExampleMap' took 1.053
+[2019.01.05-08.54.05:270][512]LogSavePackage: Save=244.71ms
+[2019.01.05-08.54.05:270][512]LogSavePackage: Moving '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Saved/TopDownCharacter410CFD44409279DB3B69AE9B4BFD2E4E.tmp' to '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2019.01.05-08.54.05:313][512]LogSavePackage: Total save time: 317.80ms
+[2019.01.05-08.54.05:313][512]LogSavePackage:Display: Finished SavePackage ../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/TopDownBP/Blueprints/TopDownCharacter.uasset
+[2019.01.05-08.54.09:767][758]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2019.01.05-08.54.09:767][758]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_GEN_VARIABLE) Not registered. Aborting.
+[2019.01.05-08.54.11:705][867]BlueprintLog: New page: Compile TopDownCharacter
+[2019.01.05-08.54.11:775][867]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_37) Not registered. Aborting.
+[2019.01.05-08.54.11:775][867]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_C_1) Not registered. Aborting.
+[2019.01.05-08.54.12:159][867]BlueprintEditorCompileResults: Info [3591.35] Compile of TopDownCharacter successful! [in 453 ms]
+[2019.01.05-08.54.12:607][892]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2019.01.05-08.54.12:607][892]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_GEN_VARIABLE) Not registered. Aborting.
+[2019.01.05-08.54.13:535][892]LogSavePackage: Save=672.50ms
+[2019.01.05-08.54.13:535][892]LogSavePackage: Moving '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Saved/TopDownExampleMap321C606F429C2D63FDDB3EB4F5E50DFC.tmp' to '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2019.01.05-08.54.13:542][892]LogSavePackage: Total save time: 686.46ms
+[2019.01.05-08.54.13:542][892]LogSavePackage:Display: Finished SavePackage ../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/TopDownBP/Maps/TopDownExampleMap.umap
+[2019.01.05-08.54.13:750][892]LogFileHelpers: Saving map 'TopDownExampleMap' took 1.077
+[2019.01.05-08.54.14:041][892]LogSavePackage: Save=244.58ms
+[2019.01.05-08.54.14:041][892]LogSavePackage: Moving '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Saved/TopDownCharacterB245715144F41F82B07E82A3AD6C1B61.tmp' to '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2019.01.05-08.54.14:045][892]LogSavePackage: Total save time: 254.32ms
+[2019.01.05-08.54.14:046][892]LogSavePackage:Display: Finished SavePackage ../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/TopDownBP/Blueprints/TopDownCharacter.uasset
+[2019.01.05-08.54.20:084][188]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.05-08.54.20:085][188]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.05-08.54.20:085][188]PIE: New page: PIE session: TopDownExampleMap (Jan 6, 2019, 12:54:20 AM)
+[2019.01.05-08.54.20:085][188]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2019.01.05-08.54.20:141][188]LogPlayLevel: PIE: StaticDuplicateObject took: (0.055656s)
+[2019.01.05-08.54.20:142][188]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2019.01.05-08.54.20:142][188]LogPlayLevel: PIE: World Init took: (0.001126s)
+[2019.01.05-08.54.20:142][188]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.057194s)
+[2019.01.05-08.54.20:142][188]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2019.01.05-08.54.20:142][188]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_GEN_VARIABLE) Not registered. Aborting.
+[2019.01.05-08.54.20:223][188]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.05-08.54.20:238][188]LogInit: FAudioDevice initialized.
+[2019.01.05-08.54.20:291][188]LogWorld: Game class is 'TopDownGameMode_C'
+[2019.01.05-08.54.20:310][188]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Graphics/ModularBuildings/modularBuildings_004.modularBuildings_004] ConvexElem[0] invalid
+[2019.01.05-08.54.20:316][188]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2019.01.05-16.54.20
+[2019.01.05-08.54.20:319][188]LogWorld: Bringing up level for play took: 0.026387
+[2019.01.05-08.54.20:322][188]LogBlueprintUserMessages: [Quest_Test_C_0] Соберите 5 коробок.
+[2019.01.05-08.54.20:330][188]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap -0.725
+[2019.01.05-08.54.20:331][188]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.05-08.54.24:342][331]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.54.24:542][338]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.54.24:692][344]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.54.24:872][351]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.54.25:070][357]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.54.25:441][371]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.05-08.54.25:644][371]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.05-08.54.39:552][123]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2019.01.05-08.54.39:552][123]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_GEN_VARIABLE) Not registered. Aborting.
+[2019.01.05-08.54.40:786][191]BlueprintLog: New page: Compile AI_Enemy
+[2019.01.05-08.54.40:869][191]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_38) Not registered. Aborting.
+[2019.01.05-08.54.40:869][191]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_C_2) Not registered. Aborting.
+[2019.01.05-08.54.41:038][191]BlueprintEditorCompileResults: Info [3620.23] Compile of AI_Enemy successful! [in 252 ms]
+[2019.01.05-08.54.42:415][263]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.05-08.54.42:415][263]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.05-08.54.42:415][263]PIE: New page: PIE session: TopDownExampleMap (Jan 6, 2019, 12:54:42 AM)
+[2019.01.05-08.54.42:415][263]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2019.01.05-08.54.42:476][263]LogPlayLevel: PIE: StaticDuplicateObject took: (0.060524s)
+[2019.01.05-08.54.42:477][263]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2019.01.05-08.54.42:477][263]LogPlayLevel: PIE: World Init took: (0.001121s)
+[2019.01.05-08.54.42:477][263]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.062027s)
+[2019.01.05-08.54.42:478][263]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2019.01.05-08.54.42:478][263]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_GEN_VARIABLE) Not registered. Aborting.
+[2019.01.05-08.54.42:564][263]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.05-08.54.42:581][263]LogInit: FAudioDevice initialized.
+[2019.01.05-08.54.42:648][263]LogWorld: Game class is 'TopDownGameMode_C'
+[2019.01.05-08.54.42:667][263]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Graphics/ModularBuildings/modularBuildings_004.modularBuildings_004] ConvexElem[0] invalid
+[2019.01.05-08.54.42:675][263]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2019.01.05-16.54.42
+[2019.01.05-08.54.42:678][263]LogWorld: Bringing up level for play took: 0.028691
+[2019.01.05-08.54.42:682][263]LogBlueprintUserMessages: [Quest_Test_C_1] Соберите 5 коробок.
+[2019.01.05-08.54.42:699][263]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap -0.357
+[2019.01.05-08.54.42:700][263]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.05-08.54.47:865][437]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.54.48:320][453]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.54.48:498][458]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.54.48:623][462]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.54.48:927][473]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.54.49:093][479]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.54.49:293][487]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.54.49:524][495]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.54.49:708][500]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.54.49:950][509]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.54.50:127][515]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.54.50:291][521]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.54.50:408][525]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.54.50:554][530]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.54.50:714][536]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.54.50:874][542]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.54.51:031][547]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.54.51:187][552]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.54.51:366][557]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.54.51:553][564]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.54.51:717][570]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.54.51:877][576]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.54.52:053][582]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.54.52:210][588]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.54.52:382][594]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.54.52:533][600]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.54.52:682][605]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.54.52:853][611]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.54.53:031][618]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.54.53:212][624]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.54.53:372][630]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.54.53:552][636]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.54.53:692][640]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.54.54:579][667]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.54.54:944][679]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.54.55:172][686]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.54.55:355][692]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.54.55:530][698]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.54.55:691][702]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.55.03:628][967]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.05-08.55.03:799][967]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.05-08.55.07:452][147]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2019.01.05-08.55.07:452][147]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_GEN_VARIABLE) Not registered. Aborting.
+[2019.01.05-08.55.08:493][202]BlueprintLog: New page: Compile AI_Enemy
+[2019.01.05-08.55.08:613][202]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_39) Not registered. Aborting.
+[2019.01.05-08.55.08:613][202]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_C_3) Not registered. Aborting.
+[2019.01.05-08.55.08:809][202]BlueprintEditorCompileResults: Info [3648.00] Compile of AI_Enemy successful! [in 315 ms]
+[2019.01.05-08.55.09:256][226]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2019.01.05-08.55.09:257][226]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_GEN_VARIABLE) Not registered. Aborting.
+[2019.01.05-08.55.10:405][226]LogSavePackage: Save=800.92ms
+[2019.01.05-08.55.10:405][226]LogSavePackage: Moving '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Saved/TopDownExampleMapAE0164944CFB8EBE4F1A8A8D8380F8DF.tmp' to '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2019.01.05-08.55.10:411][226]LogSavePackage: Total save time: 814.84ms
+[2019.01.05-08.55.10:411][226]LogSavePackage:Display: Finished SavePackage ../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/TopDownBP/Maps/TopDownExampleMap.umap
+[2019.01.05-08.55.10:500][226]LogFileHelpers: Saving map 'TopDownExampleMap' took 1.153
+[2019.01.05-08.55.10:558][226]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AI_Enemy" FILE="../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/AI/AI_Enemy.uasset" SILENT=true
+[2019.01.05-08.55.10:656][226]LogSavePackage: Save=90.14ms
+[2019.01.05-08.55.10:656][226]LogSavePackage: Moving '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Saved/AI_EnemyE6E1B5AD4828C73D3D67438E54296E6D.tmp' to '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/AI/AI_Enemy.uasset'
+[2019.01.05-08.55.10:659][226]LogSavePackage: Total save time: 99.15ms
+[2019.01.05-08.55.10:659][226]LogSavePackage:Display: Finished SavePackage ../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/AI/AI_Enemy.uasset
+[2019.01.05-08.55.46:759][156]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2019.01.05-08.55.46:759][156]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_GEN_VARIABLE) Not registered. Aborting.
+[2019.01.05-08.55.51:312][413]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_40) Not registered. Aborting.
+[2019.01.05-08.55.51:312][413]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_C_4) Not registered. Aborting.
+[2019.01.05-08.56.09:395][360]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_41) Not registered. Aborting.
+[2019.01.05-08.56.09:395][360]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_C_5) Not registered. Aborting.
+[2019.01.05-08.56.11:010][360]LogSavePackage: Save=1172.67ms
+[2019.01.05-08.56.11:010][360]LogSavePackage: Moving '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Saved/TopDownExampleMapF1A0E5DC416A48E54A0601A70CE4C524.tmp' to '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2019.01.05-08.56.11:023][360]LogSavePackage: Total save time: 1195.17ms
+[2019.01.05-08.56.11:023][360]LogSavePackage:Display: Finished SavePackage ../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/TopDownBP/Maps/TopDownExampleMap.umap
+[2019.01.05-08.56.11:167][360]LogFileHelpers: Saving map 'TopDownExampleMap' took 1.622
+[2019.01.05-08.56.11:222][360]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AI_Enemy" FILE="../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/AI/AI_Enemy.uasset" SILENT=true
+[2019.01.05-08.56.11:368][360]LogSavePackage: Save=134.93ms
+[2019.01.05-08.56.11:368][360]LogSavePackage: Moving '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Saved/AI_Enemy5065C9204D2D49F16CBC1F8FBA5B5EAB.tmp' to '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/AI/AI_Enemy.uasset'
+[2019.01.05-08.56.11:373][360]LogSavePackage: Total save time: 148.06ms
+[2019.01.05-08.56.11:374][360]LogSavePackage:Display: Finished SavePackage ../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/AI/AI_Enemy.uasset
+[2019.01.05-08.56.52:483][863]BlueprintLog: New page: Compile AI_Enemy
+[2019.01.05-08.56.52:590][863]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2019.01.05-08.56.52:590][863]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_GEN_VARIABLE) Not registered. Aborting.
+[2019.01.05-08.56.53:084][863]BlueprintEditorCompileResults: Info [3752.28] Compile of AI_Enemy successful! [in 601 ms]
+[2019.01.05-08.56.54:396][937]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2019.01.05-08.56.54:396][937]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_GEN_VARIABLE) Not registered. Aborting.
+[2019.01.05-08.56.55:395][937]LogSavePackage: Save=749.07ms
+[2019.01.05-08.56.55:395][937]LogSavePackage: Moving '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Saved/TopDownExampleMapE8D02E83412872027F24A68412F1C680.tmp' to '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2019.01.05-08.56.55:405][937]LogSavePackage: Total save time: 765.13ms
+[2019.01.05-08.56.55:405][937]LogSavePackage:Display: Finished SavePackage ../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/TopDownBP/Maps/TopDownExampleMap.umap
+[2019.01.05-08.56.55:489][937]LogFileHelpers: Saving map 'TopDownExampleMap' took 1.013
+[2019.01.05-08.58.40:514][583]BlueprintLog: New page: Compile AI_Enemy
+[2019.01.05-08.58.40:648][583]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2019.01.05-08.58.40:648][583]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_GEN_VARIABLE) Not registered. Aborting.
+[2019.01.05-08.58.40:831][583]BlueprintEditorCompileResults: Info [3860.02] Compile of AI_Enemy successful! [in 316 ms]
+[2019.01.05-08.58.41:399][613]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2019.01.05-08.58.41:399][613]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_GEN_VARIABLE) Not registered. Aborting.
+[2019.01.05-08.58.42:695][613]LogSavePackage: Save=876.21ms
+[2019.01.05-08.58.42:695][613]LogSavePackage: Moving '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Saved/TopDownExampleMap29669EDD49933C20D83101914DCB93DF.tmp' to '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2019.01.05-08.58.42:704][613]LogSavePackage: Total save time: 949.26ms
+[2019.01.05-08.58.42:704][613]LogSavePackage:Display: Finished SavePackage ../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/TopDownBP/Maps/TopDownExampleMap.umap
+[2019.01.05-08.58.42:803][613]LogFileHelpers: Saving map 'TopDownExampleMap' took 1.295
+[2019.01.05-08.58.42:852][613]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AI_Enemy" FILE="../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/AI/AI_Enemy.uasset" SILENT=true
+[2019.01.05-08.58.42:981][613]LogSavePackage: Save=85.51ms
+[2019.01.05-08.58.42:981][613]LogSavePackage: Moving '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Saved/AI_Enemy8B2C659D4B8EAC417F31CE9B6FD9E2B5.tmp' to '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/AI/AI_Enemy.uasset'
+[2019.01.05-08.58.42:986][613]LogSavePackage: Total save time: 132.16ms
+[2019.01.05-08.58.42:986][613]LogSavePackage:Display: Finished SavePackage ../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/AI/AI_Enemy.uasset
+[2019.01.05-08.58.49:419][974]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2019.01.05-08.58.49:420][974]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_GEN_VARIABLE) Not registered. Aborting.
+[2019.01.05-08.58.49:568][974]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AI_Enemy" FILE="../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/AI/AI_Enemy.uasset" SILENT=true
+[2019.01.05-08.58.49:712][974]LogSavePackage: Save=135.55ms
+[2019.01.05-08.58.49:713][974]LogSavePackage: Moving '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Saved/AI_Enemy8890427C4B8E0DD2A9CE2BA04779FF9D.tmp' to '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/AI/AI_Enemy.uasset'
+[2019.01.05-08.58.49:719][974]LogSavePackage: Total save time: 148.25ms
+[2019.01.05-08.58.49:719][974]LogSavePackage:Display: Finished SavePackage ../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/AI/AI_Enemy.uasset
+[2019.01.05-08.59.07:322][965]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.05-08.59.07:322][965]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.05-08.59.07:322][965]PIE: New page: PIE session: TopDownExampleMap (Jan 6, 2019, 12:59:07 AM)
+[2019.01.05-08.59.07:322][965]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2019.01.05-08.59.07:394][965]LogPlayLevel: PIE: StaticDuplicateObject took: (0.071930s)
+[2019.01.05-08.59.07:396][965]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2019.01.05-08.59.07:397][965]LogPlayLevel: PIE: World Init took: (0.002278s)
+[2019.01.05-08.59.07:397][965]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.074790s)
+[2019.01.05-08.59.07:509][965]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.05-08.59.07:526][965]LogInit: FAudioDevice initialized.
+[2019.01.05-08.59.07:577][965]LogWorld: Game class is 'TopDownGameMode_C'
+[2019.01.05-08.59.07:602][965]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Graphics/ModularBuildings/modularBuildings_004.modularBuildings_004] ConvexElem[0] invalid
+[2019.01.05-08.59.07:610][965]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2019.01.05-16.59.07
+[2019.01.05-08.59.07:613][965]LogWorld: Bringing up level for play took: 0.033987
+[2019.01.05-08.59.07:619][965]LogBlueprintUserMessages: [Quest_Test_C_2] Соберите 5 коробок.
+[2019.01.05-08.59.07:632][965]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 0.573
+[2019.01.05-08.59.07:632][965]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.05-08.59.11:811][105]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.59.12:572][130]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.59.13:086][147]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.59.13:373][157]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.59.13:604][165]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.59.14:325][190]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.59.14:523][197]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.59.14:740][204]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.59.14:911][210]LogBlueprintUserMessages: [Interactable] Interacting
+[2019.01.05-08.59.22:544][465]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.05-08.59.22:858][465]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.05-09.00.00:679][226]Cmd: CLOSE_SLATE_MAINFRAME
+[2019.01.05-09.00.02:219][226]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2019.01.05-09.00.02:219][226]LogActorComponent: UnregisterComponent: (/Engine/Transient.Interactable_GEN_VARIABLE) Not registered. Aborting.
+[2019.01.05-09.00.13:790][226]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.01.05-09.00.22:550][226]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2019.01.05-09.00.22:808][227]Cmd: QUIT_EDITOR
+[2019.01.05-09.00.34:788][227]LogExit: Preparing to exit.
+[2019.01.05-09.00.44:565][227]LogExit: Editor shut down
+[2019.01.05-09.00.44:566][227]LogExit: Transaction tracking system shut down
+[2019.01.05-09.00.59:175][227]LogObj: Freed 0b from 0 cluster array pools.
+[2019.01.05-09.00.59:202][227]LogExit: Object subsystem successfully closed.
+[2019.01.05-09.01.02:554][227]LogD3D11RHI: Shutdown
+[2019.01.05-09.01.02:554][227]LogD3D11RHI: CleanupD3DDevice
+[2019.01.05-09.01.05:787][227]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.01.05-09.01.33:578][227]LogDerivedDataCache: Shutdown
+[2019.01.05-09.01.50:797][227]LogModuleManager: Shutting down and abandoning module BlueprintGraph (206)
+[2019.01.05-09.01.51:055][227]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (205)
+[2019.01.05-09.01.51:055][227]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (204)
+[2019.01.05-09.01.52:455][227]LogModuleManager: Shutting down and abandoning module CrashTracker (203)
+[2019.01.05-09.01.52:492][227]LogModuleManager: Shutting down and abandoning module SceneOutliner (202)
+[2019.01.05-09.01.53:077][227]LogModuleManager: Shutting down and abandoning module SuperSearch (201)
+[2019.01.05-09.01.53:077][227]LogModuleManager: Shutting down and abandoning module WidgetCarousel (200)
+[2019.01.05-09.01.53:219][227]LogModuleManager: Shutting down and abandoning module AddContentDialog (199)
+[2019.01.05-09.01.56:433][227]LogModuleManager: Shutting down and abandoning module GameplayTags (198)
+[2019.01.05-09.01.56:433][227]LogModuleManager: Shutting down and abandoning module EditorWidgets (197)
+[2019.01.05-09.01.56:433][227]LogModuleManager: Shutting down and abandoning module CollectionManager (196)
+[2019.01.05-09.01.57:121][227]LogModuleManager: Shutting down and abandoning module StatsViewer (195)
+[2019.01.05-09.01.57:646][227]LogModuleManager: Shutting down and abandoning module FoliageEdit (194)
+[2019.01.05-09.01.58:038][227]LogModuleManager: Shutting down and abandoning module LandscapeEditor (193)
+[2019.01.05-09.01.59:197][227]LogModuleManager: Shutting down and abandoning module ActorPickerMode (192)
+[2019.01.05-09.01.59:197][227]LogModuleManager: Shutting down and abandoning module GeometryMode (191)
+[2019.01.05-09.01.59:197][227]LogModuleManager: Shutting down and abandoning module TextureAlignMode (190)
+[2019.01.05-09.01.59:197][227]LogModuleManager: Shutting down and abandoning module BspMode (189)
+[2019.01.05-09.01.59:197][227]LogModuleManager: Shutting down and abandoning module PlacementMode (188)
+[2019.01.05-09.01.59:197][227]LogModuleManager: Shutting down and abandoning module AutomationWorker (187)
+[2019.01.05-09.01.59:415][227]LogModuleManager: Shutting down and abandoning module CharacterAI (186)
+[2019.01.05-09.01.59:415][227]LogModuleManager: Shutting down and abandoning module SmartSnapping (185)
+[2019.01.05-09.01.59:415][227]LogModuleManager: Shutting down and abandoning module ViewportSnapping (184)
+[2019.01.05-09.01.59:531][227]LogModuleManager: Shutting down and abandoning module LogVisualizer (183)
+[2019.01.05-09.02.02:605][227]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (182)
+[2019.01.05-09.02.03:116][227]LogModuleManager: Shutting down and abandoning module IntroTutorials (181)
+[2019.01.05-09.02.04:202][227]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (180)
+[2019.01.05-09.02.04:432][227]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (179)
+[2019.01.05-09.02.04:986][227]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (178)
+[2019.01.05-09.02.04:986][227]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (177)
+[2019.01.05-09.02.05:443][227]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (176)
+[2019.01.05-09.02.05:714][227]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (175)
+[2019.01.05-09.02.05:714][227]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (174)
+[2019.01.05-09.02.05:714][227]LogModuleManager: Shutting down and abandoning module MergeActors (173)
+[2019.01.05-09.02.06:004][227]LogModuleManager: Shutting down and abandoning module SizeMap (172)
+[2019.01.05-09.02.06:144][227]LogModuleManager: Shutting down and abandoning module TreeMap (171)
+[2019.01.05-09.02.06:373][227]LogModuleManager: Shutting down and abandoning module ReferenceViewer (170)
+[2019.01.05-09.02.06:425][227]LogModuleManager: Shutting down and abandoning module LocalizationService (169)
+[2019.01.05-09.02.07:024][227]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (168)
+[2019.01.05-09.02.07:351][227]LogModuleManager: Shutting down and abandoning module HardwareTargeting (167)
+[2019.01.05-09.02.07:351][227]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (166)
+[2019.01.05-09.02.07:462][227]LogModuleManager: Shutting down and abandoning module UndoHistory (165)
+[2019.01.05-09.02.07:522][227]LogModuleManager: Shutting down and abandoning module UserFeedback (164)
+[2019.01.05-09.02.07:522][227]LogModuleManager: Shutting down and abandoning module XmlParser (163)
+[2019.01.05-09.02.07:561][227]LogModuleManager: Shutting down and abandoning module Blutility (162)
+[2019.01.05-09.02.07:561][227]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (161)
+[2019.01.05-09.02.07:602][227]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (160)
+[2019.01.05-09.02.07:659][227]LogModuleManager: Shutting down and abandoning module InputBindingEditor (159)
+[2019.01.05-09.02.07:809][227]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (158)
+[2019.01.05-09.02.07:849][227]LogModuleManager: Shutting down and abandoning module SettingsEditor (157)
+[2019.01.05-09.02.08:250][227]LogModuleManager: Shutting down and abandoning module ProjectLauncher (156)
+[2019.01.05-09.02.08:492][227]LogModuleManager: Shutting down and abandoning module SessionFrontend (155)
+[2019.01.05-09.02.08:595][227]LogModuleManager: Shutting down and abandoning module ProfilerClient (154)
+[2019.01.05-09.02.08:707][227]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (153)
+[2019.01.05-09.02.08:707][227]LogModuleManager: Shutting down and abandoning module DeviceManager (152)
+[2019.01.05-09.02.09:223][227]LogModuleManager: Shutting down and abandoning module AutomationController (151)
+[2019.01.05-09.02.09:821][227]LogModuleManager: Shutting down and abandoning module AutomationWindow (150)
+[2019.01.05-09.02.09:983][227]LogModuleManager: Shutting down and abandoning module Layers (149)
+[2019.01.05-09.02.10:302][227]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (148)
+[2019.01.05-09.02.10:302][227]LogModuleManager: Shutting down and abandoning module DetailCustomizations (147)
+[2019.01.05-09.02.10:865][227]LogModuleManager: Shutting down and abandoning module PackagesDialog (146)
+[2019.01.05-09.02.10:893][227]LogModuleManager: Shutting down and abandoning module Persona (145)
+[2019.01.05-09.02.11:880][227]LogModuleManager: Shutting down and abandoning module Kismet (144)
+[2019.01.05-09.02.12:211][227]LogModuleManager: Shutting down and abandoning module GraphEditor (143)
+[2019.01.05-09.02.12:211][227]LogModuleManager: Shutting down and abandoning module ClassViewer (142)
+[2019.01.05-09.02.12:695][227]LogModuleManager: Shutting down and abandoning module Toolbox (141)
+[2019.01.05-09.02.12:744][227]LogModuleManager: Shutting down and abandoning module ModuleUI (140)
+[2019.01.05-09.02.12:844][227]LogModuleManager: Shutting down and abandoning module MovieSceneTools (139)
+[2019.01.05-09.02.13:305][227]LogModuleManager: Shutting down and abandoning module OutputLog (138)
+[2019.01.05-09.02.13:421][227]LogModuleManager: Shutting down and abandoning module GammaUI (137)
+[2019.01.05-09.02.13:462][227]LogModuleManager: Shutting down and abandoning module Documentation (136)
+[2019.01.05-09.02.13:462][227]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (135)
+[2019.01.05-09.02.13:503][227]LogModuleManager: Shutting down and abandoning module AnalyticsET (134)
+[2019.01.05-09.02.13:503][227]LogModuleManager: Shutting down and abandoning module Analytics (133)
+[2019.01.05-09.02.13:503][227]LogModuleManager: Shutting down and abandoning module PortalServices (132)
+[2019.01.05-09.02.13:503][227]LogModuleManager: Shutting down and abandoning module PortalRpc (131)
+[2019.01.05-09.02.13:503][227]LogModuleManager: Shutting down and abandoning module MessagingRpc (130)
+[2019.01.05-09.02.13:503][227]LogModuleManager: Shutting down and abandoning module AITestSuite (129)
+[2019.01.05-09.02.13:552][227]LogModuleManager: Shutting down and abandoning module GameplayDebugger (128)
+[2019.01.05-09.02.13:691][227]LogModuleManager: Shutting down and abandoning module AIModule (127)
+[2019.01.05-09.02.13:691][227]LogModuleManager: Shutting down and abandoning module ProfilerService (126)
+[2019.01.05-09.02.14:031][227]LogModuleManager: Shutting down and abandoning module TaskGraph (125)
+[2019.01.05-09.02.14:349][227]LogModuleManager: Shutting down and abandoning module SlateRemote (124)
+[2019.01.05-09.02.14:403][227]LogModuleManager: Shutting down and abandoning module SteamVRController (123)
+[2019.01.05-09.02.14:403][227]LogModuleManager: Shutting down and abandoning module SteamVR (122)
+[2019.01.05-09.02.14:445][227]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (121)
+[2019.01.05-09.02.14:445][227]LogModuleManager: Shutting down and abandoning module OculusLibrary (120)
+[2019.01.05-09.02.14:445][227]LogModuleManager: Shutting down and abandoning module OculusInput (119)
+[2019.01.05-09.02.14:445][227]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (118)
+[2019.01.05-09.02.14:488][227]LogModuleManager: Shutting down and abandoning module CableComponent (117)
+[2019.01.05-09.02.14:535][227]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (116)
+[2019.01.05-09.02.14:535][227]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (115)
+[2019.01.05-09.02.15:074][227]LogModuleManager: Shutting down and abandoning module HTML5Networking (114)
+[2019.01.05-09.02.15:074][227]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (113)
+[2019.01.05-09.02.15:074][227]LogModuleManager: Shutting down and abandoning module PluginBrowser (112)
+[2019.01.05-09.02.15:257][227]LogModuleManager: Shutting down and abandoning module EpicSurvey (111)
+[2019.01.05-09.02.15:651][227]LogModuleManager: Shutting down and abandoning module DesktopPlatform (110)
+[2019.01.05-09.02.15:743][227]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (109)
+[2019.01.05-09.02.15:866][227]LogModuleManager: Shutting down and abandoning module UObjectPlugin (108)
+[2019.01.05-09.02.15:866][227]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (107)
+[2019.01.05-09.02.16:156][227]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (106)
+[2019.01.05-09.02.16:595][227]LogModuleManager: Shutting down and abandoning module SourceControl (105)
+[2019.01.05-09.02.16:982][227]LogModuleManager: Shutting down and abandoning module GitSourceControl (104)
+[2019.01.05-09.02.17:278][227]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (103)
+[2019.01.05-09.02.17:278][227]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (102)
+[2019.01.05-09.02.17:320][227]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (101)
+[2019.01.05-09.02.17:369][227]LogModuleManager: Shutting down and abandoning module MeshPaint (100)
+[2019.01.05-09.02.17:369][227]LogModuleManager: Shutting down and abandoning module HotReload (99)
+[2019.01.05-09.02.17:602][227]LogModuleManager: Shutting down and abandoning module MainFrame (98)
+[2019.01.05-09.02.17:653][227]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
+[2019.01.05-09.02.17:924][227]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (96)
+[2019.01.05-09.02.17:925][227]LogModuleManager: Shutting down and abandoning module AssetRegistry (95)
+[2019.01.05-09.02.19:208][227]LogModuleManager: Shutting down and abandoning module ContentBrowser (94)
+[2019.01.05-09.02.19:209][227]LogModuleManager: Shutting down and abandoning module Paper2DEditor (93)
+[2019.01.05-09.02.19:809][227]LogModuleManager: Shutting down and abandoning module UdpMessaging (92)
+[2019.01.05-09.02.19:976][227]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (91)
+[2019.01.05-09.02.19:976][227]LogModuleManager: Shutting down and abandoning module Paper2D (90)
+[2019.01.05-09.02.19:976][227]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (89)
+[2019.01.05-09.02.20:131][227]LogModuleManager: Shutting down and abandoning module Media (88)
+[2019.01.05-09.02.20:131][227]LogModuleManager: Shutting down and abandoning module WmfMedia (87)
+[2019.01.05-09.02.20:498][227]LogModuleManager: Shutting down and abandoning module MediaAssets (86)
+[2019.01.05-09.02.20:498][227]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (85)
+[2019.01.05-09.02.20:507][227]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (84)
+[2019.01.05-09.02.20:532][227]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (83)
+[2019.01.05-09.02.20:546][227]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (82)
+[2019.01.05-09.02.20:546][227]LogModuleManager: Shutting down and abandoning module PropertyEditor (81)
+[2019.01.05-09.02.20:619][227]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (80)
+[2019.01.05-09.02.20:656][227]LogModuleManager: Shutting down and abandoning module FunctionalTesting (79)
+[2019.01.05-09.02.20:669][227]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (78)
+[2019.01.05-09.02.20:704][227]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2019.01.05-09.02.20:751][227]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2019.01.05-09.02.20:751][227]LogModuleManager: Shutting down and abandoning module Sequencer (75)
+[2019.01.05-09.02.20:807][227]LogModuleManager: Shutting down and abandoning module AssetTools (74)
+[2019.01.05-09.02.20:870][227]LogModuleManager: Shutting down and abandoning module UMGEditor (73)
+[2019.01.05-09.02.20:915][227]LogModuleManager: Shutting down and abandoning module UMG (72)
+[2019.01.05-09.02.20:949][227]LogModuleManager: Shutting down and abandoning module SlateReflector (71)
+[2019.01.05-09.02.21:066][227]LogModuleManager: Shutting down and abandoning module Slate (70)
+[2019.01.05-09.02.21:066][227]LogModuleManager: Shutting down and abandoning module EditorStyle (69)
+[2019.01.05-09.02.21:897][227]LogModuleManager: Shutting down and abandoning module SessionServices (68)
+[2019.01.05-09.02.21:897][227]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (67)
+[2019.01.05-09.02.22:001][227]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (66)
+[2019.01.05-09.02.22:001][227]LogModuleManager: Shutting down and abandoning module XAudio2 (65)
+[2019.01.05-09.02.22:001][227]LogModuleManager: Shutting down and abandoning module Networking (63)
+[2019.01.05-09.02.22:001][227]LogModuleManager: Shutting down and abandoning module Core (62)
+[2019.01.05-09.02.22:001][227]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2019.01.05-09.02.22:001][227]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2019.01.05-09.02.22:055][227]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2019.01.05-09.02.22:277][227]LogModuleManager: Shutting down and abandoning module CookingStats (58)
+[2019.01.05-09.02.22:306][227]LogModuleManager: Shutting down and abandoning module DerivedDataCache (57)
+[2019.01.05-09.02.22:306][227]LogDerivedDataCache: Shutdown
+[2019.01.05-09.02.22:306][227]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2019.01.05-09.02.22:359][227]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2019.01.05-09.02.22:437][227]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2019.01.05-09.02.22:507][227]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2019.01.05-09.02.22:507][227]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2019.01.05-09.02.22:507][227]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2019.01.05-09.02.22:620][227]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2019.01.05-09.02.22:620][227]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2019.01.05-09.02.22:620][227]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2019.01.05-09.02.22:620][227]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2019.01.05-09.02.22:620][227]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2019.01.05-09.02.22:620][227]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2019.01.05-09.02.22:620][227]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2019.01.05-09.02.22:620][227]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2019.01.05-09.02.22:682][227]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2019.01.05-09.02.22:738][227]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2019.01.05-09.02.22:772][227]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2019.01.05-09.02.22:772][227]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2019.01.05-09.02.22:772][227]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2019.01.05-09.02.22:803][227]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2019.01.05-09.02.22:832]
